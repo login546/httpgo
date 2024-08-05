@@ -1,5 +1,53 @@
 [ 
     {
+        "name": "【TrueOA】",
+        "keyword": "header=\"trueOA\" || body=\"/trueOA\" || body=\"/trueWorkFlow\" || body=\"/TrueIDS/\""
+    },
+    {
+        "name": "【软交换防火墙】",
+        "keyword": "body=\"name=\\\"secretkey\\\" id=\\\"secretkey\\\"\" && body=\"name=\\\"token_code\\\"placeholder=\\\"令牌口令\\\"\""
+    },
+    {
+        "name": "【齐治堡垒机】",
+        "keyword": "body=\"logo-icon-ico72.png\" || body=\"resources/themes/images/logo-login.png\" || body=\"//xfpverifyExec.jsp;\" || icon_hash=\"536903663\""
+    },
+    {
+        "name": "【金笛邮件系统】",
+        "keyword": "body=\"/jdwm/cgi/login.cgi?login\""
+    },
+    {
+        "name": "【金蝶云星空】",
+        "keyword": "body=\"HTML5/content/themes/kdcss.min.css\" || body=\"/ClientBin/Kingdee.BOS.XPF.App.xap\""
+    },
+    {
+        "name": "【金蝶政务GSiS】",
+        "keyword": "body=\"/kdgs/script/kdgs.js\""
+    },
+    {
+        "name": "【靖维科技安全智能管理平台】",
+        "keyword": "body=\"nanjing rickyinfo technology\""
+    },
+    {
+        "name": "【飞鱼星安全设备】",
+        "keyword": "body=\"languagechange\" && body=\"cgi-bin/login\""
+    },
+    {
+        "name": "【飞鱼星下一代防火墙安全网关】",
+        "keyword": "body=\"href=\\\"/css/cover_admin.css\\\"\" && body=\"下一代防火墙安全网关\""
+    },
+    {
+        "name": "【北京智麟科技有限公司-办事大厅】",
+        "keyword": "body=\"/v2/static/html/download.html\""
+    },
+    {
+        "name": "【协智移动应用集成管理平台】",
+        "keyword": "body=\"协智移动应用集成管理后台\""
+    },
+    {
+        "name": "【鑫考阅卷系统】",
+        "keyword": "body=\"Content/css/lunboAnimation.css\""
+    },
+    {
         "name": "【3C环境自动监测监控系统】",
         "keyword": "icon_hash=\"-338936081\" || (body=\"Ajax/ValidCodeImg.ashx\" && body=\"Js/Login.js?Version\")"
     },
@@ -728,8 +776,8 @@
         "keyword": "title=\"Create a pipeline - Go\""
     },
     {
-        "name": "【上讯信息技术股份有限公司运维管理系统-智能运维安全管理平台(SiCAP)】",
-        "keyword": "title=\"nginxWebUI\""
+        "name": "辰锐信息 视频安全接入系统",
+        "keyword": "title=\"window.location=\\\"/vmonitor\\\";\""
     },
     {
         "name": "【上讯信息技术股份有限公司运维管理系统-智能运维安全管理平台(SiCAP)】",
@@ -909,7 +957,15 @@
     },
     {
         "name": "【博达高校全媒体群管理平台】",
-        "keyword": "body=\"lucenenewssearchkey\" && body=\"_sitegray/_sitegray_d.css\" && body=\"showkeycode\""
+        "keyword": "body=\"lucenenewssearchkey\" && body=\"showkeycode\""
+    },
+    {
+        "name": "【苏迪WebPlus Pro】",
+        "keyword": "body=\"css/sudyNav.css\""
+    },
+    {
+        "name": "【苏迪WebPlus Pro--个性化门户集群平台】",
+        "keyword": "body=\"/_control/validateimage\""
     },
     {
         "name": "【华舜网络建站系统】",
@@ -944,7 +1000,7 @@
         "keyword": "body=\"WCMAnt:param=\""
     },
     {
-        "name": "【存在PowercdnCDN】",
+        "name": "【Powercdn CDN】",
         "keyword": "header=\"Powercdn\""
     },
     {
@@ -958,10 +1014,6 @@
     {
         "name": "【普元eos】",
         "keyword": "body=\"eos-web.js\" || (body=\"ame.primeton.com\" && body=\"eos-web\")"
-    },
-    {
-        "name": "【博达vsb】",
-        "keyword": "body=\"Visual SiteBuilder\""
     },
     {
         "name": "【亿信华辰财务BI】",
@@ -1022,10 +1074,6 @@
     {
         "name": "【东华软件/cms/cmsadmin】",
         "keyword": "body=\"/cms/cmsadmin\""
-    },
-    {
-        "name": "【苏迪webplus】",
-        "keyword": "body=\"_sitegray/_sitegray_d.css\""
     },
     {
         "name": "【南京品德科技有限责任公司】",
@@ -1196,7 +1244,7 @@
         "keyword": "body=\"href=\\\"/web/mainMenu/images/favicon.ico\\\">\""
     },
     {
-        "name": "【Kedacom-NVR】",
+        "name": "【苏州科达Kedacom-NVR】",
         "keyword": "title=\"NVR Station Web\" || (body=\"location=\\\"index_cn.htm\\\";\" && body=\"if(syslan == \\\"zh-cn\") || title=\"WMS browse NVR\""
     },
     {
@@ -1228,7 +1276,7 @@
         "keyword": "body=\"content=\\\"铱迅漏洞扫描系统\" || title=\"铱迅漏洞扫描系统\" || cert=\"cn=nvs.yxlink.com\""
     },
     {
-        "name": "【HuaWei-MCU】",
+        "name": "【华为-MCU】",
         "keyword": "(body=\"McuR5-min.js\" || body=\"MCUType.js\" || title=\"huawei MCU\") && body!=\"server: couchdb\""
     },
     {
@@ -1424,7 +1472,7 @@
         "keyword": "title=\"- - - Sunny Matrix - - -\""
     },
     {
-        "name": "【Lianwei Technology-IT Safety Operation and Management System】",
+        "name": "【联软IT安全运维管理系统】",
         "keyword": "title=\"联软IT安全运维管理系统\" || body=\"action=\\\"/manager/loginController.htm?act=login\""
     },
     {
@@ -1484,7 +1532,7 @@
         "keyword": "body=\"Powered By ThinkOX\" || title=\"ThinkOX\""
     },
     {
-        "name": "【HUAWEI-HG8045H】",
+        "name": "【华为-HG8045H】",
         "keyword": "body=\"var productname = 'HG8045H';\""
     },
     {
@@ -1604,7 +1652,7 @@
         "keyword": "title=\"Identity Services Engine\""
     },
     {
-        "name": "【HuaWei-VPN】",
+        "name": "【华为-VPN】",
         "keyword": "body=\"OnCompleted(hResult,pErrorObject, pAsyncContext)\" && header=\"Auth-Http Server\""
     },
     {
@@ -1628,11 +1676,11 @@
         "keyword": "header=\"DrayTek Corporation\" && header=\"Router Model\""
     },
     {
-        "name": "【HUAWEI-HG8145V5】",
+        "name": "【华为-HG8145V5】",
         "keyword": "body=\"var productname = 'HG8145V5'\" || body=\"var productname = 'HG8145V5';\""
     },
     {
-        "name": "【HUAWEI-HG8045A】",
+        "name": "【华为-HG8045A】",
         "keyword": "body=\"var productname = 'HG8045A'\" || body=\"var productname = 'HG8045A';\""
     },
     {
@@ -1652,7 +1700,7 @@
         "keyword": "(title=\"门禁专家\" || body=\"<form method=post action=ACT_ID_1>\") && body!=\"Server: couchdb\""
     },
     {
-        "name": "【Kedacom-Video Conference】",
+        "name": "【苏州科达-Kedacom-Video Conference】",
         "keyword": "title=\"Kedacom Meeting Teminal \" || title=\"Meeting Control System - Kedacom\""
     },
     {
@@ -1688,7 +1736,7 @@
         "keyword": "title=\"NETGEAR EX3700\""
     },
     {
-        "name": "【Heavenly Letter - Network Audit System】",
+        "name": "【天融信 - Network Audit System】",
         "keyword": "body=\"onclick=\\\"dlg_download()\" || title=\"天融信网络审计系统\""
     },
     {
@@ -1696,7 +1744,7 @@
         "keyword": "(body=\"/Public/Js/knockout-3.4.1.debug.js\" && body=\"<form action=\\\"/index.php/Home/Login/login.html\\\" method=\\\"post\\\" id=\\\"login\\\" class=\\\"form\\\" data-bind=\\\"submit: submitForm\\\">\") && header=\"Access-Control-Allow-Methods\""
     },
     {
-        "name": "【Zhongyu Wantong -TrustMore centralized certification system】",
+        "name": "【Zhongyu Wantong -TrustMore 安全可信的应用授权平台】",
         "keyword": "body=\"alt=\\\"TrustMore 安全可信的应用授权平台\\\"\" || header=\"Server: TrustMore Proxy\" || header=\"Server: TrustMore Proxy\""
     },
     {
@@ -1848,7 +1896,7 @@
         "keyword": "title=\"金山毒霸企业版\" || body=\"class=\\\"title\\\">关于全网部署金山毒霸企业版\""
     },
     {
-        "name": "【Kedacom-SXMS trial system】",
+        "name": "【苏州科达-Kedacom-SXMS trial system】",
         "keyword": "body=\"titlename = \\\"SXMS审讯业务管理系统\\\";\" || body=\"classid=\\\"clsid:01DFB4B4-0E07-4e3f-8B7A-98FD6BFF153F\\\" codebase=\\\"files/ofctnewclsid.cab\""
     },
     {
@@ -1928,7 +1976,7 @@
         "keyword": "body=\"content=\\\"ShopBuilder\" || body=\"Powered by ShopBuilder\" || body=\"ShopBuilder版权所有\""
     },
     {
-        "name": "【HuaWei-U2000】",
+        "name": "【华为-U2000】",
         "keyword": "cert=\"o=Huawei Technologies, ou=U2000\""
     },
     {
@@ -1960,7 +2008,7 @@
         "keyword": "header=\"DH-NVR4108HS-8P-HDS2\""
     },
     {
-        "name": "【HuaWei-anyoffice】",
+        "name": "【华为-anyoffice】",
         "keyword": "(body=\"mdmserver\" && body=\"onclick=\\\"changeLanguage\" && body=\"cancelChangePWBtn\") || (cert=\"o=HUAWEI, ou=AnyOffice\" || cert=\"cn=HUAWEI AnyOffice ROOT CA\") || body=\"<form id=\\\"jvForm\\\" action=\\\"admin/business/login\" || body=\"src=\\\"assets/conn-service/admin/\" || title=\"AnyOffice Login\""
     },
     {
@@ -1984,7 +2032,7 @@
         "keyword": "body=\"/src/system/login.php\""
     },
     {
-        "name": "【Landray-Eis Wisdom Collaborative Platform】",
+        "name": "【蓝凌Eis智慧协同平台】",
         "keyword": "body=\"/scripts/jquery.landray.common.js\" || body=\"v11_QRcodeBar clr\""
     },
     {
@@ -2048,7 +2096,7 @@
         "keyword": "body=\"/SBDTGLXT/PANWEBAPP/login.html\""
     },
     {
-        "name": "【Huawei-safety equipment】",
+        "name": "【华为-safety equipment】",
         "keyword": "body=\"sweb-lib/resource/\" || body=\"sweb-lib/plat/login/Login_New.js\""
     },
     {
@@ -2128,7 +2176,7 @@
         "keyword": "(body=\"id=mTokenPlugin width=0 height=0 style=\\\"position: absolute;LEFT: 0px; TOP: 0px\\\"\" && body=\"type=application/x-xtx-axhost\" && cert=\"Organization: 360企业安全集团\") || title=\"网神SecFox安全审计系统\" || title=\"SecFox-LAS-BH\" || title=\"SecFox\" || (body=\"document.getElementById('pic').src\" && body=\"class=\\\"secfox-login-browser-continue\\\"\") || body=\"<p>欢迎您使用网神Secfox日志收集与分析系统\""
     },
     {
-        "name": "【Kedacom-SVR2816】",
+        "name": "【苏州科达-Kedacom-SVR2816】",
         "keyword": "title=\"SVR2816客户端下载\" || body=\"<a href=\\\"download/SVR2816 Quick Start Guide.pdf\""
     },
     {
@@ -2144,7 +2192,7 @@
         "keyword": "((header=\"Server: FIAMM ONVIF\" || (body=\"FIAMM. All Rights Reserved.\" && body=\"vb.htm?authority3=\")) && body!=\"Server: couchdb\") || header=\"Server: FIAMM ONVIF\""
     },
     {
-        "name": "【Kedacom-disk array】",
+        "name": "【苏州科达-Kedacom-disk array】",
         "keyword": "body=\"<meta name=\\\"kedacom\\\" content=\\\"true\\\">\" && title=\"磁盘阵列管理系统\""
     },
     {
@@ -2692,19 +2740,19 @@
         "keyword": "header=\"DPTECH UAG3000\""
     },
     {
-        "name": "【HUAWEI-HS8545M】",
+        "name": "【华为-HS8545M】",
         "keyword": "body=\"var productname = 'HS8545M'\" || (body=\"window.location=\\\"https://\\\" + SSLHostIp + \\\":\\\" + SSLPort\" && body=\"var sslhostip ='170\\x2e79\\x2e114\\x2e90'\")"
     },
     {
-        "name": "【HuaWei-S5328C-SI】",
+        "name": "【华为-S5328C-SI】",
         "keyword": "header=\"S5328C-SI\""
     },
     {
-        "name": "【HUAWEI-HG8240】",
+        "name": "【华为-HG8240】",
         "keyword": "body=\"var productname = 'HG8240'\" || body=\"var productname='HG8240'\""
     },
     {
-        "name": "【HUAWEI-HG8120C】",
+        "name": "【华为-HG8120C】",
         "keyword": "body=\"var productname = 'HG8120C'\""
     },
     {
@@ -2800,7 +2848,7 @@
         "keyword": "header=\"realm=\\\"XG-C435X-L\" || header=\"realm=\\\"XG-C435X-L\""
     },
     {
-        "name": "【HUAWEI-HG8245H】",
+        "name": "【华为-HG8245H】",
         "keyword": "body=\"var productname = 'HG8245H\" || body=\"var productname = 'HG8245H';\""
     },
     {
@@ -2876,7 +2924,7 @@
         "keyword": "body=\"This object on the APC Management Web Server is protected\""
     },
     {
-        "name": "【HuaWei-Router】",
+        "name": "【华为-Router】",
         "keyword": "title=\"Wimax CPE Configuration\" || (header=\"HttpWarnFlg\" && body=\"Huawei Technologies\")"
     },
     {
@@ -2928,7 +2976,7 @@
         "keyword": "header=\"sap-usercontext\" || header=\"sap-usercontext\" || body=\"name=\\\"sap-login-XSRF\" || title=\"SAP Web Application Server\" || header=\"Server: SAP Web Application Server\" || header=\"Server: SAP Web Application Server\" || header=\"Server: SAP NetWeaver Application Server\" || header=\"Server: SAP NetWeaver Application Server\" || header=\"Server: SAP J2EE Engine\" || header=\"Server: SAP J2EE Engine\""
     },
     {
-        "name": "【HuaWei-SSL-VPN】",
+        "name": "【华为-SSL-VPN】",
         "keyword": "(body=\"href=\\\"./logo/&logo&.ico\\\"\" || body=\"var apppath = \\\"/app/hw/\\\"\") && body!=\"Server: couchdb\""
     },
     {
@@ -2972,7 +3020,7 @@
         "keyword": "header=\"SonicWALL SRA 1200 \""
     },
     {
-        "name": "【HuaWei-FusionInsight】",
+        "name": "【华为-FusionInsight】",
         "keyword": "header=\"Server: FusionInsight\" || header=\"Server: FusionInsight\""
     },
     {
@@ -3036,7 +3084,7 @@
         "keyword": "body=\"<h1>驭龙</h1>\" || body=\"<h2>yulong - A cool HIDS system.</h2>\""
     },
     {
-        "name": "【HuaWei-videoconferencing-terminal】",
+        "name": "【华为-videoconferencing-terminal】",
         "keyword": "header=\"videoconferencing terminal\" && header=\"huawei technologies\""
     },
     {
@@ -3104,7 +3152,7 @@
         "keyword": "header=\"Maverick_SSHD\""
     },
     {
-        "name": "【HUAWEI-S5720】",
+        "name": "【华为-S5720】",
         "keyword": "header=\"S5720\" || header=\"S5720\""
     },
     {
@@ -3148,7 +3196,7 @@
         "keyword": "body=\"bit-xxzs\" || body=\"xmlpzs/webissue.asp\""
     },
     {
-        "name": "【HuaWei-Aolynk-Router】",
+        "name": "【华为-Aolynk-Router】",
         "keyword": "header=\"Aolynk \" && header=\"router\""
     },
     {
@@ -3304,7 +3352,7 @@
         "keyword": "title=\"昂楷数据库审计系统\" || body=\"support@ankki.com\""
     },
     {
-        "name": "【Kedacom-video on demand system】",
+        "name": "【苏州科达-Kedacom-video on demand system】",
         "keyword": "title=\"科达视频点播系统\" || (body=\"<param name=\\\"ConPwd\\\" value=\\\"kdc\\\">\" && body=\"clsid:da6a00a4-fa81-43ad-a686-ff8ad342395e\")"
     },
     {
@@ -3632,7 +3680,7 @@
         "keyword": "body=\"CDGServer3\""
     },
     {
-        "name": "【HuaWei-Auth-Server】",
+        "name": "【华为-Auth-Server】",
         "keyword": "(body=\"75718C9A-F029-11d1-A1AC-00C04FB6C223\" && header=\"Auth-Http Server\") || header=\"Server: Huawei Auth-Http Server\" || header=\"Server: Huawei Auth-Http Server\""
     },
     {
@@ -3796,7 +3844,7 @@
         "keyword": "header=\"CommunityServer-LastVisitUpdated\" || header=\"communityserver\" || header=\"CommunityServer-UserCookie\" || header=\"CommunityServer-LastVisitUpdated\" || header=\"communityserver\" || header=\"CommunityServer-UserCookie\""
     },
     {
-        "name": "【HuaWei-SRG1220】",
+        "name": "【华为-SRG1220】",
         "keyword": "header=\"SRG1220\" || header=\"HUAWEI SRG1220\""
     },
     {
@@ -3824,7 +3872,7 @@
         "keyword": "body=\"jira.webresources\" || header=\"atlassian.xsrf.token\" || body=\"ams-build-number\" || title=\"System Dashboard - \" || (body=\"content=\\\"JIRA\" && header!=\"boa\" && body!=\"Server: Boa\") || header=\"atlassian.xsrf.token\""
     },
     {
-        "name": "【KESION-CMS】",
+        "name": "【KesionCMS】",
         "keyword": "body=\"/ks_inc/common.js\" || body=\"publish by KesionCMS\""
     },
     {
@@ -3836,7 +3884,7 @@
         "keyword": "title=\"Easted云计算虚拟化平台\" || body=\"<span>EASTED VServer虚拟数据中心系统</span></a></div>\""
     },
     {
-        "name": "【HuaWei-eSight】",
+        "name": "【华为-eSight】",
         "keyword": "(body=\"location.replace('login.action?_='+ new Date().getTime());\" && body!=\"<a \" && body=\"<body onload=\\\"gotoLogin()\\\">\") || body=\"esight_login_copy_right_font\" || header=\"sso/login.action\" || header=\"sso/login.action\""
     },
     {
@@ -4112,7 +4160,7 @@
         "keyword": "body=\"src=\\\"sdkjs/uftttsdk2.js\\\"\""
     },
     {
-        "name": "【Huawei-FusionCompute Management System】",
+        "name": "【华为-FusionCompute Management System】",
         "keyword": "body=\"resources/themes/images/logo/favicon.ico\" || body=\"/OmsPortal/\" || header=\"/OmsPortal/\" || header=\"/OmsPortal/\""
     },
     {
@@ -4160,7 +4208,7 @@
         "keyword": "body=\"Comcast Business Gateway\" || title=\"Comcast Business Gateway\""
     },
     {
-        "name": "【Huawei-eudemon firewall】",
+        "name": "【华为-eudemon firewall】",
         "keyword": "header=\"Eudemon200E\" || header=\"Eudemon1000E\" || header=\"Eudemon 200E\" || header=\"Eudemon 200E\" || header=\"HUAWEI Eudemon200E\""
     },
     {
@@ -4196,7 +4244,7 @@
         "keyword": "body=\"/house5-style1/\""
     },
     {
-        "name": "【HUAWEI-3G-Wireless-Gateway】",
+        "name": "【华为-3G-Wireless-Gateway】",
         "keyword": "header=\"realm=\\\"3G Wireless Gateway\" || header=\"realm=\\\"3G Wireless Gateway\" || title=\"3G Wireless Gateway\""
     },
     {
@@ -4204,7 +4252,7 @@
         "keyword": "header=\"realm=\\\"PortServer TS\" || header=\"PortServer TS\""
     },
     {
-        "name": "【Heavenly letter - firewall】",
+        "name": "【天融信 - firewall】",
         "keyword": "title=\"TOPSEC TOS Web User\" || (header=\"TopWebServer\" && body=\"WEB User Interface\")"
     },
     {
@@ -4532,7 +4580,7 @@
         "keyword": "header=\"Server: http server/everfocus\" || header=\"Server: http server/everfocus\" || header=\"realm=\\\"everfocus\" || header=\"realm=\\\"everfocus\""
     },
     {
-        "name": "【HuaWei-FusionCloud-Desktop】",
+        "name": "【华为-FusionCloud-Desktop】",
         "keyword": "title=\"Desktop@FusionAccess\" || (title=\"FusionAccess\" && body=\"huawei\") || body=\"href=/webui/default/img/logo.ico\""
     },
     {
@@ -4572,15 +4620,15 @@
         "keyword": "body=\"content=\\\"Exponent Content Management System\" || body=\"Powered by Exponent CMS\""
     },
     {
-        "name": "【HuaWei-SRG2210】",
+        "name": "【华为-SRG2210】",
         "keyword": "header=\"SRG2210\""
     },
     {
-        "name": "【HUAWEI-USG5550】",
+        "name": "【华为-USG5550】",
         "keyword": "header=\"USG5550\" || header=\"USG5550\""
     },
     {
-        "name": "【HUAWEI-USG5530】",
+        "name": "【华为-USG5530】",
         "keyword": "header=\"USG5530\" || header=\"USG5530\""
     },
     {
@@ -5000,12 +5048,8 @@
         "keyword": "header=\"BarracudaHTTP\" || cert=\"o=Barracuda Networks\" || header=\"Server: BarracudaHTTP\""
     },
     {
-        "name": "【Guard God - Host Management】",
+        "name": "【护卫神·主机管理系统】",
         "keyword": "title=\"护卫神·主机管理系统\""
-    },
-    {
-        "name": "【DigiCert-Cert】",
-        "keyword": "cert=\"DigiCert\""
     },
     {
         "name": "【SRT-CORNERSTONE-MFT】",
@@ -5064,7 +5108,7 @@
         "keyword": "header=\"Uniview MS8500\" || title=\"IVS-MS8500\" || title=\"MS8500配置管理系统\""
     },
     {
-        "name": "【HUAWEI-CE6810-48S4Q-EI】",
+        "name": "【华为-CE6810-48S4Q-EI】",
         "keyword": "header=\"CE6810-48S4Q-EI\""
     },
     {
@@ -5116,11 +5160,11 @@
         "keyword": "title=\"MRTG Index Page\" || body=\"href=\\\"http://oss.oetiker.ch/mrtg/\" || body=\"/mrtg-l.png\" || body=\"Command line is easier to read using \\\"View Page Properties\\\" of your browser\" || header=\"realm=\\\"MRTG \" || header=\"realm=\\\"MRTG \""
     },
     {
-        "name": "【Huawei-stream media server】",
+        "name": "【华为-stream media server】",
         "keyword": "header=\"Server: HWServer\""
     },
     {
-        "name": "【HuaWei-Home-Gateway】",
+        "name": "【华为-Home-Gateway】",
         "keyword": "((header=\"HuaweiHomeGateway\" || body=\"Menu.HomeGatewayTitle\" || header=\"HUAWEI SRG2220\" || title=\"HUAWEI Home Gateway\" || title=\"Home Gateway HG630 \" || (header=\"SessionID_R3\" && title=\" Home Gateway\") || (header=\"SessionID_R3\" && body=\"huaweilogo\") || (body=\"document.write(\\\"<title>\\\" + gVarLogin + \\\"</title>\\\")\" && body=\"' + gVarTitle + '\"))&& body!=\"Server: couchdb\") || ((header=\"HuaweiHomeGateway\" || header=\"Huawei Home Gateway\" || header=\"Huawei  Home Gateway\" || header=\"Huawei-ATP-IGD\") && header!=\"boa\" && header!=\"drupal\")"
     },
     {
@@ -5192,7 +5236,7 @@
         "keyword": "header=\"Server: Datcent\" || header=\"Server: Datcent\""
     },
     {
-        "name": "【Kedacom-DVR access gateway】",
+        "name": "【苏州科达-Kedacom-DVR access gateway】",
         "keyword": "title=\"欢迎使用DVR接入网关\" || (body=\"classid=\\\"clsid:23CF673F-3FE7-467D-AA36-D2AA72D5361B\" && ( body=\"src='images/ind_log_kedacom.png')\" || body=\"苏州科达科技有限公司\" || body=\"/kdc/\"))"
     },
     {
@@ -5240,7 +5284,7 @@
         "keyword": "body=\"/static/rb/images/delete\" || header=\"rbsessionid\" || header=\"rbsessionid\""
     },
     {
-        "name": "【HUAWEI-S5700】",
+        "name": "【华为-S5700】",
         "keyword": "((header=\"S5700\" || header=\"Server: Huawei_S5700\")) || ((header=\"S5700\" || header=\"Server: Huawei_S5700\") && header!=\"couchdb\")"
     },
     {
@@ -5444,7 +5488,7 @@
         "keyword": "body=\"<a href=\\\"download/srtech.cer\\\" target='_blank'>CA证书下载\" && body=\"content=\\\"MSHTML 6.00.2600.0\\\"\""
     },
     {
-        "name": "【Kedacom-multimedia recording system】",
+        "name": "【苏州科达-Kedacom-multimedia recording system】",
         "keyword": "title=\"VRS2000\" || body=\"reqmodpwddata={\\\"MsgID\\\":EV_VRS_REQ_MSG.EV_VRS_MOD_ACCOUNT\" || (title=\"VRS\" && body=\"#menu-vrs\")"
     },
     {
@@ -5548,7 +5592,7 @@
         "keyword": "body=\"<table class=\\\"lhead\\\"><tr><td class=\\\"img\\\"><img src=\\\"/imgs/logo.gif\\\" alt=\\\"SpamTitan Logo\\\"></td></tr></table></div>\""
     },
     {
-        "name": "【Huawei-espace product】",
+        "name": "【华为-espace product】",
         "keyword": "header=\"huawei eSpace \" || title=\"HUAWEI ESPACE \" || header=\"eSpace 7900 WEB\" || header=\"realm=\\\"Enterprise IP phone Huawei eSpace \" || header=\"realm=\\\"Enterprise IP phone Huawei eSpace \" || (header=\"eSpace\" && header=\"SEVER-VER: \") || (header=\"eSpace\" && header=\"SEVER-VER: \")"
     },
     {
@@ -5608,11 +5652,11 @@
         "keyword": "body=\"/qzmail/index.php\""
     },
     {
-        "name": "【HuaWei-SRG3240】",
+        "name": "【华为-SRG3240】",
         "keyword": "header=\"SRG3240\""
     },
     {
-        "name": "【HuaWei-SRG20】",
+        "name": "【华为-SRG20】",
         "keyword": "header=\"SRG20\""
     },
     {
@@ -6072,7 +6116,7 @@
         "keyword": "body=\"<modelName>AIC250</modelName>\" || header=\"realm=\\\"AIC250\" || header=\" realm=AIC250\" || header=\"realm=\\\"AIC250\" || header=\" realm=AIC250\""
     },
     {
-        "name": "【HUAWEI-X6781-Z37】",
+        "name": "【华为-X6781-Z37】",
         "keyword": "header=\"realm=\\\"huawei X6781-Z37\" || header=\"realm=\\\"huawei X6781-Z37\""
     },
     {
@@ -6724,7 +6768,7 @@
         "keyword": "header=\"BFC CableHome \" && header=\"VENDOR: Broadcom\""
     },
     {
-        "name": "【HuaWei-VRP】",
+        "name": "【华为-VRP】",
         "keyword": "header=\"Huawei VRP \" || header=\"-VRP-\" || header=\"HUAWEI-VRP3.1\""
     },
     {
@@ -6768,7 +6812,7 @@
         "keyword": "header=\"Avaya Inc. - P330\""
     },
     {
-        "name": "【HUAWEI-Tecal-E6000】",
+        "name": "【华为-Tecal-E6000】",
         "keyword": "title=\"Tecal E6000 MM Center-\" || (body=\"The standby MM can not view other board informations.\" && body=\"<td class='td' id='pssystemstate'></td>\")"
     },
     {
@@ -6984,7 +7028,7 @@
         "keyword": "header=\"TK-F3188Ex\""
     },
     {
-        "name": "【HUAWEI-SYNLOCK-BITS】",
+        "name": "【华为-SYNLOCK-BITS】",
         "keyword": "header=\"HUAWEI SYNLOCK BITS\""
     },
     {
@@ -7192,7 +7236,7 @@
         "keyword": "body=\"var sys_target = \\\"W1800R\\\"\""
     },
     {
-        "name": "【HuaWei-iBMC】",
+        "name": "【华为-iBMC】",
         "keyword": "title=\"iBMC Login\" || body=\"/bmc/php/getmultiproperty.php\" || body=\"/bmc/resources/css/cmn.css\" || header=\"iBMC\""
     },
     {
@@ -7420,7 +7464,7 @@
         "keyword": "header=\"realm=\\\"DSL-6850U\" || header=\"DSL-6850U\""
     },
     {
-        "name": "【HUAWEI-NE5000E】",
+        "name": "【华为-NE5000E】",
         "keyword": "header=\"HUAWEI NE5000E\""
     },
     {
@@ -7580,7 +7624,7 @@
         "keyword": "body=\"content=\\\"专业的WEB医学影像浏览器\""
     },
     {
-        "name": "【Kedacom-video surveillance】",
+        "name": "【苏州科达-Kedacom-video surveillance】",
         "keyword": "((body=\"var syslan = window.navigator.userLanguage;\" && body!=\"Server: couchdb\") || (header=\"Server: KEDACOM-Webs\" && title!=\"Meeting \") || header=\"KEDACOM login:\" || header=\"KEDACOM-pc\" || (body=\"/kedacom.common.js\" && body!=\"Server: couchdb\") || (body=\"codebase=\\\"kdmv53.cab#version=\" && body!=\"Server: couchdb\") || header=\"kedacom-hs\" || (body=\"top.location.href = \\\"login.htm?_=\\\"+new Date().getTime()\" && body!=\"Server: couchdb\") || (body=\"<strong>科达系列音视频解码器</strong>\" && body=\"<strong>版本信息：</strong>SVR Station\" && body!=\"Server: couchdb\") || (body=\"background=\\\"images/keda_svrstation.jpg\" && body!=\"Server: couchdb\")) || (body=\"onkeyup=\\\"pwStrength(this.value)\" && body=\"UserMailOKclick\" && body!=\"Server: couchdb\") || (header=\"GoAhead-http\" && header=\"/index.htm\") || cert=\"o=kedacaom, ou=keda\" || (body=\"location.href='./login.htm';\" && body=\"setTimeout(\\\"goIndexPage()\" && body!=\"Server: couchdb\")"
     },
     {
@@ -7608,7 +7652,7 @@
         "keyword": "body=\"/images/dp_icon.gif\""
     },
     {
-        "name": "【HUAWEI-7706】",
+        "name": "【华为-7706】",
         "keyword": "(header=\"simple/view/login.html\" && header=\"7706\" && server!=\"S7706\") || (header=\"simple/view/login.html\" && header=\"7706\" && header=\"server\" && server!=\"S7706\")"
     },
     {
@@ -7792,7 +7836,7 @@
         "keyword": "body=\"ecdomain/unieap/ria/unieap/themes/earth/common/unieap.css\""
     },
     {
-        "name": "【Kedacom-Company products】",
+        "name": "【苏州科达-Kedacom-Company products】",
         "keyword": "header=\"KEDACOM. All rights reserved.\" || header=\"realm=\\\"kedacom\" || header=\"realm=\\\"kedacom\""
     },
     {
@@ -8268,7 +8312,7 @@
         "keyword": "body=\"Powered By <a href=\\\"http://www.mybboard.com\" || body=\"<!-- MyBB is free software developed and maintained\" || body=\"visibility of the MyBB copyright at any time\" || body=\"onchange=\\\"MyBB.changeLanguage();\" || header=\" mybb[lastvisit]=\" || header=\" mybb[lastvisit]=\""
     },
     {
-        "name": "【HuaWei-MAS】",
+        "name": "【华为-MAS】",
         "keyword": "header=\"MAS \" && header=\"Huawei Technologies \""
     },
     {
@@ -8512,7 +8556,7 @@
         "keyword": "(header=\"Server: PasteWSGIServer\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"server: PasteWSGIServer\" && header!=\"couchdb\" && header!=\"drupal\")"
     },
     {
-        "name": "【Heavenly Letter-Single Login System】",
+        "name": "【天融信-Single Login System】",
         "keyword": "title=\"Topsec单点登录系统\""
     },
     {
@@ -8520,7 +8564,7 @@
         "keyword": "header=\"KOAL-SSL\" || header=\"KOAL-SSL\""
     },
     {
-        "name": "【HuaWei-ISM】",
+        "name": "【华为-ISM】",
         "keyword": "body=\"<link href=\\\"ismB014.css\\\"\" || title=\"OceanStor ISM\" || body=\"class=\\\"ContextGray\\\">OceanStor\" || body=\"document.location.href=thisURL + \\\"index_cn.cgi\\\";\" || body=\"//begin h90005710  redirect http to https\""
     },
     {
@@ -8628,7 +8672,7 @@
         "keyword": "(title=\"Smartlink\" && body=\"Smartlink Network Systems LTD.\")"
     },
     {
-        "name": "【HUAWEI-CE6850-48S4Q-EI】",
+        "name": "【华为-CE6850-48S4Q-EI】",
         "keyword": "header=\"CE6850-48S4Q-EI\""
     },
     {
@@ -8916,7 +8960,7 @@
         "keyword": "title=\"N12&nbsp设备登录\""
     },
     {
-        "name": "【HUAWEI-ASG5530】",
+        "name": "【华为-ASG5530】",
         "keyword": "body=\"('.huawei_title').html('ASG5530')\" || title=\"Huawei ASG5530\""
     },
     {
@@ -8980,11 +9024,11 @@
         "keyword": "title=\"Schneider Electric Telecontrol - Industrial Web Control\""
     },
     {
-        "name": "【Secnet - Smart Routing System】",
+        "name": "【安网-智能路由系统】",
         "keyword": "title=\"安网-智能路由系统\" || title=\"智能路由系统\" || title=\"安网科技-智能路由系统\" || header=\"HTTPD_ac 1.0\""
     },
     {
-        "name": "【Guard God - Host Master】",
+        "name": "【护卫神·主机大师】",
         "keyword": "body=\"content=\\\"护卫神·主机大师 前台管理登录\\\"\""
     },
     {
@@ -9464,7 +9508,7 @@
         "keyword": "(header=\"must-revalidate\" && header=\"Digest realm=\\\"NET-i\\\", nonce\") || (header=\"Digest realm=\\\"NET-i\\\", nonce\" && header=\"must-revalidate\")"
     },
     {
-        "name": "【Heavenly Letter-TopApp-load balancing】",
+        "name": "【天融信-TopApp-load balancing】",
         "keyword": "header=\"TopApp\""
     },
     {
@@ -9824,7 +9868,7 @@
         "keyword": "header=\"FUSION FTP\""
     },
     {
-        "name": "【Huawei- server】",
+        "name": "【华为- server】",
         "keyword": "((header=\"Server: Huawei-BMC\" || title=\"iMana&nbsp;200 Login\" || (body=\"src=\\\"custom/logo.gif\\\"\" && body=\"control/images/about.gif\")) && body!=\"couchdb\") || header=\"Server: Huawei-BMC\""
     },
     {
@@ -9892,7 +9936,7 @@
         "keyword": "(header=\"Server: TOPSEC\" && header!=\"couchdb\" && body!=\"content=\\\"JnSec Web UI\\\"\") || cert=\"Topsec Network Security Technology\" || header=\"Server: topsecos\" || header=\"Server: topsecos\" || header=\"Beijing Topsec Network Security Technology Co.,Ltd\""
     },
     {
-        "name": "【HUAWEI-Tecal-RH2288H】",
+        "name": "【华为-Tecal-RH2288H】",
         "keyword": "header=\"Tecal-RH2288H\""
     },
     {
@@ -10060,11 +10104,11 @@
         "keyword": "header=\"KONICA MINOLTA \" || ((header=\"LPC Http Server\" || title=\"KONICA MINOLTA\" || (body=\"vlink=\\\"#000000\\\" onload=\\\"location.replace('/wcd/index.html');\\\" >\" && body=\"<meta http-equiv=\\\"refresh\\\" content=\\\"0; url=/wcd/js_error.xml\\\">\") || (body=\"<LangNo>En</LangNo>\" && body=\"</MFP>\")) && body!=\"Server: couchdb\")"
     },
     {
-        "name": "【HuaWei-S12708】",
+        "name": "【华为-S12708】",
         "keyword": "header=\"S12708 \" || header=\"S12708\" || header=\"Server: Huawei-S12708\" || header=\"Server: Huawei-S12708\""
     },
     {
-        "name": "【HuaWei-S5728C】",
+        "name": "【华为-S5728C】",
         "keyword": "header=\"S5728C \" || header=\"S5728C \""
     },
     {
@@ -10092,7 +10136,7 @@
         "keyword": "cert=\"Subject: c=cn, st=Some-State, l=Beijing, o=WisData, cn=wisdata.com.cn\""
     },
     {
-        "name": "【Huawei-camera】",
+        "name": "【华为-camera】",
         "keyword": "cert=\"ou=Enterprise UC&C ProductLine Video Surveillance PDU\" || cert=\"o=Huawei, ou=Enterprise UC&C ProductLine, ou=Collaborative Applicantion PDU\" || title=\"Huawei IPC\" || (cert=\"o=Huawei\" && cert=\"cn=HUAWEI IPC\") || title=\"HUAWEI SDC\" || body=\"HoloSens <span class=\\\"logo-holoSens\\\">SDC</span>\""
     },
     {
@@ -10388,11 +10432,11 @@
         "keyword": "body=\"id=\\\"serverinfo\\\"> DCS2210\""
     },
     {
-        "name": "【HUAWEI-9008-V5】",
+        "name": "【华为-9008-V5】",
         "keyword": "header=\"ProductName/9008 V5\""
     },
     {
-        "name": "【HUAWEI-CH242-V5】",
+        "name": "【华为-CH242-V5】",
         "keyword": "header=\"ProductName/CH242 V5\""
     },
     {
@@ -10400,7 +10444,7 @@
         "keyword": "header=\"3Com Baseline Switch\" || header=\"Baseline Switch \""
     },
     {
-        "name": "【HUAWEI-5288-V3】",
+        "name": "【华为-5288-V3】",
         "keyword": "header=\"ProductName/5288 V3\""
     },
     {
@@ -10408,7 +10452,7 @@
         "keyword": "header=\"Switch 5500G\" && header=\"3com\""
     },
     {
-        "name": "【HUAWEI-CloudIVS-3000S】",
+        "name": "【华为-CloudIVS-3000S】",
         "keyword": "header=\"ProductName/CloudIVS 3000S\""
     },
     {
@@ -10416,7 +10460,7 @@
         "keyword": "(header=\"Switch Software Version\" && header=\"Hewlett-Packard Development Company\") || (title=\"HP 1820\" && title=\"switch\")"
     },
     {
-        "name": "【HUAWEI-RH2288H-V3】",
+        "name": "【华为-RH2288H-V3】",
         "keyword": "header=\"ProductName/RH2288H V3\""
     },
     {
@@ -10424,7 +10468,7 @@
         "keyword": "header=\"11g Wireless Broadband Router\""
     },
     {
-        "name": "【HUAWEI-2488H-V5】",
+        "name": "【华为-2488H-V5】",
         "keyword": "header=\"ProductName/2488H V5\""
     },
     {
@@ -10436,7 +10480,7 @@
         "keyword": "body=\"<modelNumber>43UK6470PLC</modelNumber>\""
     },
     {
-        "name": "【HUAWEI-RH1288-V3】",
+        "name": "【华为-RH1288-V3】",
         "keyword": "header=\"ProductName/RH1288 V3\""
     },
     {
@@ -10448,7 +10492,7 @@
         "keyword": "body=\"<modelNumber>65UM7800HNA</modelNumber>\""
     },
     {
-        "name": "【Huawei-Secoway Firewall】",
+        "name": "【华为-Secoway Firewall】",
         "keyword": "header=\"Secoway\" || header=\"Secoway\""
     },
     {
@@ -11144,7 +11188,7 @@
         "keyword": "title=\"Yearning\" || (body=\"href=/icon.png\" && body=\"id=Subnet\") || icon_hash=\"1640638961\""
     },
     {
-        "name": "【HUAWEI-USG2100】",
+        "name": "【华为-USG2100】",
         "keyword": "header=\"USG2100\""
     },
     {
@@ -12316,7 +12360,7 @@
         "keyword": "(body=\"if (url.indexOf(\\\"tplinklogin.net\\\")\" && body=\"TL-WR850N\") || body=\"var modelname=\\\"TL-WR850N\\\"\""
     },
     {
-        "name": "【HUAWEI-IPC6625】",
+        "name": "【华为-IPC6625】",
         "keyword": "header=\"realm=\\\"huawei IPC6625\" || header=\"realm=\\\"huawei IPC6625\""
     },
     {
@@ -12832,7 +12876,7 @@
         "keyword": "body=\"\\\"/images2/login_title.q604.gif\\\"\" || title=\"ipTIME Q604\""
     },
     {
-        "name": "【HuaWei-HMS】",
+        "name": "【华为-HMS】",
         "keyword": "header=\"HMS Download Service\" || header=\"Server: HMS Download Service\""
     },
     {
@@ -13256,7 +13300,7 @@
         "keyword": "body=\"nowrap>Canon MG5300 series</td>\""
     },
     {
-        "name": "【If the management system】",
+        "name": "【若依管理系统】",
         "keyword": "body=\"/ry-ui.css\" || body=\"/ry-ui.js\" || title=\"若依管理系统\""
     },
     {
@@ -13572,7 +13616,7 @@
         "keyword": "body=\"href=\\\"http://www.hnjycy.com\\\" target=\\\"_blank\\\">沃科网<\" || title=\"异网同显系统\""
     },
     {
-        "name": "【Seven Niu Yun - Seven Cattle CDN】",
+        "name": "【Seven Niu Yun CDN】",
         "keyword": "header=\"glb.clouddn.com\" || body=\"glb.clouddn.com\" || header=\"glb.qiniucdn.com\" || body=\"glb.qiniucdn.com\" || header=\"cdn.staticfile.org\" || body=\"cdn.staticfile.org\" || header=\"X-Qiniu-Zone\""
     },
     {
@@ -13584,7 +13628,7 @@
         "keyword": "header=\"P874S7_TR069_20180413\""
     },
     {
-        "name": "【HUAWEI-HG532e】",
+        "name": "【华为-HG532e】",
         "keyword": "title=\"HG532e\""
     },
     {
@@ -14248,7 +14292,7 @@
         "keyword": "body=\"<b>Pulse Connect Secure</b>\" || (header=\"Location: /dana-na/auth/url_default/welcome.cgi\" && header=\"DSSignInURL\") || (body=\"src=\\\"/dana-na/auth/\" && (body=\"src=\\\"welcome.cgi?p=logo&signinId=url_default\" || body=\"Pulse\"))"
     },
     {
-        "name": "【HUAWEI-EchoLife-HG850a】",
+        "name": "【华为-EchoLife-HG850a】",
         "keyword": "body=\"onkeydown='return onHandleKeyDown(event)\" && body=\"HG850a\""
     },
     {
@@ -14404,7 +14448,7 @@
         "keyword": "body=\"window.location = \\\"html/login_en.html\\\";\" || cert=\"Subject: c=CN, st=Zhejiang, l=Hangzhou, o=Dptech, ou=Dptech, cn=dptechnology.net/emailaddress=support@dptechnology.net\" || title=\"WEB Management Interface For DPtech\" || (cert=\"CommonName: www.dptechnology.net\" && cert=\"Organization: Dptech\") || body=\"var valid_url=\\\"/func/web_main/validate?check=\\\"+hex_md5(s).toLowerCase()\" || header=\"ConplatSSH\""
     },
     {
-        "name": "【HUAWEI-AP5030DN】",
+        "name": "【华为-AP5030DN】",
         "keyword": "body=\"<span class=\\\"medium\\\" >本设备支持FAT模式（FAT模式下可单独工作）\""
     },
     {
@@ -14472,7 +14516,7 @@
         "keyword": "body=\"window.location.href = \\\"html/webplugin.html\\\";\" && body=\"UserLoginEvent(msgID, chNumber, userPageRt, userPreviewRt, userRecRt)\" && body=\"<body onload=\\\"\\\" onselectstart=\\\"return fbd();\\\" onunload=\\\"closewnd()\\\" onresize=\\\"ReSetMaskLayer\\\">\" && body=\"RSVideoOcx.cab\""
     },
     {
-        "name": "【HuaWei-NetOpen】",
+        "name": "【华为-NetOpen】",
         "keyword": "body=\"/netopen/theme/css/inFrame.css\" || title=\"Huawei NetOpen System\""
     },
     {
@@ -14480,7 +14524,7 @@
         "keyword": "(header=\"GoAhead\" && header!=\"GoAhead-Webs\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"GoAhead\" && header!=\"GoAhead-Webs\" && header!=\"couchdb\" && header!=\"drupal\")"
     },
     {
-        "name": "【HuaWei-Official-Site】",
+        "name": "【华为-Official-Site】",
         "keyword": "title=\"Huawei Official Site\""
     },
     {
@@ -14504,7 +14548,7 @@
         "keyword": "title=\"Tenda 11N Wireless AP\" || title=\"Tenda 11N\""
     },
     {
-        "name": "【Good Jing Technology - Good Jing Content Management System】",
+        "name": "【LJCMS良精政府网站管理系统】",
         "keyword": "title=\"Powered By LJCMS\" || (body=\"/data/attachment\" && (body=\"http://www.itf4.cn\" || body=\"liangjing.org\" || body=\"/tpl/templets\" || body=\"LJCMS\"))"
     },
     {
@@ -14512,7 +14556,7 @@
         "keyword": "body=\"miner = new CryptoNoter\" || title=\"CryptoNoter - In-Browser Javascript Web Miner\" || body=\"miner.getHashesPerSecond\" || body=\"new CryptoNoter.User\""
     },
     {
-        "name": "【One - network detection D01】",
+        "name": "【网探D01】",
         "keyword": "(body=\"/assets/gongan/\" && body=\"公安部第一研究所\") || title=\"网探D01\""
     },
     {
@@ -14528,7 +14572,7 @@
         "keyword": "title=\"ID_Converter_Welcome\" || body=\"/converter/VMware-Converter-Client.exe\" || body=\"content=\\\"VMware vCenter\""
     },
     {
-        "name": "【Remote asset dynamic management system】",
+        "name": "【远程资产动态管理系统】",
         "keyword": "title=\"远程资产动态管理系统\""
     },
     {
@@ -14592,11 +14636,11 @@
         "keyword": "header=\"ADTRAN\" || header=\"NetVanta \" || header=\"NetVanta \""
     },
     {
-        "name": "【National Air Quality Networking Monitoring Management Platform】",
+        "name": "【国家空气质量联网监测管理平台】",
         "keyword": "title=\"国家空气质量联网监测管理平台\""
     },
     {
-        "name": "【netentsec Technology - Intelligent Marketing Platform】",
+        "name": "【netentsec网康智能营销平台】",
         "keyword": "title=\"网康智能营销平台\""
     },
     {
@@ -14608,7 +14652,7 @@
         "keyword": "body=\"/lib/projectpoi.min.js\" || body=\"miner = new ProjectPoi.User\""
     },
     {
-        "name": "【Let's take the software - Handhara Distribution ERP】",
+        "name": "【管家婆分销ERP】",
         "keyword": "body=\"alert(\\\"欢迎使用 【管家婆分销ERP\""
     },
     {
@@ -14620,7 +14664,7 @@
         "keyword": "header=\"addUPI\" || body=\"Adcon Telemetry GmbH;\" || header=\"A850 Telemetry Gateway\" || (body=\"Adcon Telemetry\" && title=\"A850 Telemetry Gateway\") || body=\"Welcome to the A840 Telemetry Gateway!\""
     },
     {
-        "name": "【FIKKER-CDN-Master】",
+        "name": "【Fikker CDN 主控系统】",
         "keyword": "title=\"Fikker CDN 主控系统\""
     },
     {
@@ -14900,7 +14944,7 @@
         "keyword": "(header=\"Server: Gordian\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"Server: Gordian\" && header!=\"couchdb\" && header!=\"drupal\")"
     },
     {
-        "name": "【Huawei-RBT Gateway Management System】",
+        "name": "【华为-RBT Gateway Management System】",
         "keyword": "title=\"RBT Gateway Management System\""
     },
     {
@@ -15248,11 +15292,11 @@
         "keyword": "title=\"Informatica PowerCenter \" || body=\"action=\\\"/adminconsole/LoginSubmit.do\" || title=\"Informatica Administrator\" || header=\"Server: Informatica\" || header=\"Server: Informatica\""
     },
     {
-        "name": "【HUAWEI-HG8247H】",
+        "name": "【华为-HG8247H】",
         "keyword": "body=\"var productname = 'HG8247H';\""
     },
     {
-        "name": "【HUAWEI-HG8346R】",
+        "name": "【华为-HG8346R】",
         "keyword": "body=\"var productname = 'HG8346R\""
     },
     {
@@ -15560,19 +15604,19 @@
         "keyword": "header=\"Server: Alteon (D.S.) Server\" || header=\"server: Alteon (D.S.) Server\" || header=\"SSH-2.0-Alteon\""
     },
     {
-        "name": "【HUAWEI-HG8346M】",
+        "name": "【华为-HG8346M】",
         "keyword": "body=\"var productname = 'HG8346M'\""
     },
     {
-        "name": "【HUAWEI-HG8245Q2】",
+        "name": "【华为-HG8245Q2】",
         "keyword": "body=\"var productname = 'HG8245Q2'\" || body=\"var productname = 'HG8245Q2';\""
     },
     {
-        "name": "【HUAWEI-HG8045A2】",
+        "name": "【华为-HG8045A2】",
         "keyword": "body=\"var productname = 'HG8045A2'\" || body=\"var productname = 'HG8045A2';\""
     },
     {
-        "name": "【HUAWEI-HG8145V】",
+        "name": "【华为-HG8145V】",
         "keyword": "body=\"var productname = 'HG8145V'\" || body=\"var productname = 'HG8145V';\""
     },
     {
@@ -15580,15 +15624,15 @@
         "keyword": "(header=\"WLAN\" && body=\"tit1.innerhtml='Current mode: Fit';\") || title=\"配置FIT AP\" || title=\"配置出厂FIT AP\""
     },
     {
-        "name": "【HUAWEI-HG8021H】",
+        "name": "【华为-HG8021H】",
         "keyword": "body=\"var productname = 'HG8021H'\" || body=\"var productname = 'HG8021H';\""
     },
     {
-        "name": "【HUAWEI-HG8245A】",
+        "name": "【华为-HG8245A】",
         "keyword": "body=\"var productname = 'HG8245A'\" || body=\"var productname = 'HG8245A';\""
     },
     {
-        "name": "【HUAWEI-HG8245T】",
+        "name": "【华为-HG8245T】",
         "keyword": "body=\"var productname = 'HG8245T'\""
     },
     {
@@ -15704,15 +15748,15 @@
         "keyword": "title=\"e看牙文件上传API\""
     },
     {
-        "name": "【HUAWEI-HG8045A5】",
+        "name": "【华为-HG8045A5】",
         "keyword": "body=\"var productname = 'HG8045A5\" || body=\"var productname = 'HG8045A5\""
     },
     {
-        "name": "【HUAWEI-HG8245】",
+        "name": "【华为-HG8245】",
         "keyword": "body=\"<modelNumber>HG8245</modelNumber>\" || body=\"var productname = 'HG8245';\""
     },
     {
-        "name": "【HUAWEI-HG8247】",
+        "name": "【华为-HG8247】",
         "keyword": "body=\"var productname = 'HG8247'\""
     },
     {
@@ -15788,7 +15832,7 @@
         "keyword": "body=\"content='dcl.metaview.web.Client'\" || body=\"src=\\\"dcl.metaview.web.Client.nocache.js\\\">\""
     },
     {
-        "name": "【Heavenly Letter - Safety Management System】",
+        "name": "【天融信 - Safety Management System】",
         "keyword": "title=\"天融信安全管理\""
     },
     {
@@ -16428,7 +16472,7 @@
         "keyword": "header=\"DHI-NVR5216-16P-4KS2\""
     },
     {
-        "name": "【Heavenly Letter -Web Application Safety Protection System】",
+        "name": "【天融信 -Web Application Safety Protection System】",
         "keyword": "(title=\"WEB应用安全防护系统\" && body=\"class=\\\"logintop\\\"\") || body=\"href=\\\"login_html_files/loginstyle.css\\\"\""
     },
     {
@@ -16640,11 +16684,11 @@
         "keyword": "header=\"MSSQL Server\""
     },
     {
-        "name": "【HuaWei-HG630】",
+        "name": "【华为-HG630】",
         "keyword": "title=\"Huawei HG630\" || title=\"HG630 V2 Home Gateway\""
     },
     {
-        "name": "【HUAWEI-B683】",
+        "name": "【华为-B683】",
         "keyword": "title=\"Huawei B683\""
     },
     {
@@ -16680,7 +16724,7 @@
         "keyword": "header=\"NETGEAR WNDR3400v3\" || (body=\"var mmc = {\" && body=\"Netgear WNDR3400V3&nbsp;\") || header=\"NETGEAR WNDR3400v3\" || title=\"NETGEAR Router WNDR3400v3\""
     },
     {
-        "name": "【HuaWei-ASG2100】",
+        "name": "【华为-ASG2100】",
         "keyword": "header=\"HUAWEI ASG2100\" || header=\"HUAWEI ASG2050\" || header=\"ASG2100\" || header=\"HUAWEI ASG2100\" || header=\"HUAWEI ASG2050\""
     },
     {
@@ -16936,7 +16980,7 @@
         "keyword": "title=\"探针管理与测试系统-登录界面\""
     },
     {
-        "name": "【netentsec Technology - NS-ASG Safety Gateway】",
+        "name": "【网康 - NS-ASG Safety Gateway】",
         "keyword": "title=\"NS-ASG\" && ( body=\"400-678-3600\" || body=\"client/thickbox.css\" || body=\"/commonplugin/softkeyboard.js\") || (body=\"id=\\\"SlotSerialNumber\\\"\" && title=\"应用安全网关\")"
     },
     {
@@ -17144,7 +17188,7 @@
         "keyword": "title=\"登录 | HSE信息管理平台\""
     },
     {
-        "name": "【小猪CMS】",
+        "name": "【小猪PigCMS】",
         "keyword": "header=\"X-Powered-By: PigCms.com\" || header=\"X-Powered-By: PigCms.com\""
     },
     {
@@ -17360,7 +17404,7 @@
         "keyword": "body=\"/PMS2/ex_jssh/Default.aspx\""
     },
     {
-        "name": "【HuaWei-IVS】",
+        "name": "【华为-IVS】",
         "keyword": "body=\"var iever = ScriptEngineMajorVersion()\" && body!=\"Server: couchdb\""
     },
     {
@@ -17752,7 +17796,7 @@
         "keyword": "body=\"href=\\\"images/login/cbgl/favicon.ico\\\"\" && body=\"content=\\\"Copyright 2010 www.salien.com.cn\\\"\""
     },
     {
-        "name": "【HuaWei-Agile-Controller】",
+        "name": "【华为-Agile-Controller】",
         "keyword": "title=\"Agile Controller Login\""
     },
     {
@@ -18192,7 +18236,7 @@
         "keyword": "title=\"NuCom 11N Wireless Router\""
     },
     {
-        "name": "【HUAWEI-HG8245H5】",
+        "name": "【华为-HG8245H5】",
         "keyword": "body=\"var productname = 'HG8245H5';\""
     },
     {
@@ -18240,11 +18284,11 @@
         "keyword": "body=\"apw_form_token\" || (body=\"class=\\\"login-head clearfix\\\"\" && body=\"action=\\\"/logincheck\\\"\")"
     },
     {
-        "name": "【Production and management sharing information system】",
+        "name": "【生产经营管理共享信息系统】",
         "keyword": "title=\"生产经营管理共享信息系统\""
     },
     {
-        "name": "【Guofeng Software - Standardized Integration Operation Management Platform】",
+        "name": "【Guofeng Software - 标准化一体运营管理平台】",
         "keyword": "title=\"标准化一体运营管理平台\""
     },
     {
@@ -18268,7 +18312,7 @@
         "keyword": "body=\"href=\\\"/Home/ExitMes\" || body=\"MES30/WebUI/ip/page/Common/mainframe.aspx\""
     },
     {
-        "name": "【CETC-industrial firewall】",
+        "name": "【CETC-工业防火墙】",
         "keyword": "title=\"工业防火墙\" && body=\"/webgui/scripts/DD_belatedPNG.js\""
     },
     {
@@ -18284,7 +18328,7 @@
         "keyword": "header=\"Server: ViKING\" || header=\"Server: ViKING\""
     },
     {
-        "name": "【H3C-SecCenter】",
+        "name": "【H3C-SecCenter安全管理中心】",
         "keyword": "body=\"请登录后使用SecCenter安全管理中心\" || body=\"background=\\\"/SecCenter/img/index_02.gif\" || body=\"src=\\\"/SecCenter/img/logo.gif\" || body=\"window.top.location='/SecCenter/index.jsp';\""
     },
     {
@@ -18316,7 +18360,7 @@
         "keyword": "(title=\"License Tool\" && body=\"class=\\\"easyui-layout\") || title=\"InCloudSphere\""
     },
     {
-        "name": "【Invoice management system】",
+        "name": "【发票管理系统】",
         "keyword": "body=\"var pimscontextPath\" || title=\"发票管理系统\""
     },
     {
@@ -18368,7 +18412,7 @@
         "keyword": "body=\"var g_href = \\\"www.sundray.com\\\"\""
     },
     {
-        "name": "【Frontline Xin'an-Wind Lei Electronic Document Security Management System】",
+        "name": "【前沿风雷电子文档安全管理系统】",
         "keyword": "title=\"前沿风雷电子文档安全管理系统\" || title=\"前沿文档安全管理软件\" || (body=\"href=\\\"/drm/template/css/login.css\\\"\" && body=\"action=\\\"/drm/login.do\\\"\") || body=\"src=\\\"/drm/encjs/Barrett.js\\\"\""
     },
     {
@@ -18400,7 +18444,7 @@
         "keyword": "body=\"/nsfocus_bvs.css\" || title=\"NSFOCUS BVS\""
     },
     {
-        "name": "【HMI-PMS equipment inspection system】",
+        "name": "【HMI-PMS 华阳检测仪器PMS设备巡检系统】",
         "keyword": "body=\"华阳检测仪器PMS设备巡检系统\""
     },
     {
@@ -18420,7 +18464,7 @@
         "keyword": "body=\"var activateurl = \\\"/index.php/Public/activate\" && body=\"北京江南天安\""
     },
     {
-        "name": "【KEDACOM-phoenix监控平台】",
+        "name": "【苏州科达-Kedacom-phoenix监控平台】",
         "keyword": "body=\"id=\\\"cuocx\\\" classid=\\\"clsid:A7FF7A36-3EEF-4139-BFC0-FAEB4C8EBA08\" && body=\"kedacom\""
     },
     {
@@ -18472,7 +18516,7 @@
         "keyword": "header=\"realm=\\\"Zen Load Balancer\" || header=\"realm=\\\"Zen Load Balancer\""
     },
     {
-        "name": "【netentsec Technology - Log Analysis】",
+        "name": "【网康 - Log Analysis】",
         "keyword": "title=\"日志分析中心 \" && body=\"网康\""
     },
     {
@@ -18504,7 +18548,7 @@
         "keyword": "(title=\"OpenManage\" && body=\"alt=\\\"OpenManage\\\"\") || (body=\"src=\\\"/oem//data/images/logo.gif\\\"\" && body=\"url=/servlet/OMSALogin?msgstatus='\")"
     },
     {
-        "name": "【Huawei- Smart Call Center】",
+        "name": "【华为- Smart Call Center】",
         "keyword": "title=\"HUAWEI 智能呼叫中心\""
     },
     {
@@ -18680,7 +18724,7 @@
         "keyword": "header=\"XTM33-W\""
     },
     {
-        "name": "【HUAWEI-S5720S】",
+        "name": "【华为-S5720S】",
         "keyword": "header=\"S5720S\" || header=\"S5720S\" || header=\"Server: HUAWEI-s5720s\" || header=\"Server: HUAWEI-s5720s\""
     },
     {
@@ -18872,7 +18916,7 @@
         "keyword": "(body=\"var mmc = {\" && body=\"Linksys E1200\") || header=\"Linksys E1200\" || header=\"Linksys E1200\""
     },
     {
-        "name": "【HUAWEI-HG8540M】",
+        "name": "【华为-HG8540M】",
         "keyword": "body=\"var productname = 'HG8540M'\""
     },
     {
@@ -18880,7 +18924,7 @@
         "keyword": "body=\"/yungou/css/Comm.css\" || title=\"YunGouCMS\""
     },
     {
-        "name": "【HUAWEI-HG8121H】",
+        "name": "【华为-HG8121H】",
         "keyword": "body=\"var productname = 'HG8121H'\" || body=\"var productname = 'HG8121H';\""
     },
     {
@@ -18920,7 +18964,7 @@
         "keyword": "body=\"jquery.okayNav.min.js\" || body=\"jquery.okayNav.js\""
     },
     {
-        "name": "【Huawei-S5730 switch】",
+        "name": "【华为-S5730 switch】",
         "keyword": "(header=\"S5730\" && header=\"server\") || header=\"S5730\""
     },
     {
@@ -19016,7 +19060,7 @@
         "keyword": "header=\"Server: VPOP3 Mail Http Server\" || (header=\"Server: VPOP3 Mail Http Server\" && header!=\"couchdb\")"
     },
     {
-        "name": "【HUAWEI-UPortal2800】",
+        "name": "【华为-UPortal2800】",
         "keyword": "header=\"Server: UPortal2800\" || header=\"Server: UPortal2800\""
     },
     {
@@ -19140,7 +19184,7 @@
         "keyword": "body=\"index.cs?header=0\" || (body=\"Teradek\" && body=\"Administrative Console\")"
     },
     {
-        "name": "【HUAWEI-HG8546M】",
+        "name": "【华为-HG8546M】",
         "keyword": "body=\"var productname = 'HG8546M\" || body=\"var productname = 'HG8546M';\""
     },
     {
@@ -19208,7 +19252,7 @@
         "keyword": "header=\"Server: FlashCom\" || header=\"Server: FlashCom\""
     },
     {
-        "name": "【HUAWEI-HW9303】",
+        "name": "【华为-HW9303】",
         "keyword": "header=\"Server: HW9303\" || header=\"HW9303\""
     },
     {
@@ -19624,7 +19668,7 @@
         "keyword": "body=\"浙江迪安诊断技术股份有限公司\" && body=\"src=\\\"/resources/pages/img/logo.svg\\\"\""
     },
     {
-        "name": "【LandRay-OA system】",
+        "name": "【蓝凌OA】",
         "keyword": "icon_hash=\"953405444\" || (body=\"lui_login_message_td\" && body=\"form_bottom\") || (body=\"蓝凌软件 版权所有\" && (body=\"j_acegi_security_check\" || title=\"欢迎登录智慧协同平台\")) ||(body=\"j_acegi_security_check\" && body=\"onsubmit=\\\"return kmss_onsubmit();\" && (body=\"ExceptionTranslationFilter对SPRING_SECURITY_TARGET_URL 进行未登录url保持 请求中的hash并不会传递到服务端，故只能前端处理\" || body=\"kkDownloadLink link\"))"
     },
     {
@@ -19636,7 +19680,7 @@
         "keyword": "body=\"速达软件技术（广州）有限公司\""
     },
     {
-        "name": "【No scale - bat test system】",
+        "name": "【蝙蝠在线考试系统】",
         "keyword": "body=\"蝙蝠在线考试系统\" || body=\"博库医学在线考试系统，技术支持：杭州博库科技有限公司\" || body=\"src=\\\"/resources/js/upScroll.js\\\"\""
     },
     {
@@ -19644,7 +19688,7 @@
         "keyword": "body=\"www.yapacs.net\""
     },
     {
-        "name": "【Yong'an Technology - Hospital Cold Chain System】",
+        "name": "【Yong'an Technology - 医院冷链管理系统】",
         "keyword": "title=\"医院冷链管理系统\""
     },
     {
@@ -19784,7 +19828,7 @@
         "keyword": "body=\"/newsedit/newsedit/css/login_1.css\""
     },
     {
-        "name": "【HuaWei-USG6320】",
+        "name": "【华为-USG6320】",
         "keyword": "((((body=\"(logo_type)? document.write(logo_type):document.write('')\" || body=\"var logo_type = GetCookie('logotype')\") && body=\"USG6320\") || header=\"&Huawei USG6320&langfrombrows=zh-CN\") && body!=\"Server: couchdb\") || header=\"Huawei USG6320\" || header=\"Secospace USG6320\""
     },
     {
@@ -19868,7 +19912,7 @@
         "keyword": "header=\"Cisco NX-OS\""
     },
     {
-        "name": "【Huawei companies】",
+        "name": "【华为 companies】",
         "keyword": "header=\"VRP (R) software\" || header=\"Huawei Technologies\" || body=\"Copyright &copy; Huawei Technologies Co.\" || header=\"Huawei Technologies Co., Ltd.\" || header=\"Vendor: rndby/huawei\" || (header=\"Warning: Telnet is not a secure protocol, and it is recommended to use Stelnet\" && ( header=\"a private communication system\" || header=\"Huawei Technologies\")) || cert=\"Huawei\""
     },
     {
@@ -19924,7 +19968,7 @@
         "keyword": "title=\"MiVoice MX-ONE Provisioning Manager\""
     },
     {
-        "name": "【Kedacom-ViewShot】",
+        "name": "【苏州科达-Kedacom-ViewShot】",
         "keyword": "title=\"科达ViewShot用户登录系统\" || body=\"background=\\\"image/viewshotuls-di.jpg\""
     },
     {
@@ -20212,7 +20256,7 @@
         "keyword": "body=\"Copyright &copy;2013 - VNPT Technology\" || title=\"iGate\" || (header=\"iGate\" && header=\"wireless\") || (header=\"iGate\" && header=\"GPON\")"
     },
     {
-        "name": "【Blue shield - firewall】",
+        "name": "【蓝盾防火墙】",
         "keyword": "title=\"蓝盾防火墙\" || (body=\"class=\\\"banquan\\\">蓝盾信息安全技术股份有限公司\" && title=\"防火墙\")"
     },
     {
@@ -20248,7 +20292,7 @@
         "keyword": "title=\"T-Force下一代防火墙\" || (body=\"T-Force下一代防火墙\" && (body=\"src=\\\"/php/common/checknum_creat.php?module=config_authnum\\\"\" || body=\"src=\\\"php/common/checknum_creat.php?module=config_authnum\\\"\"))"
     },
     {
-        "name": "【HuaWei-S3700】",
+        "name": "【华为-S3700】",
         "keyword": "header=\"S3700\""
     },
     {
@@ -20564,7 +20608,7 @@
         "keyword": "body=\"https://seal.wosign.com/tws.js\" || body=\"https://seal.wosign.com/Signature\""
     },
     {
-        "name": "【Heavenly Letter-VPN】",
+        "name": "【天融信-VPN】",
         "keyword": "(header=\"topsecsvportalname=\" && (body=\"window.location=\\\"/portal_default/index.html\\\";</script>\" || body=\"window.location.href=\\\"/vone/pub/pda.html\\\";\")) || cert=\"CommonName: TOPSEC PRODUCTS1438078181\" || (body=\"<a href=\\\"/vone/pub/cacertlist.p7b\\\">\" && body!=\"vone/pub/common/scripts/sv_init.js\") || body=\"<div class=\\\"vpn-title\\\">天融信下一代VPN</div>\""
     },
     {
@@ -20576,7 +20620,7 @@
         "keyword": "body=\"<!--警示提示处-->\" || (body=\"<h1 class=\\\"logo\\\">安防综合管理平台</h1>\" && ( body=\"杭州海康威视系统技术有限公司 版权所有\" || body=\"serviceIP\" ) )"
     },
     {
-        "name": "【Kedacom-disk array system】",
+        "name": "【苏州科达-Kedacom-disk array system】",
         "keyword": "title=\"科达磁盘阵列系统\" || body=\"href=\\\"kstormon.exe\""
     },
     {
@@ -20636,11 +20680,11 @@
         "keyword": "header=\"HP ProCurve Access Point\" || header=\"ProCurve Access Point \""
     },
     {
-        "name": "【HUAWEI-USG5120】",
+        "name": "【华为-USG5120】",
         "keyword": "header=\"USG5120\" || header=\"USG5120\""
     },
     {
-        "name": "【HUAWEI-USG2220】",
+        "name": "【华为-USG2220】",
         "keyword": "header=\"USG2220\" || header=\"USG2220\""
     },
     {
@@ -20664,7 +20708,7 @@
         "keyword": "header=\"powercnAccessPoint\""
     },
     {
-        "name": "【HuaWei-S9306】",
+        "name": "【华为-S9306】",
         "keyword": "header=\"Quidway S9306\" || header=\"S9306\" || (header=\"S9306\" && header=\"Server:\") || header=\"S9306\""
     },
     {
@@ -20848,7 +20892,7 @@
         "keyword": "((header=\"Apache-Coyote\" || body=\"href=\\\"tomcat.css\" || (title=\"Apache Tomcat/\" && (body=\"tomcat.apache.org\" || body=\"This is the default Tomcat home page\" || title=\"Error report\")) || body=\"<h3>Apache Tomcat\" || header=\"tomcat\") && header!=\"couchdb\" && header!=\"Apache,Tomcat,Jboss\" && header!=\"ReeCam IP Camera\" && header!=\"drupal\" && body!=\"Server: CouchDB\") || ((header=\"Apache-Coyote\" || (header=\"Tomcat\" && header!=\"couchdb\" && header!=\"gateway\")) && header!=\"couchdb\" && header!=\"drupal\" && header!=\"<h2>My Resource</h2>\" && header!=\"x-powered-by: ThinkPHP\")"
     },
     {
-        "name": "【HUAWEI-Secoway-USG2230】",
+        "name": "【华为-Secoway-USG2230】",
         "keyword": "(header=\"Secoway USG2230\" && header=\"Set-Cookie\") || header=\"Secoway USG2230\""
     },
     {
@@ -20912,11 +20956,11 @@
         "keyword": "header=\"ASUS RT-ACRH13\" || body=\"<div class=\\\"prod_madelName\\\">RT-ACRH13\""
     },
     {
-        "name": "【HUAWEI-s6720】",
+        "name": "【华为-s6720】",
         "keyword": "header=\"s6720\" || header=\"s6720\" || header=\"huaweis6720\" || header=\"Server: huawei_s6720\" || header=\"Server: huawei_s6720\""
     },
     {
-        "name": "【HUAWEI-HW9306】",
+        "name": "【华为-HW9306】",
         "keyword": "header=\"Server: HW9306\" || header=\"Server: HW9306\""
     },
     {
@@ -21260,11 +21304,11 @@
         "keyword": "header=\"Quanta LB8\""
     },
     {
-        "name": "【HUAWEI-S7706】",
+        "name": "【华为-S7706】",
         "keyword": "header=\"Quidway S7706\" || header=\"S7706\""
     },
     {
-        "name": "【HUAWEI-S9303】",
+        "name": "【华为-S9303】",
         "keyword": "header=\"Quidway S9303\" || header=\"s9303\""
     },
     {
@@ -21512,10 +21556,6 @@
         "keyword": "title=\"百讯安全邮件系统\" || title=\"百姓邮局\" || body=\"请输入正确的电子邮件地址，如：abc@bxemail.com\""
     },
     {
-        "name": "【Baidu-accelerated music】",
-        "keyword": "header=\"__jsluid\" || (body=\"notice-jiasule\" && header=\"HTTP/1.1 403\") || body=\"static.jiasule.com/static/js/http_error.js\" || header=\"__jsluid\""
-    },
-    {
         "name": "【NETGUARDIAN-Company Products】",
         "keyword": "header=\"NetGuardian \""
     },
@@ -21592,7 +21632,7 @@
         "keyword": "header=\"AC1000MS login\""
     },
     {
-        "name": "【HUAWEI-HONET-UA5000】",
+        "name": "【华为-HONET-UA5000】",
         "keyword": "header=\"Huawei HONET UA5000\""
     },
     {
@@ -21912,7 +21952,7 @@
         "keyword": "title=\"天阗入侵检测\" || (title=\"CyberSensor\" && header=\"VSAppSrv1\") || body=\"<div class=\\\"login_name\\\">天阗入侵检测与管理系统V7.0</div>\""
     },
     {
-        "name": "【Kedacom-rpdata-query system】",
+        "name": "【苏州科达-Kedacom-rpdata-query system】",
         "keyword": "title=\"Rpdata 查询系统\""
     },
     {
@@ -22124,7 +22164,7 @@
         "keyword": "header=\"Set-Cookie: phpbb3_\" || header=\"HttpOnly, phpbb3_\" || (body=\"&copy;\" && body=\"http://www.longluntan.com/zh/phpbb/\" && body=\"phpBB\") || body=\"phpBB Group\\\" />\" || body=\"START QUICK HACK - phpBB Statistics MOD\""
     },
     {
-        "name": "【HUAWEI-USG2130】",
+        "name": "【华为-USG2130】",
         "keyword": "header=\"USG2130\" || header=\"USG2130\""
     },
     {
@@ -22148,7 +22188,7 @@
         "keyword": "(body=\"Powered by\" && body=\"http://www.siteserver.cn\" && body=\"SiteServer CMS\") || title=\"Powered by SiteServer CMS\" || body=\"T_系统首页模板\" || (body=\"siteserver\" && body=\"sitefiles\")"
     },
     {
-        "name": "【HuaWei-SRG3230】",
+        "name": "【华为-SRG3230】",
         "keyword": "header=\"SRG3230\""
     },
     {
@@ -22164,7 +22204,7 @@
         "keyword": "title=\"Firehose_SERVICE_MONITORING \" || body=\"<h1>Firehose_SERVICE_MONITORING Status</h1>\""
     },
     {
-        "name": "【Huawei - Enterprise Agent Server】",
+        "name": "【华为 - Enterprise Agent Server】",
         "keyword": "title=\"User Login\" && body=\"Huawei Technologies Co., Ltd.\" && body=\"<form name=\\\"frmLogon\\\" id=\\\"frmLogon\\\" method=\\\"post\\\"  action=\\\"/operatorlogin\\\" onsubmit=\\\"return check()\\\">\""
     },
     {
@@ -22208,7 +22248,7 @@
         "keyword": "title=\"Powered by Discuz\" || body=\"content=\\\"Discuz\" || (body=\"discuz_uid\" && (body=\"portal.php?mod=\" || body=\"href=\\\"/forum.php?\" || body=\"id=\\\"discuz_tips\")) || body=\"Powered by <strong><a href=\\\"http://www.discuz.net\""
     },
     {
-        "name": "【HUAWEI-USG5310】",
+        "name": "【华为-USG5310】",
         "keyword": "header=\"USG5310\""
     },
     {
@@ -22216,7 +22256,7 @@
         "keyword": "(body=\"Powered by\" && body=\"http://www.phpcms.cn\") || body=\"content=\\\"Phpcms\" || body=\"Powered by Phpcms\" || body=\"data/config.js\""
     },
     {
-        "name": "【HUAWEI-AR2240】",
+        "name": "【华为-AR2240】",
         "keyword": "header=\"Huawei AR2240\""
     },
     {
@@ -22240,7 +22280,7 @@
         "keyword": "(header=\"Red-Giant\" && header=\"Ruijie Network\") || (header=\"Ruijie\" && header=\"Switch\") || (body=\"AP设备中的配置并不重要\" && body=\"id=\\\"a_lang_switch\\\"\")"
     },
     {
-        "name": "【HUAWEI-USG5150】",
+        "name": "【华为-USG5150】",
         "keyword": "header=\"USG5150\" || header=\"USG5150\""
     },
     {
@@ -22264,11 +22304,11 @@
         "keyword": "server==xxxx && cert=\"support@sophos.com\" && title=\"Sophos\""
     },
     {
-        "name": "【HUAWEI-USG2250】",
+        "name": "【华为-USG2250】",
         "keyword": "header=\"USG2250\" || header=\"USG2250\""
     },
     {
-        "name": "【HUAWEI-SRG2220】",
+        "name": "【华为-SRG2220】",
         "keyword": "header=\"SRG2220\""
     },
     {
@@ -22284,7 +22324,7 @@
         "keyword": "body=\"document.location=\\\"main.php\\\"\" && header=\"Content-Length: 73\" && body!=\"<a \""
     },
     {
-        "name": "【HUAWEI-USG5320】",
+        "name": "【华为-USG5320】",
         "keyword": "header=\"USG5320\""
     },
     {
@@ -22468,11 +22508,11 @@
         "keyword": "title=\"润普嵌入式网络电话录音系统\" || body=\"<th colspan=\\\"3\\\">润普嵌入式网络电话录音系统</th>\" || (header=\"/login.lgi?orgurl=/\" && header=\"Set-Cookie: orgurl=/\" && body=\"润普科技\")"
     },
     {
-        "name": "【Rongzhixinghua-IoT Gateway】",
+        "name": "【融智兴华-物联网网关Rongzhixinghua-IoT Gateway】",
         "keyword": "title=\"物联网网关-北京融智兴华科技有限公司\""
     },
     {
-        "name": "【HUAWEI-USG6620】",
+        "name": "【华为-USG6620】",
         "keyword": "header=\"Huawei USG6620\" || header=\"USG6620\""
     },
     {
@@ -22492,7 +22532,7 @@
         "keyword": "header=\"NORTEL, Succession 1000/M Call Server\""
     },
     {
-        "name": "【Huawei-ViewPoint Video Conference】",
+        "name": "【华为-ViewPoint Video Conference】",
         "keyword": "title=\"MCU V100R005\" && body=\"window.location.replace(pathname + \\\"login.html\\\");\""
     },
     {
@@ -22544,7 +22584,7 @@
         "keyword": "(title=\"SMA Sunny Webbox\" && header!=\"couchdb\" && header!=\"ReeCam IP Camera\" && body!=\"Server: couchdb\") || (header=\"Server: WebBox-20\" && header!=\"couchdb\") || (header=\"server: WebBox-20\" && header!=\"couchdb\") || (header=\"Server: Sunny WebBox\" && header!=\"couchdb\") || header=\"Server: Sunny WebBox\" || (body=\"<meta http-equiv=\\\"refresh\\\" content=\\\"0; url=/culture/index.dml\\\">\" && header!=\"couchdb\" && header!=\"ReeCam IP Camera\" && body!=\"Server: couchdb\") || (title=\"Sunny WebBox\" && header!=\"couchdb\" && header!=\"ReeCam IP Camera\" && body!=\"Server: couchdb\")"
     },
     {
-        "name": "【Huawei-video equipment】",
+        "name": "【华为-video equipment】",
         "keyword": "((body=\"<html><body><script language=JavaScript>window.open('/CN/LOGIN.HTM','_top', null, true);</script></body></html>\" || header=\"Host: huaweiVP\") && body!=\"Server: couchdb\") || header=\"Host: huaweiVP\""
     },
     {
@@ -22624,7 +22664,7 @@
         "keyword": "header=\"IX Series IX3100\" || header=\"Server: IX Series IX3100\""
     },
     {
-        "name": "【HUAWEI-Wireless-LAN】",
+        "name": "【华为-Wireless-LAN】",
         "keyword": "header=\"WLAN\" && (body=\"Cloud Access Point\" || body=\"Access Controller\")"
     },
     {
@@ -22664,7 +22704,7 @@
         "keyword": "header=\"Server: TAC\" || header=\"Server: TAC\" || (body=\"<html><body><script>var url=\\\"https://\\\"location.hostname\\\"/www/index/Slogin.html\\\";location.href=url;</script></body></html>\" && body!=\"Server: couchdb\")"
     },
     {
-        "name": "【HuaWei-ManageOne】",
+        "name": "【华为-ManageOne】",
         "keyword": "header=\"Server: lbserver\" || header=\"Server: lbserver\""
     },
     {
@@ -23008,7 +23048,7 @@
         "keyword": "body=\"new Squarespace.FixedPositionTip(\\\"Logout Successful\\\", \\\"You have been successfully logged out.\\\", { xMargin: 15, yMargin: 15, icon: \\\"/universal/images/helptip-info.png\\\", orientation: \\\"upper-right\\\", viewportFixed: true, autoHide: 1800 }).show();\""
     },
     {
-        "name": "【netentsec Technology - Internet Control Gateway】",
+        "name": "【网康互联网控制网关】",
         "keyword": "title=\"网康互联网控制网关\" || title=\"网康科技·互联网控制网关\" || (title=\"互联网控制网关\" && body=\"北京网康科技有限公司\") || (title=\"互联网控制网关\" && body=\"function getSlotSerialNumber(slotID)\")"
     },
     {
@@ -23088,7 +23128,7 @@
         "keyword": "header=\"TG-NET REC1550 series router\""
     },
     {
-        "name": "【HuaWei-HMM】",
+        "name": "【华为-HMM】",
         "keyword": "body=\"class=\\\"hmm_login_box_list\" || title=\"HMM Web\""
     },
     {
@@ -23252,7 +23292,7 @@
         "keyword": "header=\"MPU2032\" || title=\"MPU4032DAC Explorer\" || (body=\"src=\\\"/avct.js\" && body=\"alt=\\\"Avocent\") || header=\"MPU4032DAC\" || title=\"Avocent DSR8035\" || title=\"Avocent DSR2035\" || title=\"MPU1016 资源管理器\" || title=\"MPU4032 资源管理器\" || header=\"A1000R 02.00.21\" || header=\"A1000R 02.00.22\" || header=\"A2000R \""
     },
     {
-        "name": "【HUAWEI-AR敏捷网关】",
+        "name": "【华为-AR敏捷网关】",
         "keyword": "(body=\"document.title = 'AR Web登录\" || body=\"/verifycode.cgi?vrfcodeid=\" || body=\"document.title = 'Log In to AR Web';\" || (body=\"checkVoiceService.cgi\" && body=\"isPbxMode_callback\")) && body!=\"Server: couchdb\""
     },
     {
@@ -23392,7 +23432,7 @@
         "keyword": "header=\"SonicWALL NSA 4600\" || header=\"SonicWALL NSA 4600 \""
     },
     {
-        "name": "【HUAWEI-RH2288-V3】",
+        "name": "【华为-RH2288-V3】",
         "keyword": "header=\"ProductName/RH2288 V3\""
     },
     {
@@ -23864,7 +23904,7 @@
         "keyword": "title=\"TIBCO Jaspersoft\""
     },
     {
-        "name": "【HuaWei-CSP】",
+        "name": "【华为-CSP】",
         "keyword": "title=\"HUAWEI CSP\""
     },
     {
@@ -23912,7 +23952,7 @@
         "keyword": "body=\"<img id=\\\"CreateCheckCode\\\" src=\\\"login/pictureCheckCode\\\" name=\\\"check_code\\\" ng-click=\\\"ReloadCheckCode()\" && body=\"ng-disabled=\\\"!loginForm.$valid\\\"\""
     },
     {
-        "name": "【Unicom Time - Information Security Integrated Management Platform】",
+        "name": "【联通时科-信息安全综合管理平台】",
         "keyword": "title=\"信息安全综合管理平台\" && body=\"ccaq_kf@unisk.cn\""
     },
     {
@@ -24020,7 +24060,7 @@
         "keyword": "title=\"哨兵云\" || body=\"src: url(/static/fonts/LcdD.eot) format(\\\"truetype\\\"), url(/static/fonts/LcdD.TTF) format(\\\"truetype\\\");\""
     },
     {
-        "name": "【Heavenly Letter - Network Guardian Filter Network】",
+        "name": "【天融信 - Network Guardian Filter Network】",
         "keyword": "title=\"天融信网络卫士过滤网关\""
     },
     {
@@ -24132,7 +24172,7 @@
         "keyword": "(header=\"Server: VTS\" && header!=\"couchdb\" && body!=\"Server: couchdb\") || header=\"Server: VTS\" || (body=\"<head><title>Error Message</title><link rel=\\\"stylesheet\\\" href=\\\"/VTS.css\\\">\" && header!=\"couchdb\" && body!=\"Server: couchdb\")"
     },
     {
-        "name": "【Blue Shield - Document Security Management System】",
+        "name": "【蓝盾文档安全管理系统】",
         "keyword": "title=\"蓝盾文档安全管理系统\""
     },
     {
@@ -24196,7 +24236,7 @@
         "keyword": "header=\"Cisco IOS Software, ISR \" || header=\"Cisco IOS Software [Denali], ISR\""
     },
     {
-        "name": "【Wuhan Fusite - Information Management System】",
+        "name": "【Fusite-武汉富思特建设工程检测实验室信息管理系统】",
         "keyword": "body=\"武汉富思特\" && title=\"建设工程检测实验室信息管理系统\""
     },
     {
@@ -24412,7 +24452,7 @@
         "keyword": "body=\"<td class=\\\"static_field\\\">Station name:</td>\" || (body=\"portal.mwsl\" && body=\"S7Web.css\") || body=\"Siemens_Firmenmarke_Header.gif\" || body=\"<td class=\\\"Login_Area\\\" colspan=\\\"2\\\"><img src=\\\"/SIMATIC_CONTROLLER.png\\\" alt=\\\"Simatic S7 CP\\\"></td>\" || header=\"Location: /Portal0000.htm\" || header=\"Siemens, SIMATIC S7\""
     },
     {
-        "name": "【Huawei- Switch】",
+        "name": "【华为- Switch】",
         "keyword": "((header=\"Server: Lanswitch\" || header=\"/simple/view/login.html?redirect=\" || (body=\"background: url('../style/default/image/diaphaPic.png');\" && body=\"Huawei Technologies Co., Ltd\") || (header=\"/view/login.html\" && header=\"Quidway\") || (body=\"entPhysicalSoftwareRev\" && body=\"window.location.href=\\\"main.html?sid=\" && body=\"var msg = HTTP.packageMsg(\") || (body=\"<div id=\\\"zhTip\\\" style=\\\"display:none\\\">Web网管系统初始化中，请稍后</div>\") || body=\"COPYRIGHT.manufacturer !== \\\"Huawei\\\"\" || body=\" body, p, a, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, img\" || (title=\"WLAN Web登录\" && body=\" id=\\\"httpTipDiv\\\"\") || body=\"/simple/view/main/modifyPwd.html\") && body!=\"Server: couchdb\") || ((header=\"Server: Lanswitch\" || header=\"Quidway\" || header=\"/simple/view/login.html?redirect=\" || (header=\"/view/login.html?redirect=\" && header!=\"AR\" && header=\" 301 \") || (header=\"/view/login.html\" && header=\"Server: Quidway\") || header=\"Huawei Quidway \" || (header=\"/view/login.html\" && header=\"server: v\")) && header!=\"couchdb\" && header!=\"drupal\") || cert=\"o=Huawei, ou=HTIPL/dnqualifier=LSW\" || (cert=\"o=Huawei\" && cert=\"cn=Quidway\")"
     },
     {
@@ -24592,7 +24632,7 @@
         "keyword": "header=\"ML150-G6\" || cert=\"ML150-G6\""
     },
     {
-        "name": "【HUAWEI-USG5300】",
+        "name": "【华为-USG5300】",
         "keyword": "header=\"USG5300\""
     },
     {
@@ -24604,11 +24644,11 @@
         "keyword": "(header=\"Microsoft\" && header!=\"couchdb\" && header!=\"drupal\" && header!=\"x-powered-by: ThinkPHP\" && header!=\"<h2>Blog Comments</h2>\") || (header=\"Win32\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"win64\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"windows\" && header!=\"couchdb\" && header!=\"drupal\" && body!=\"Server: couchdb\" && header!=\"ReeCam IP Camera\" && header!=\"Apache,Tomcat,Jboss\") || header=\"Target Name\" || (header=\"Microsoft-Windows\" && header!=\"couchdb\" && header!=\"drupal\" && header!=\"Apache,Tomcat,Jboss\")"
     },
     {
-        "name": "【HUAWEI-CH121-V3】",
+        "name": "【华为-CH121-V3】",
         "keyword": "header=\"ProductName/CH121 V3\""
     },
     {
-        "name": "【HUAWEI-2288H-V5】",
+        "name": "【华为-2288H-V5】",
         "keyword": "header=\"ProductName/2288H V5\""
     },
     {
@@ -24824,7 +24864,7 @@
         "keyword": "header=\"Server: Android Webcam Server\" || header=\"Server: Android Webcam Server\""
     },
     {
-        "name": "【HuaWei-SmartAX】",
+        "name": "【华为-SmartAX】",
         "keyword": "header=\"Basic realm=\\\"Huawei SmartAX\\\"\" || header=\"SmartAX\" || header=\"Huawei SmartAX\""
     },
     {
@@ -24996,7 +25036,7 @@
         "keyword": "title=\"Hue - Welcome to Hue\" || body=\"jHueHdfsTreeGlobals\" || body=\"id=\\\"jHueNotify\" || body=\"Hue and the Hue logo are trademarks of Cloudera, Inc.\""
     },
     {
-        "name": "【HuaWei-Inner-Web】",
+        "name": "【华为-Inner-Web】",
         "keyword": "title=\"HUAWEI Inner Web\" || body=\"hidden_frame.html\""
     },
     {
@@ -25156,7 +25196,7 @@
         "keyword": "title=\"BPM管理系统\""
     },
     {
-        "name": "【Huawei-Cloud-Fortress】",
+        "name": "【华为-Cloud-Fortress】",
         "keyword": "body=\"id=mTokenPlugin width=0 height=0 style=\\\"position: absolute;LEFT: 0px; TOP: 0px\\\"\" && body=\"type=application/x-xtx-axhost\" && cert=\"Organization: 华为云安全\""
     },
     {
@@ -25276,7 +25316,7 @@
         "keyword": "header=\"OpenSolaris\""
     },
     {
-        "name": "【Huawei-Firewall】",
+        "name": "【华为-Firewall】",
         "keyword": "header=\"Server: Eudemon Server\" || header=\"Server: Eudemon Server\" || (body=\"Modify by wangxiangguang\" && body!=\"Server: couchdb\")"
     },
     {
@@ -25524,7 +25564,7 @@
         "keyword": "header=\"X-Powered-Cms: Bitrix Site Manager\" || header=\"X-Powered-Cms: Bitrix Site Manager\" || header=\"Bitrix Site Manager\" || header=\"policyref=\\\"/bitrix/p3p.xml\" || header=\"policyref=\\\"/bitrix/p3p.xml\" || (body=\"BITRIX_SM_TIME_ZONE\" && body=\"BX.setCSSList\")"
     },
     {
-        "name": "【HuaWei-SRG3250】",
+        "name": "【华为-SRG3250】",
         "keyword": "header=\"SRG3250\" || header=\"HUAWEI SRG3250\""
     },
     {
@@ -25860,7 +25900,7 @@
         "keyword": "body=\"/HWface/script/LoginCheck.js\""
     },
     {
-        "name": "【huawei-HG531】",
+        "name": "【华为-HG531】",
         "keyword": "(body=\"300Mbps Wireless ADSL2+ Router\" && body=\"#d1d1d1\")"
     },
     {
@@ -25936,7 +25976,7 @@
         "keyword": "body=\"JavaScript/signal.js\" && body=\"Banner.htm\""
     },
     {
-        "name": "【Baidu-CDN】",
+        "name": "【Baidu CDN】",
         "keyword": "header=\"apps.bdimg.com\" || body=\"apps.bdimg.com\" || header=\"libs.baidu.com\" || body=\"libs.baidu.com\""
     },
     {
@@ -26004,7 +26044,7 @@
         "keyword": "title=\"Roteador Wireless N WRN342 Slim\""
     },
     {
-        "name": "【HUAWEI-NE40E】",
+        "name": "【华为-NE40E】",
         "keyword": "header=\"HUAWEI NE40E\""
     },
     {
@@ -26012,7 +26052,7 @@
         "keyword": "header=\"IX Series\" || header=\"Server: IX Series\""
     },
     {
-        "name": "【HUAWEI-300Mbps-Wireless-ADSL2+Router】",
+        "name": "【华为-300Mbps-Wireless-ADSL2+Router】",
         "keyword": "(body=\"300Mbps Wireless ADSL2+ Router</font></span>');\" && body=\"<img src=\\\"/images/logobig.png\")"
     },
     {
@@ -26700,7 +26740,7 @@
         "keyword": "body=\"src=\\\"img/by_web.png\\\"\""
     },
     {
-        "name": "【HUAWEI-VRP5.0】",
+        "name": "【华为-VRP5.0】",
         "keyword": "header=\"HUAWEI-VRP5.0\""
     },
     {
@@ -26948,7 +26988,7 @@
         "keyword": "body=\"class=\\\"hidden-xs ewHeaderRow\\\"><img src=\\\"aspximages/htqy.png\\\"\""
     },
     {
-        "name": "【Kedacom-streaming media server】",
+        "name": "【苏州科达-Kedacom-streaming media server】",
         "keyword": "body=\"/grid/PropsGrid.js\" && body=\"src=\\\"js/ext/adapter/ext/ext-base.js\\\"\""
     },
     {
@@ -27176,7 +27216,7 @@
         "keyword": "title=\"凡诺\" || body=\"www.pcfinal.cn\" || body=\"/plus/laydate/laydate.js\""
     },
     {
-        "name": "【Huawei-USG firewall】",
+        "name": "【华为-USG firewall】",
         "keyword": "body=\"UI_component/css/xtheme-black.css\" && body!=\"couchdb\""
     },
     {
@@ -27304,7 +27344,7 @@
         "keyword": "body=\"WebSocket servers index.html\""
     },
     {
-        "name": "【Huawei - glory box】",
+        "name": "【华为 - glory box】",
         "keyword": "body=\"modelName>VihomeMediaServer\""
     },
     {
@@ -27568,7 +27608,7 @@
         "keyword": "body=\"id=\\\"TSGSSL\\\"\" && body=\"sslplus\""
     },
     {
-        "name": "【HUAWEI-USG6306】",
+        "name": "【华为-USG6306】",
         "keyword": "header=\"Huawei USG6306\" || header=\"Huawei USG6306\""
     },
     {
@@ -27580,7 +27620,7 @@
         "keyword": "header=\"realm=\\\"Linksys BEFSR41\" || header=\"realm=\\\"Linksys BEFSR41\""
     },
     {
-        "name": "【HUAWEI-USG6350】",
+        "name": "【华为-USG6350】",
         "keyword": "header=\"Huawei USG6350\" || header=\"Huawei USG6350\""
     },
     {
@@ -27652,7 +27692,7 @@
         "keyword": "header=\"CX-U1280 RAN Gateway\""
     },
     {
-        "name": "【netentsec Technology - Network Acceleration Equipment】",
+        "name": "【网康广域网加速网关】",
         "keyword": "title=\"网康广域网加速网关\""
     },
     {
@@ -27744,11 +27784,11 @@
         "keyword": "header=\"realm=\\\"SITECOM LOGIN Enter Password (default is sitecom)\" || header=\"realm=\\\"SITECOM LOGIN Enter Password (default is sitecom)\""
     },
     {
-        "name": "【HuaWei-IAD】",
+        "name": "【华为-IAD】",
         "keyword": "header=\"Huawei TERMINAL Multi-service\""
     },
     {
-        "name": "【HuaWei-VCT】",
+        "name": "【华为-VCT】",
         "keyword": "((title=\"vct inner web\" || body=\"src=\\\"system/ressrv/zh-CN.js\" || (title=\"Huawei Inner Web\" && body=\"<frame name=\\\"hidden_frame\\\" id=\\\"hidden_frame\\\" src=\\\"hidden_frame.html\\\" noresize=\\\"noresize\") || header=\"TSP_HTTP_SERVER/2.1.3 VCT WEB\") && body!=\"Server: couchdb\") || header=\"TSP_HTTP_SERVER/2.1.3 VCT WEB 1.0\""
     },
     {
@@ -27756,11 +27796,11 @@
         "keyword": "body=\"Percona XtraDB Cluster node\" && body!=\"<a\""
     },
     {
-        "name": "【HuaWei-VSP】",
+        "name": "【华为-VSP】",
         "keyword": "header=\"Huawei Storage & Network Security Versatile Security Platform\""
     },
     {
-        "name": "【HUAWEI-S5328C-EI】",
+        "name": "【华为-S5328C-EI】",
         "keyword": "header=\"S5328C-EI\""
     },
     {
@@ -27872,11 +27912,11 @@
         "keyword": "header=\"H3C Switch S5120\" || header=\"H3C S5120\""
     },
     {
-        "name": "【HuaWei-eSpace-IAD】",
+        "name": "【华为-eSpace-IAD】",
         "keyword": "(body=\"<span id='lang' value='huawei_announce'></span>\" && title=\"index_title\") || header=\"Huawei Integrated Access Software\""
     },
     {
-        "name": "【HuaWei-VPP-EWS】",
+        "name": "【华为-VPP-EWS】",
         "keyword": "header=\"Server: Huawei VPP EWS\" || header=\"Server: Huawei VPP EWS\""
     },
     {
@@ -28628,7 +28668,7 @@
         "keyword": "title=\"EnvisionGateway\""
     },
     {
-        "name": "【HUAWEI-ASG】",
+        "name": "【华为-ASG】",
         "keyword": "(body=\"/php/common/checknum_creat.php?module=config_authnum&time=\" && title=\"Huawei\") || (header=\"ASG\" && (cert=\"HUAWEI\" || cert=\"ASG-5\"))"
     },
     {
@@ -28892,11 +28932,11 @@
         "keyword": "body=\"<div class=\\\"zwx-app-loading-sub-title\\\">初次加载会比较慢，请耐心等待</div>\""
     },
     {
-        "name": "【Jiangsu Wein Software - Business System】",
+        "name": "【江苏维邦软件(Wein Software) - Business System】",
         "keyword": "body=\"http://www.wbsoft.com.cn' target='_blank'>维邦软件</A>\" && body=\"WBECV_\""
     },
     {
-        "name": "【Yiyou Huiyun - data large screen】",
+        "name": "【亿友慧云数据大屏】",
         "keyword": "title=\"亿友慧云数据大屏\" && body=\"configOfUrl.js\""
     },
     {
@@ -28904,7 +28944,7 @@
         "keyword": "title=\"ONLYOFFICE\" && (body=\"Thank you for choosing ONLYOFFICE!\" || body=\"<a href=\\\"http://api.onlyoffice.com\" || body=\"<a class=\\\"top-logo\\\" title=\\\"ONLYOFFICE\")"
     },
     {
-        "name": "【Truwill-Digital City Management Big Data Platform】",
+        "name": "【数字城管大数据平台】",
         "keyword": "title=\"数字城管大数据平台\""
     },
     {
@@ -28916,11 +28956,11 @@
         "keyword": "body=\"href=\\\"/common/SSLCAB.exe\" && body=\"<p datalocal=\\\"activexNorma1\\\">检测到您机器上SGA控件不能正常运行！</p>\""
     },
     {
-        "name": "【EAZYTEC-wire and cable cloud】",
+        "name": "【EAZYTEC-电线电缆云】",
         "keyword": "title=\"电线电缆云\""
     },
     {
-        "name": "【EAZYTEC- Financial Credit System】",
+        "name": "【EAZYTEC- 财务信用系统】",
         "keyword": "body=\"江苏卓易信息科技股份有限公司</a></p>\" && title=\"财务信用\""
     },
     {
@@ -28928,7 +28968,7 @@
         "keyword": "title=\"奇安信VPN\" && body=\"href=\\\"/download/GWSetup.exe\\\" target=\\\"_blank\\\" style=\\\"\\\">点此链接下载奇安信VPN客户端</a>\""
     },
     {
-        "name": "【I_Campus-Lease Contract print management system】",
+        "name": "【I_Campus-Lease 租赁合同打印管理系统】",
         "keyword": "title=\"租赁合同打印管理系统\""
     },
     {
@@ -28940,7 +28980,7 @@
         "keyword": "title=\"Nomad\" && body=\"<meta name=\\\"nomad-ui/config/environment\""
     },
     {
-        "name": "【China control Zhijia - Intelligent Operation and Maintenance Platform】",
+        "name": "【华控智加智能运维平台】",
         "keyword": "title=\"华控智加智能运维平台\""
     },
     {
@@ -28948,7 +28988,7 @@
         "keyword": "title=\"DAV大数据可视化\" && body=\"sugon\""
     },
     {
-        "name": "【HX2000-library management system】",
+        "name": "【HX2000图书馆管理系统】",
         "keyword": "title=\"HX2000图书馆管理系统\""
     },
     {
@@ -29356,7 +29396,7 @@
         "keyword": "body=\"content=\\\"云安全,安全一体化平台\" && body=\"/main.html\""
     },
     {
-        "name": "【HUAWEI-M2241】",
+        "name": "【华为-M2241】",
         "keyword": "header=\"realm=\\\"huawei M2241\""
     },
     {
@@ -29624,7 +29664,7 @@
         "keyword": "icon_hash=\"1768726119\""
     },
     {
-        "name": "【Huawei – Claro】",
+        "name": "【华为 – Claro】",
         "keyword": "icon_hash=\"2109473187\""
     },
     {
@@ -29648,7 +29688,7 @@
         "keyword": "icon_hash=\"2019488876\""
     },
     {
-        "name": "【Huawei – ADSL/Router】",
+        "name": "【华为 – ADSL/Router】",
         "keyword": "icon_hash=\"-1395400951\""
     },
     {
@@ -30236,7 +30276,7 @@
         "keyword": "icon_hash=\"943925975\""
     },
     {
-        "name": "【Huawei】",
+        "name": "【华为】",
         "keyword": "icon_hash=\"281559989\""
     },
     {
@@ -30748,7 +30788,7 @@
         "keyword": "icon_hash=\"-360566773\""
     },
     {
-        "name": "【Huawei (Network)】",
+        "name": "【华为 (Network)】",
         "keyword": "icon_hash=\"-884776764\""
     },
     {
@@ -31240,7 +31280,7 @@
         "keyword": "icon_hash=\"16202868\""
     },
     {
-        "name": "【Huawei (Network)】",
+        "name": "【华为 (Network)】",
         "keyword": "icon_hash=\"987967490\""
     },
     {
@@ -31478,5 +31518,13 @@
     {
         "name": "【资产灯塔系统】",
         "keyword": "icon_hash=\"1708240621\""
+    },
+    {
+        "name": "【存在登录页面】",
+        "keyword": "body=\"login.htm\" || body=\"login.ashx\" || body=\"login.jsp\" || body=\"login.php\" || body=\"login.asp\" || body=\"login.aspx\" || body=\"login.do\" || body=\"后台管理\" || body=\"点击登录\" || body=\"点击登陆\""
+    },
+    {
+        "name": "【疑似存在暗链赌博色情等关键词】",
+        "keyword": "body=\"BTi体育\" || body=\"多彩奇利\" || body=\"永利国际\" || body=\"北京pk\" || body=\"博彩\" || body=\"大乐透\" || body=\"皇冠娱乐\" || body=\"亚洲集团\" || body=\"亚洲杯\" || body=\"欧洲杯\" || body=\"老虎机\" || body=\"水果机\" || body=\"百家乐\" || body=\"维加斯\" || body=\"威尼斯人\" || body=\"真人娱乐\" || body=\"真人游戏\" || body=\"真人现金\" || body=\"真人在线\" || body=\"在线开户\" || body=\"现金棋牌\" || body=\"亿濠扑克\" || body=\"快3\" || body=\"快三\" || body=\"分分彩\" || body=\"时时彩\" || body=\"龙虎\" || body=\"澳门银河\" || body=\"新澳门\" || body=\"夜场\" || body=\"同城交友\" || body=\"约炮\" || body=\"宝盈娱乐\" || body=\"皇冠足球\" || body=\"皇冠篮球\" || body=\"澳门新濠天地\" || body=\"体育在线\" || body=\"赌球\" || body=\"赌足球\" || body=\"赌篮球\" || body=\"赌博网站\" || body=\"赌博网址\" || body=\"赌场网站\" || body=\"赌场网址\" || body=\"开心飞鹰\" || body=\"游戏官网\" || body=\"新葡京\" || body=\"贵宾会\" || body=\"马会\" || body=\"六合彩\" || body=\"一肖\" || body=\"乐天堂\" || body=\"bet365\" || body=\"体育首页\" || body=\"体育官网\" || body=\"三级片\" || body=\"岛国\" || body=\"人体艺术\" || body=\"黄色视频\" || body=\"黄色电影\" || body=\"黄色小说\" || body=\"黄色片\" || body=\"乱人\" || body=\"乱伦\" || body=\"人人看\" || body=\"人人日\" || body=\"人人曰\" || body=\"一本道\" || body=\"东京热\" || body=\"加勒比\" || body=\"91国产\" || body=\"国产自拍\" || body=\"快播\" || body=\"找小姐\" || body=\"太阳城娱乐\" || body=\"澳门博彩\" || body=\"91pron\" || body=\"p站\" || body=\"pronhub.com\" || body=\"赌博\" || body=\"威尼斯\" || body=\"现金网\" || body=\"大赢家\" || body=\"地下钱庄\" || body=\"阿波罗网\" || body=\"澳门新葡京\" || body=\"博菜\" || body=\"同花顺\" || body=\"太阳城集团\" || body=\"亚洲国际\" || body=\"皇朝国际\" || body=\"香港六合\" || body=\"香港最快开奖\" || body=\"最淫官员\" || body=\"寻找林昭的灵魂\" || body=\"讨伐中宣部\" || body=\"大赦国际\" || body=\"灭共\" || body=\"64惨案\" || body=\"64时期\" || body=\"64运动\" || body=\"拔出来\" || body=\"爆草\" || body=\"暴干\" || body=\"暴奸\" || body=\"暴乳\" || body=\"爆乳\" || body=\"暴淫\" || body=\"被操\" || body=\"被插\" || body=\"被干\" || body=\"逼奸\" || body=\"仓井空\" || body=\"插暴\" || body=\"操逼\" || body=\"操黑\" || body=\"操烂\" || body=\"肏你\" || body=\"肏死\" || body=\"操死\" || body=\"操我\" || body=\"厕奴\" || body=\"插比\" || body=\"插b\" || body=\"插逼\" || body=\"插进\" || body=\"插你\" || body=\"插我\" || body=\"插阴\" || body=\"潮吹\" || body=\"潮喷\" || body=\"成人电影\" || body=\"成人论坛\" || body=\"成人色情\" || body=\"成人网站\" || body=\"成人文学\" || body=\"成人小说\" || body=\"艳情小说\" || body=\"成人游戏\" || body=\"吃精\" || body=\"赤裸\" || body=\"抽插\" || body=\"扌由插\" || body=\"抽一插\" || body=\"春药\" || body=\"大力抽送\" || body=\"荡妇\" || body=\"荡女\" || body=\"盗撮\" || body=\"多人轮\" || body=\"发浪\" || body=\"放尿\" || body=\"肥逼\" || body=\"粉穴\" || body=\"封面女郎\" || body=\"风月大陆\" || body=\"干死你\" || body=\"干穴\" || body=\"肛交\" || body=\"龟头\" || body=\"国产av\" || body=\"豪乳\" || body=\"黑逼\" || body=\"后庭\" || body=\"后穴\" || body=\"虎骑\" || body=\"换妻俱乐部\" || body=\"黄片\" || body=\"几吧\" || body=\"鸡吧\" || body=\"鸡巴\" || body=\"鸡奸\" || body=\"集体淫\" || body=\"奸情\" || body=\"叫床\" || body=\"脚交\" || body=\"精液\" || body=\"就去日\" || body=\"巨屌\" || body=\"菊花洞\" || body=\"菊门\" || body=\"巨奶\" || body=\"巨乳\" || body=\"菊穴\" || body=\"开苞\" || body=\"口爆\" || body=\"口活\" || body=\"口射\" || body=\"口淫\" || body=\"狂操\" || body=\"狂插\" || body=\"浪逼\" || body=\"狼友\" || body=\"流淫\" || body=\"铃木麻\" || body=\"漏乳\" || body=\"露b\" || body=\"乱交\" || body=\"轮暴\" || body=\"轮奸\" || body=\"裸陪\" || body=\"买春\" || body=\"美逼\" || body=\"美少妇\" || body=\"美腿\" || body=\"美穴\" || body=\"美幼\" || body=\"秘唇\" || body=\"迷奸\" || body=\"密穴\" || body=\"蜜穴\" || body=\"蜜液\" || body=\"摸奶\" || body=\"摸胸\" || body=\"母奸\" || body=\"奈美\" || body=\"奶子\" || body=\"男奴\" || body=\"内射\" || body=\"嫩逼\" || body=\"嫩女\" || body=\"嫩穴\" || body=\"捏弄\" || body=\"女优\" || body=\"炮友\" || body=\"砲友\" || body=\"喷精\" || body=\"屁眼\" || body=\"品香堂\" || body=\"前凸后翘\" || body=\"强jian\" || body=\"强暴\" || body=\"强奸处女\" || body=\"情趣用品\" || body=\"情色\" || body=\"拳交\" || body=\"全裸\" || body=\"群交\" || body=\"惹火身材\" || body=\"人妻\" || body=\"人兽\" || body=\"日逼\" || body=\"日烂\" || body=\"肉棒\" || body=\"肉逼\" || body=\"肉唇\" || body=\"肉洞\" || body=\"肉缝\" || body=\"肉棍\" || body=\"肉茎\" || body=\"肉具\" || body=\"揉乳\" || body=\"肉穴\" || body=\"肉欲\" || body=\"乳爆\" || body=\"乳房\" || body=\"乳沟\" || body=\"乳交\" || body=\"乳头\" || body=\"骚逼\" || body=\"骚比\" || body=\"骚女\" || body=\"骚水\" || body=\"骚穴\" || body=\"色逼\" || body=\"色界\" || body=\"色猫\" || body=\"色盟\" || body=\"色情网站\" || body=\"色诱\" || body=\"色欲\" || body=\"色b\" || body=\"少年阿宾\" || body=\"少修正\" || body=\"射爽\" || body=\"射颜\" || body=\"释欲\" || body=\"兽奸\" || body=\"兽交\" || body=\"手淫\" || body=\"兽欲\" || body=\"熟妇\" || body=\"熟母\" || body=\"熟女\" || body=\"爽片\" || body=\"爽死我了\" || body=\"双臀\" || body=\"死逼\" || body=\"丝袜\" || body=\"丝诱\" || body=\"松岛枫\" || body=\"酥痒\" || body=\"汤加丽\" || body=\"套弄\" || body=\"体奸\" || body=\"舔脚\" || body=\"舔阴\" || body=\"调教\" || body=\"偷欢\" || body=\"偷拍\" || body=\"推油\" || body=\"脱内裤\" || body=\"文做\" || body=\"我就色\" || body=\"无码\" || body=\"舞女\" || body=\"无修正\" || body=\"吸精\" || body=\"夏川纯\" || body=\"相奸\" || body=\"小逼\" || body=\"校鸡\" || body=\"小穴\" || body=\"小xue\" || body=\"性感妖娆\" || body=\"性感诱惑\" || body=\"性虎\" || body=\"性饥渴\" || body=\"性技巧\" || body=\"性奴\" || body=\"性虐\" || body=\"性息\" || body=\"性欲\" || body=\"胸推\" || body=\"穴口\" || body=\"学生妹\" || body=\"穴图\" || body=\"亚情\" || body=\"颜射\" || body=\"阳具\" || body=\"要射了\" || body=\"夜勤病栋\" || body=\"一夜欢\" || body=\"一夜情\" || body=\"一ye情\" || body=\"阴部\" || body=\"淫虫\" || body=\"阴唇\" || body=\"淫荡\" || body=\"阴道\" || body=\"淫电影\" || body=\"阴阜\" || body=\"淫妇\" || body=\"淫河\" || body=\"阴核\" || body=\"阴户\" || body=\"淫贱\" || body=\"淫叫\" || body=\"淫教师\" || body=\"阴茎\" || body=\"阴精\" || body=\"淫浪\" || body=\"淫媚\" || body=\"淫糜\" || body=\"淫魔\" || body=\"淫母\" || body=\"淫女\" || body=\"淫虐\" || body=\"淫妻\" || body=\"淫情\" || body=\"淫色\" || body=\"淫声浪语\" || body=\"淫兽学园\" || body=\"淫书\" || body=\"淫术炼金士\" || body=\"淫水\" || body=\"淫娃\" || body=\"淫威\" || body=\"淫亵\" || body=\"淫样\" || body=\"淫液\" || body=\"淫照\" || body=\"阴b\" || body=\"应召\" || body=\"幼交\" || body=\"幼男\" || body=\"幼女\" || body=\"欲火\" || body=\"欲女\" || body=\"玉女心经\" || body=\"玉蒲团\" || body=\"玉乳\" || body=\"欲仙欲死\" || body=\"玉穴\" || body=\"援交\" || body=\"原味内衣\" || body=\"援助交际\" || body=\"张筱雨\" || body=\"招鸡\" || body=\"招妓\" || body=\"中年美妇\" || body=\"抓胸\" || body=\"自慰\" || body=\"18禁\" || body=\"a片\" || body=\"gay片\" || body=\"g点\" || body=\"g片\" || body=\"玛雅网\" || body=\"个qb\" || body=\"送qb\" || body=\"用刀横向切腹\" || body=\"完全自杀手册\" || body=\"四海帮\" || body=\"足球投注\" || body=\"改卷内幕\" || body=\"大sb\" || body=\"傻逼\" || body=\"傻b\" || body=\"煞逼\" || body=\"煞笔\" || body=\"刹笔\" || body=\"傻比\" || body=\"沙比\" || body=\"欠干\" || body=\"婊子养的\" || body=\"我日你\" || body=\"我操\" || body=\"我草\" || body=\"卧艹\" || body=\"卧槽\" || body=\"爆你菊\" || body=\"艹你\" || body=\"cao你\" || body=\"你他妈\" || body=\"真他妈\" || body=\"别他吗\" || body=\"草你吗\" || body=\"草你丫\" || body=\"操你妈\" || body=\"擦你妈\" || body=\"操你娘\" || body=\"操他妈\" || body=\"日你妈\" || body=\"干你妈\" || body=\"干你娘\" || body=\"娘西皮\" || body=\"狗操\" || body=\"狗草\" || body=\"狗杂种\" || body=\"狗日的\" || body=\"操你祖宗\" || body=\"操你全家\" || body=\"操你大爷\" || body=\"妈逼\" || body=\"你麻痹\" || body=\"麻痹的\" || body=\"妈了个逼\" || body=\"马勒\" || body=\"狗娘养\" || body=\"贱比\" || body=\"贱b\" || body=\"下贱\" || body=\"死全家\" || body=\"全家死光\" || body=\"全家不得好死\" || body=\"全家死绝\" || body=\"白痴\" || body=\"无耻\" || body=\"杀b\" || body=\"你吗b\" || body=\"你妈的\" || body=\"婊子\" || body=\"贱货\" || body=\"人渣\" || body=\"性伴侣\" || body=\"男公关\" || body=\"射精\" || body=\"诱奸\" || body=\"强奸\" || body=\"做爱\" || body=\"兽性\" || body=\"干你\" || body=\"干死\""
     }
 ]

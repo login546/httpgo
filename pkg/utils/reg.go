@@ -42,7 +42,14 @@ func ExtractTitle(htmlContent []byte) (string, error) {
 	if title == "" {
 		return "", fmt.Errorf("未找到<title>元素")
 	}
-	return title, nil
+
+	return TrimTitle(title), nil
+}
+
+// 去除title中首尾的空格、制表符和换行符
+func TrimTitle(title string) string {
+	title = strings.TrimSpace(title)
+	return title
 }
 
 // 提取body中的非/favicon.ico的内容
