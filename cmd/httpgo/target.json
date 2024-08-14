@@ -1,0 +1,18 @@
+[
+    {
+        "Url": "http://zy1.gcjy.info:80/",
+        "StatusCode": 200,
+        "Title": "高淳区教育资源云平台",
+        "CmsList": "【存在登录页面】",
+        "OtherList": "【JSP】;【Oracle-JAVA】;【Nginx】",
+        "Screenshot": "https://s0.wp.com/mshots/v1/http%3A%2F%2Fzy1.gcjy.info%3A80%2F"
+    },
+    {
+        "Url": "http://www.61baby.net:80/",
+        "StatusCode": 200,
+        "Title": "欢迎使用WebPlus Dreamer--苏迪融合型网站群平台软件！",
+        "CmsList": "【苏迪WebPlus Pro--个性化门户集群平台】;【存在登录页面】",
+        "OtherList": "【JSP】;【Oracle-JAVA】",
+        "Screenshot": "https://s0.wp.com/mshots/v1/http%3A%2F%2Fwww.61baby.net%3A80%2F"
+    }
+]
