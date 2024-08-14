@@ -1,0 +1,82 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [ "main" ]
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.21'
+
+    - name: Cache Go modules
+      uses: actions/cache@v3
+      with:
+        path: |
+          **/go.sum
+          **/go.mod
+          ~/.cache/go-build
+        key: ${{ runner.os }}-go-mod-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-go-mod-
+
+    - name: Install dependencies
+      run: go mod tidy
+
+    - name: Build for Windows 32-bit
+      run: GOOS=windows GOARCH=386 go build -o cmd/httpgo/httpgo_win32.exe ./cmd/httpgo
+
+    - name: Build for Windows 64-bit
+      run: GOOS=windows GOARCH=amd64 go build -o cmd/httpgo/httpgo_win64.exe ./cmd/httpgo
+
+    - name: Build for Linux 32-bit
+      run: GOOS=linux GOARCH=386 go build -o cmd/httpgo/httpgo_linux32 ./cmd/httpgo
+
+    - name: Build for Linux 64-bit
+      run: GOOS=linux GOARCH=amd64 go build -o cmd/httpgo/httpgo_linux64 ./cmd/httpgo
+
+    - name: Build for macOS ARM
+      run: GOOS=darwin GOARCH=arm64 go build -o cmd/httpgo/httpgo_mac_arm ./cmd/httpgo
+
+    - name: Build for macOS x86
+      run: GOOS=darwin GOARCH=amd64 go build -o cmd/httpgo/httpgo_mac ./cmd/httpgo
+
+    - name: Upload binaries as artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: httpgo-binaries
+        path: |
+          cmd/httpgo/httpgo_win32.exe
+          cmd/httpgo/httpgo_win64.exe
+          cmd/httpgo/httpgo_linux32
+          cmd/httpgo/httpgo_linux64
+          cmd/httpgo/httpgo_mac_arm
+          cmd/httpgo/httpgo_mac
+
+    - name: Upload fingers.json as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: fingers-json
+        path: cmd/httpgo/fingers.json
+
+    - uses: marvinpinto/action-automatic-releases@latest
+      with:
+        repo_token: "${{ secrets.PAT_TOKEN }}"
+        prerelease: false
+        automatic_release_tag: latest
+        files: |
+          cmd/httpgo/fingers.json
+          cmd/httpgo/httpgo_win32.exe
+          cmd/httpgo/httpgo_win64.exe
+          cmd/httpgo/httpgo_linux32
+          cmd/httpgo/httpgo_linux64
+          cmd/httpgo/httpgo_mac_arm
+          cmd/httpgo/httpgo_mac
