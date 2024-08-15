@@ -1,5 +1,25 @@
 [ 
     {
+        "name": "【DreamerCMS】",
+        "keyword": "body=\"Dreamer CMS\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WookTeam在线团队协作工具】",
+        "keyword": "title=\"Wookteam\"",
+        "type": "cms"
+    },
+    {
+        "name": "【智慧校园(安校易)管理系统】",
+        "keyword": "title=\"智慧综合管理平台登入\"",
+        "type": "cms"
+    },
+    {
+        "name": "【章管家-智能印章管理系统】",
+        "keyword": "body=\"章管家登录-公章在外防私盖\"",
+        "type": "cms"
+    },
+    {
         "name": "【极限OA】",
         "keyword": "icon_hash=\"1967132225\"",
         "type": "cms"
@@ -80,7 +100,7 @@
         "type": "cms"
     },
     {
-        "name": "【润申信息科技-ERP】",
+        "name": "【润申企业标准化管理系统-ERP】",
         "keyword": "body=\"PDCA/js/_publicCom.js\"",
         "type": "cms"
     },
@@ -120,7 +140,7 @@
         "type": "cms"
     },
     {
-        "name": "【蓝凌MK-PaaS】",
+        "name": "【蓝凌-MK-PaaS】",
         "keyword": "body=\"nonce=\\\"mk-security\\\"\"",
         "type": "cms"
     },
@@ -1370,7 +1390,7 @@
         "type": "cms"
     },
     {
-        "name": "【天玥堡垒机】",
+        "name": "【启明星辰-天玥堡垒机】",
         "keyword": "body=\"kaasapp/views/css/assign.css\"",
         "type": "cms"
     },
@@ -2310,7 +2330,7 @@
         "type": "cms"
     },
     {
-        "name": "【天融信 - Network Audit System】",
+        "name": "【天融信-网络审计系统】",
         "keyword": "body=\"onclick=\\\"dlg_download()\" || title=\"天融信网络审计系统\"",
         "type": "cms"
     },
@@ -2680,12 +2700,12 @@
         "type": "cms"
     },
     {
-        "name": "【蓝凌Eis智慧协同平台】",
+        "name": "【蓝凌-Eis智慧协同平台】",
         "keyword": "body=\"/scripts/jquery.landray.common.js\" || body=\"v11_QRcodeBar clr\"",
         "type": "cms"
     },
     {
-        "name": "【Tiandune - Intrusion Detection System TOPSENTRY】",
+        "name": "【天融信-入侵检测系统TopSentry】",
         "keyword": "title=\"天融信入侵检测系统TopSentry\" || body=\"天融信入侵检测系统TopSentry\"",
         "type": "cms"
     },
@@ -3027,6 +3047,16 @@
     {
         "name": "【万户网络-ezOFFICE】",
         "keyword": "(header=\"OASESSIONID\" && header=\"/defaultroot/\") ||title=\"ezOFFICE\" || body=\"EZOFFICEUSERNAME\" || title=\"万户OA\" || body=\"whirRootPath\" || body=\"/defaultroot/js/cookie.js\" || header=\"LocLan\" || body=\"/defaultroot/\"",
+        "type": "cms"
+    },
+    {
+        "name": "【万户网络-ezEip】",
+        "keyword": "(body=\"Powered By wanhu\" && body=\"ezEip\") || header=\"ezEIP\" || body=\"css/css_whir.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【万户网络-OA】",
+        "keyword": "body=\"defaultroot\" && body=\"Logon!logon.action\" && body=\"domainAccount\"",
         "type": "cms"
     },
     {
@@ -5460,7 +5490,7 @@
         "type": "cms"
     },
     {
-        "name": "【天融信 - firewall】",
+        "name": "【天融信-防火墙】",
         "keyword": "title=\"TOPSEC TOS Web User\" || (header=\"TopWebServer\" && body=\"WEB User Interface\")",
         "type": "cms"
     },
@@ -5785,7 +5815,7 @@
         "type": "cms"
     },
     {
-        "name": "【Tiandin-TopFlow】",
+        "name": "【天融信-TopFlow】",
         "keyword": "body=\"天融信TopFlow\"",
         "type": "cms"
     },
@@ -7520,14 +7550,14 @@
         "type": "cms"
     },
     {
-        "name": "【Tiandune - Data Security System SBU】",
+        "name": "【天融信-数据安全系统SBU】",
         "keyword": "title=\"天融信数据安全系统SBU\"",
         "type": "cms"
     },
     {
         "name": "【fullpage.js】",
         "keyword": "body=\"fullpage.css\" || body=\"fullpage.min.js\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【WindowsXP】",
@@ -10840,7 +10870,7 @@
         "type": "cms"
     },
     {
-        "name": "【天融信-Single Login System】",
+        "name": "【天融信-单点登录系统】",
         "keyword": "title=\"Topsec单点登录系统\"",
         "type": "cms"
     },
@@ -12030,8 +12060,8 @@
         "type": "cms"
     },
     {
-        "name": "【天融信-TopApp-load balancing】",
-        "keyword": "header=\"TopApp\"",
+        "name": "【天融信-TopAPP负载均衡系统】",
+        "keyword": "header=\"TopApp\" || (body=\"TopAPP负载均衡系统\" && body=\"天融信\")",
         "type": "cms"
     },
     {
@@ -19405,7 +19435,7 @@
         "type": "cms"
     },
     {
-        "name": "【Qi Ming Star - Tianyi Centralized Management and Log Analysis Platform】",
+        "name": "【启明星辰-天玥集中管理与日志分析平台】",
         "keyword": "title=\"天玥集中管理与日志分析平台\"",
         "type": "cms"
     },
@@ -24730,7 +24760,7 @@
         "type": "cms"
     },
     {
-        "name": "【蓝凌OA】",
+        "name": "【蓝凌-OA】",
         "keyword": "icon_hash=\"953405444\" || (body=\"lui_login_message_td\" && body=\"form_bottom\") || (body=\"蓝凌软件 版权所有\" && (body=\"j_acegi_security_check\" || title=\"欢迎登录智慧协同平台\")) ||(body=\"j_acegi_security_check\" && body=\"onsubmit=\\\"return kmss_onsubmit();\" && (body=\"ExceptionTranslationFilter对SPRING_SECURITY_TARGET_URL 进行未登录url保持 请求中的hash并不会传递到服务端，故只能前端处理\" || body=\"kkDownloadLink link\"))",
         "type": "cms"
     },
@@ -28430,7 +28460,7 @@
         "type": "cms"
     },
     {
-        "name": "【Yi Rui Authorized Access System】",
+        "name": "【易瑞授权访问系统】",
         "keyword": "body=\"/authjsp/login.jsp\" || body=\"FE0174BB-F093-42AF-AB20-7EC621D10488\" || title=\"易瑞授权访问系统\"",
         "type": "cms"
     },
@@ -31900,7 +31930,7 @@
         "type": "cms"
     },
     {
-        "name": "【Tiandin-Topaudit】",
+        "name": "【天融信-Topaudit】",
         "keyword": "header=\"Topsec TopAudit\" || (body=\"TopAudit\" && body=\"TA-W 登录系统\")",
         "type": "cms"
     },
