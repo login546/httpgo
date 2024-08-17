@@ -27,7 +27,7 @@ func (r *Response) GetFaviconHash(proxyStr string, timeoutInt time.Duration) (*F
 	mainFavicon := u.Scheme + "://" + u.Host + "/favicon.ico"
 	favicons = append(favicons, mainFavicon)
 
-	spareFavicon, err := utils.ExtractSpareFavicon(r.Body)
+	spareFavicon, err := utils.ExtractSpareFavicon(string(r.Body))
 	if err != nil {
 		return nil, err
 	}
@@ -51,7 +51,8 @@ func (r *Response) GetFaviconHash(proxyStr string, timeoutInt time.Duration) (*F
 		if err != nil {
 			return nil, err
 		}
-		faviconhash = append(faviconhash, utils.Mmh3Hash32([]byte(fh.Body)))
+		ahash := utils.IconHash(fh.Body)
+		faviconhash = append(faviconhash, utils.Mmh3Hash32(ahash))
 	}
 
 	faviconhash = RemoveDuplicates(faviconhash)

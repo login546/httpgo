@@ -17,10 +17,9 @@ type Response struct {
 	Url        string
 	StatusCode int
 	Title      string
-	Body       string
+	Body       []byte
 	HeadersMap map[string][]string
 	HeadersStr string
-	Favicon    []string
 	Cert       string // 添加证书字段
 }
 
@@ -101,10 +100,9 @@ func GetResponse(urlStr string, proxyStr string, timeoutInt time.Duration) (*Res
 			Url:        urlStr,
 			StatusCode: 000,
 			Title:      "",
-			Body:       "",
+			Body:       nil,
 			HeadersMap: nil,
 			HeadersStr: "",
-			Favicon:    nil,
 			Cert:       "",
 		}, nil
 	}
@@ -155,24 +153,13 @@ func GetResponse(urlStr string, proxyStr string, timeoutInt time.Duration) (*Res
 	headersstr := headerToString(resp.Header)
 	//fmt.Println(headersstr)
 
-	//拼接获取favicon
-	url, err := url.Parse(urlStr)
-	if err != nil {
-		log.Println("Error parsing favicon URL:", err)
-		return nil, err
-	}
-	faviconURL := url.Scheme + "://" + url.Host + "/favicon.ico"
-	favicons := make([]string, 0)
-	favicons = append(favicons, faviconURL)
-
 	return &Response{
 		Url:        urlStr,
 		StatusCode: statusCode,
 		Title:      title,
-		Body:       string(body),
+		Body:       body,
 		HeadersMap: headers,
 		HeadersStr: headersstr,
-		Favicon:    favicons,
 		Cert:       certInfo.String(),
 	}, nil
 }

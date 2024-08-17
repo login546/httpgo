@@ -283,7 +283,7 @@ func CheckFingerprint(response *httpgo.Response, expression string, faviconhashs
 		fmt.Println("Error parsing expression:", err)
 		return false
 	}
-	return evaluatePostfix(postfix, response.Body, response.HeadersStr, response.Title, response.Cert, faviconhashs.FaviconHash)
+	return evaluatePostfix(postfix, string(response.Body), response.HeadersStr, response.Title, response.Cert, faviconhashs.FaviconHash)
 }
 
 // evaluatePostfix 评估后缀表达式

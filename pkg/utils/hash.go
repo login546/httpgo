@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/base64"
 	"fmt"
-	"github.com/twmb/murmur3"
+	"github.com/spaolacci/murmur3"
 	"hash"
 )
 
@@ -32,4 +32,18 @@ func StandBase64(braw []byte) []byte {
 	buffer.WriteByte('\n')
 	return buffer.Bytes()
 
+}
+
+func IconHash(body []byte) []byte {
+	encodedStr := base64.StdEncoding.EncodeToString(body)
+	var buffer bytes.Buffer
+	for i := 0; i < len(encodedStr); i++ {
+		ch := encodedStr[i]
+		buffer.WriteByte(ch)
+		if (i+1)%76 == 0 {
+			buffer.WriteByte('\n')
+		}
+	}
+	buffer.WriteByte('\n')
+	return buffer.Bytes()
 }

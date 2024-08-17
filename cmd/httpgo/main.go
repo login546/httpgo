@@ -34,14 +34,14 @@ func main() {
 	// 解析命令行标志
 	flag.Parse()
 	if *hash != "" {
-		hash, err := httpgo.GetResponse(*hash, "", *timeoutInt)
+		hashx, err := httpgo.GetResponse(*hash, *proxyFlag, *timeoutInt)
 		if err != nil {
 			fmt.Println("Error getting response:", err)
 			return
 		}
-
-		icohash := utils.Mmh3Hash32([]byte(hash.Body))
-		fmt.Println("icon的hash为：", icohash)
+		ahash := utils.IconHash(hashx.Body)
+		icohash := utils.Mmh3Hash32(ahash)
+		fmt.Printf("icon_hash=\"%s\"\n", icohash)
 		return
 	}
 
