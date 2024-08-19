@@ -1,12 +1,192 @@
 [ 
     {
+        "name": "【百度云主机】",
+        "keyword": "header=\"百度云主机\"",
+        "type": "other"
+    },
+    {
+        "name": "【Java RMI】",
+        "keyword": "header=\"Java RMI\"",
+        "type": "other"
+    },
+    {
+        "name": "【金启K-Office协同办公】",
+        "keyword": "header=\"金启K-Office协同办公\"",
+        "type": "cms"
+    },
+    {
+        "name": "【奇安信网站卫士】",
+        "keyword": "header=\"奇安信网站卫士\"",
+        "type": "other"
+    },
+    {
+        "name": "【深圳竹云统一认证】",
+        "keyword": "header=\"深圳竹云统一认证\"",
+        "type": "cms"
+    },
+    {
+        "name": "【恒生专业机构客户服务平台】",
+        "keyword": "header=\"恒生专业机构客户服务平台\"",
+        "type": "cms"
+    },
+    {
+        "name": "【iDS联网数字标牌管理系统】",
+        "keyword": "title=\"iDS联网数字标牌管理系统\"",
+        "type": "cms"
+    },
+    {
+        "name": "【nginxWebUI】",
+        "keyword": "title=\"nginxWebUI\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Konga】",
+        "keyword": "icon_hash=\"618690133\" || title=\"Konga\"",
+        "type": "cms"
+    },
+    {
+        "name": "【北京久其财务报表】",
+        "keyword": "(body=\"netrep/js/func.js\" && body=\"/netrep/js/des.js\") || body=\"/netrep/sysmgr/usermanager/reguser.jsp\"",
+        "type": "cms"
+    },
+    {
+        "name": "【安徽阳光心健-心理测量平台】",
+        "keyword": "icon_hash=\"3974070341\"",
+        "type": "cms"
+    },
+    {
+        "name": "【杭州法源软件-法律知识数据库系统】",
+        "keyword": "icon_hash=\"2018105215\" || title=\"实践教学平台 - 杭州法源软件开发有限公司\"",
+        "type": "cms"
+    },
+    {
+        "name": "【零视科技-H5S视频平台】",
+        "keyword": "body=\"H5S视频平台|WEB\"",
+        "type": "cms"
+    },
+    {
+        "name": "【霆智科技-VA虚拟应用平台】",
+        "keyword": "body=\"EAA益和应用接入系统\"",
+        "type": "cms"
+    },
+    {
+        "name": "【魅课OM视频会议系统】",
+        "keyword": "title=\"OMeeting视频会议\" || title=\"OM视频会议\" || title=\"OM免费网络视频会议系统\"",
+        "type": "cms"
+    },
+    {
+        "name": "【悦泰节能-智能数据网关】",
+        "keyword": "body=\"/FWlib3/resources/css/xtheme-gray.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【1Panel-服务器运维管理面板】",
+        "keyword": "icon_hash=\"1965287190\"",
+        "type": "cms"
+    },
+    {
+        "name": "【辰信景云终端安全管理系统】",
+        "keyword": "title=\"辰信景云终端安全管理系统7.0\"",
+        "type": "cms"
+    },
+    {
+        "name": "【辰信景云终端安全管理系统-SaaS版】",
+        "keyword": "title=\"辰信景云终端安全管理系统-SaaS版\"",
+        "type": "cms"
+    },
+    {
+        "name": "【DzzOfffice-协同办公文档】",
+        "keyword": "icon_hash=\"2333230404\"",
+        "type": "cms"
+    },
+    {
+        "name": "【来客推商城系统】",
+        "keyword": "title=\"来客推商城\" || title=\"来客推商城系统\" || icon_hash=\"1433892035\"",
+        "type": "cms"
+    },
+    {
+        "name": "【LiveBOS Manager管理控制平台】",
+        "keyword": "icon_hash=\"3877875895\" || title=\"LiveBOS控制台\"",
+        "type": "cms"
+    },
+    {
+        "name": "【企业微信-私有版服务端】",
+        "keyword": "body=\"/wework_admin/static/style/images/independent/mulit_logo/WeworkLogoBule_2x$b672f477.png\" || icon_hash=\"807961549\" || icon_hash=\"3588968498\"",
+        "type": "cms"
+    },
+    {
+        "name": "【nocodb】",
+        "keyword": "body=\"href=\\\"./_nuxt/nocodb\" || icon_hash=\"2277371154\"",
+        "type": "cms"
+    },
+    {
+        "name": "【JeeSpringCloud】",
+        "keyword": "header=\"com.jeespring.session.id\" || icon_hash=\"2446959922\"",
+        "type": "cms"
+    },
+    {
+        "name": "【凌思云实验室信息管理系统】",
+        "keyword": "body=\"js/AllPageFunction.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【华测智控-SLMS】",
+        "keyword": "icon_hash=\"1366711350\"",
+        "type": "cms"
+    },
+    {
+        "name": "【睿贝软件-企业管理协作平台】",
+        "keyword": "(body=\"loginNeedMobileNumVerification\" && body=\"睿贝软件\") || icon_hash=\"69178856\"",
+        "type": "cms"
+    },
+    {
+        "name": "【绿盟-SAS堡垒机】",
+        "keyword": "body=\"needUsbkey.php?username=\"",
+        "type": "cms"
+    },
+    {
+        "name": "【拓维OA】",
+        "keyword": "body=\"GetFuWuQi.aspx\" && body=\"WebHouTai\"",
+        "type": "cms"
+    },
+    {
+        "name": "【PHP/8.1.0-dev】",
+        "keyword": "header=\"PHP/8.1.0-dev\"",
+        "type": "other"
+    },
+    {
+        "name": "【千宜医药管理系统】",
+        "keyword": "body=\"ResourceScripts/zh-cn-Login.aspx.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【设备运维系统】",
+        "keyword": "body=\"Account/Account/QrCodeScanLogin\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Cacti】",
+        "keyword": "icon_hash=\"-1797138069\"",
+        "type": "cms"
+    },
+    {
+        "name": "【智互联(深圳)科技有限公司SRM智联云采系统】",
+        "keyword": "title=\"SRM 2.0\"",
+        "type": "cms"
+    },
+    {
+        "name": "【东师理想智慧教育云平台】",
+        "keyword": "body=\"一个让学生热爱学习的APP应用\"",
+        "type": "cms"
+    },
+    {
         "name": "【IP网络广播服务平台】",
         "keyword": "icon_hash=\"-568806419\"",
         "type": "cms"
     },
     {
-        "name": "【方正全媒体采编系统】",
-        "keyword": "body=\"newsedit/newsedit/css/\"",
+        "name": "【北大方正-全媒体采编系统】",
+        "keyword": "body=\"newsedit/newsedit/css/\" || body=\"全媒体采编V2.1-工作平台登录\" || body=\"全媒体采编V3.0-工作平台登录\" || icon_hash=\"229924738\"",
         "type": "cms"
     },
     {
@@ -36,12 +216,12 @@
     },
     {
         "name": "【晶奇科技救助管理系统】",
-        "keyword": "icon_hash=\"-1185226132\"",
+        "keyword": "icon_hash=\"-1185226132\" || icon_hash=\"763559220\"",
         "type": "cms"
     },
     {
         "name": "【Bonobo Git Server】",
-        "keyword": "icon_hash=\"-219625874\"",
+        "keyword": "icon_hash=\"-219625874\" || icon_hash=\"4075341422\"",
         "type": "cms"
     },
     {
@@ -156,7 +336,7 @@
     },
     {
         "name": "【enjoyscm-捷诚供应链管理系统】",
-        "keyword": "title=\"供应商网上服务厅\"",
+        "keyword": "title=\"供应商网上服务厅\" || icon_hash=\"4082750171\" || body=\"Content/dist/js/login_real\"",
         "type": "cms"
     },
     {
@@ -295,6 +475,11 @@
         "type": "cms"
     },
     {
+        "name": "【金笛短信中间件(WEB版)】",
+        "keyword": "body=\"金笛短信中间件(WEB版)\"",
+        "type": "cms"
+    },
+    {
         "name": "【金蝶云星空】",
         "keyword": "body=\"HTML5/content/themes/kdcss.min.css\" || body=\"/ClientBin/Kingdee.BOS.XPF.App.xap\"",
         "type": "cms"
@@ -341,7 +526,7 @@
     },
     {
         "name": "【信呼OA】",
-        "keyword": "icon_hash=\"1652488516\" || body=\"mode/plugin/jquery-rockmodels.js\"",
+        "keyword": "icon_hash=\"1652488516\" || body=\"mode/plugin/jquery-rockmodels.js\" || title=\"信呼协同办公系统\"",
         "type": "cms"
     },
     {
@@ -387,6 +572,11 @@
     {
         "name": "【锐捷NBR系列路由器】",
         "keyword": "body=\"上层网络出现异常，请检查外网线路或联系ISP运营商协助排查\"",
+        "type": "cms"
+    },
+    {
+        "name": "【锐捷BCR商业无线云网关】",
+        "keyword": "body=\"/luci-static/ruijie/imgs/ruijlogo.jpg\"",
         "type": "cms"
     },
     {
@@ -611,7 +801,7 @@
     },
     {
         "name": "【易思智能物流无人值守系统】",
-        "keyword": "body=\"智能物流无人值守系统\"",
+        "keyword": "body=\"易思智能物流无人值守系统\" || icon_hash=\"2007842404\"",
         "type": "cms"
     },
     {
@@ -651,7 +841,7 @@
     },
     {
         "name": "【新开普掌上校园服务管理平台】",
-        "keyword": "title=\"掌上校园服务管理平台\"",
+        "keyword": "title=\"掌上校园服务管理平台\" || icon_hash=\"3016838938\"",
         "type": "cms"
     },
     {
@@ -776,7 +966,7 @@
     },
     {
         "name": "【商混ERP】",
-        "keyword": "title=\"商混ERP系统\"",
+        "keyword": "title=\"商混ERP系统\" || (body=\"商混ERP系统\" && body=\"Microsoft Visual Studio .NET 7.1\")",
         "type": "cms"
     },
     {
@@ -876,7 +1066,7 @@
     }, 
     {
         "name": "【亿华人力资源管理系统】",
-        "keyword": "body=\"亿华人力资源管理系统\"",
+        "keyword": "body=\"亿华人力资源管理系统\" || icon_hash=\"1429826889\"",
         "type": "cms"
     }, 
     {
@@ -1216,7 +1406,7 @@
     },
     {
         "name": "【AJ-Report开源数据大屏】",
-        "keyword": "title=\"AJ-Report\"",
+        "keyword": "title=\"AJ-Report\" || icon_hash=\"2986833530\" || body=\"AJ-Report\"",
         "type": "cms"
     },
     {
@@ -1291,7 +1481,7 @@
     },
     {
         "name": "【广联达-Linkworks 协同办公管理平台】",
-        "keyword": "body=\"/Services/Identification/Server/\" || header=\"Services/Identification/login.ashx\"",
+        "keyword": "body=\"/Services/Identification/Server/\" || header=\"Services/Identification/login.ashx\" || icon_hash=\"4005832539\"",
         "type": "cms"
     },
     {
@@ -1321,7 +1511,7 @@
     },
     {
         "name": "【科荣AIO】",
-        "keyword": "body=\"changeAccount('8000')\"",
+        "keyword": "body=\"changeAccount('8000')\" || icon_hash=\"3656675207\" || (body=\"科荣控件\" || body=\"KoronCom.TrustedSites\" && body=\"/common/AIOPrint.exe\")",
         "type": "cms"
     },
     {
@@ -1426,12 +1616,7 @@
     },
     {
         "name": "【浙大恩特客户资源管理系统 CRM】",
-        "keyword": "body=\"method=getAspUrl&usr_id=\"",
-        "type": "cms"
-    },
-    {
-        "name": "【广联达 linkworks】",
-        "keyword": "header=\"Services/Identification/login.ash\"",
+        "keyword": "body=\"method=getAspUrl&usr_id=\" || title=\"欢迎使用浙大恩特客户资源管理系统\"",
         "type": "cms"
     },
     {
@@ -1441,7 +1626,7 @@
     },
     {
         "name": "【企望制造 ERP】",
-        "keyword": "body=\"javascript/css/WIT.css\"",
+        "keyword": "body=\"javascript/css/WIT.css\" || title=\"企望制造ERP系统\" || body=\"上海企望信息科技  技术支持\"",
         "type": "cms"
     },
     {
@@ -1460,13 +1645,8 @@
         "type": "cms"
     },
     {
-        "name": "【qiyuesuo契约锁】",
-        "keyword": "body=\"src=\\\"/qysoss/assets/js\"",
-        "type": "cms"
-    },
-    {
-        "name": "【qiyuesuo契约锁】",
-        "keyword": "header=\"qiyuesuo.com\"",
+        "name": "【契约锁电子签章系统】",
+        "keyword": "body=\"src=\\\"/qysoss/assets/js\" || body=\"qiyuesuo.com\" || icon_hash=\"738823048\" icon_hash=\"2187084310\"",
         "type": "cms"
     },
     {
@@ -1510,11 +1690,6 @@
         "type": "cms"
     },
     {
-        "name": "【Minio-Browser】",
-        "keyword": "body=\"href=\\\"/minio/loader.css\"",
-        "type": "cms"
-    },
-    {
         "name": "【启明星辰-天玥堡垒机】",
         "keyword": "body=\"kaasapp/views/css/assign.css\"",
         "type": "cms"
@@ -1546,7 +1721,7 @@
     },
     {
         "name": "【普元eos】",
-        "keyword": "body=\"eos-web.js\" || (body=\"ame.primeton.com\" && body=\"eos-web\")",
+        "keyword": "body=\"eos-web.js\" || (body=\"ame.primeton.com\" && body=\"eos-web\") || icon_hash=\"1483217389\"",
         "type": "cms"
     },
     {
@@ -1576,7 +1751,7 @@
     },
     {
         "name": "【GeoServer】",
-        "keyword": "body=\"GeoServer\" || title=\"GeoServer\"",
+        "keyword": "body=\"GeoServer\" || title=\"GeoServer\" || icon_hash=\"375099679\"",
         "type": "cms"
     },
     {
@@ -1696,12 +1871,12 @@
     },
     {
         "name": "【广州图创图书馆集群管理系统】",
-        "keyword": "body=\"广州图创计算机软件开发有限公司\"",
+        "keyword": "body=\"广州图创计算机软件开发有限公司\" || body=\"interlib\"",
         "type": "cms"
     },
     {
         "name": "【汉得SRM】",
-        "keyword": "body=\"/component/handPlayMovie/handPlayMovie.css\"",
+        "keyword": "body=\"/component/handPlayMovie/handPlayMovie.css\" || title=\"汉得SRM云平台\"",
         "type": "cms"
     },
     {
@@ -1796,11 +1971,11 @@
     },
     {
         "name": "【紫光电子档案管理系统】",
-        "keyword": "icon_hash=\"-1814511370\" || (body=\"紫光软件系统有限公司\" && body=\"电子档案管理系统\") || body=\"/Login/Login/getMobileCode\"",
+        "keyword": "icon_hash=\"-1814511370\" || (body=\"紫光软件系统有限公司\" && body=\"电子档案管理系统\") || body=\"/Login/Login/getMobileCode\" || icon_hash=\"3686048441\"",
         "type": "cms"
     },
     {
-        "name": "【锐捷 UAC】",
+        "name": "【锐捷-UAC】",
         "keyword": "body=\"dkey_activex_download.php\"",
         "type": "cms"
     },
@@ -1967,7 +2142,7 @@
     {
         "name": "【THE_OPEN_GROUP-UNIX system】",
         "keyword": "header=\"Unix\" && header!=\"linux\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Hanwang - Face Identification Management System】",
@@ -3171,7 +3346,7 @@
     },
     {
         "name": "【万户网络-ezOFFICE】",
-        "keyword": "(header=\"OASESSIONID\" && header=\"/defaultroot/\") ||title=\"ezOFFICE\" || body=\"EZOFFICEUSERNAME\" || title=\"万户OA\" || body=\"whirRootPath\" || body=\"/defaultroot/js/cookie.js\" || header=\"LocLan\" || body=\"/defaultroot/\"",
+        "keyword": "(header=\"OASESSIONID\" && header=\"/defaultroot/\") ||title=\"ezOFFICE\" || body=\"EZOFFICEUSERNAME\" || title=\"万户OA\" || body=\"whirRootPath\" || body=\"/defaultroot/js/cookie.js\" || header=\"LocLan\" || body=\"/defaultroot/\" || icon_hash=\"2467445972\"",
         "type": "cms"
     },
     {
@@ -7076,7 +7251,7 @@
     },
     {
         "name": "【Minio-Browser】",
-        "keyword": "body=\"href=\\\"/minio/loader.css\\\"\" || title=\"Minio Browser\" || header=\"MinIO\"",
+        "keyword": "body=\"href=\\\"/minio/loader.css\\\"\" || title=\"Minio Browser\" || header=\"MinIO\" || title=\"MinIO Console\"",
         "type": "cms"
     },
     {
@@ -10020,7 +10195,12 @@
         "type": "cms"
     },
     {
-        "name": "【Xiang Xiang Software - Xiangu OA】",
+        "name": "【任我行-在线订货系统】",
+        "keyword": "body=\"templates/master/pc\" || title=\"订货易\"",
+        "type": "cms"
+    },
+    {
+        "name": "【致翔-OA】",
         "keyword": "body=\"obj.src = \\\"CreateCheckCode.aspx?id\\\"+strMath;\" || body=\"name=\\\"Button1\\\" value=\\\"\\\" onclick=\\\"javascript:return checkfrom();\\\" id=\\\"Button1\\\" class=\\\"loginBtn\\\" />\"",
         "type": "cms"
     },
@@ -10570,6 +10750,11 @@
         "type": "cms"
     },
     {
+        "name": "【用友-YonBIP】",
+        "keyword": "title=\"YonBIP\"",
+        "type": "cms"
+    },
+    {
         "name": "【用友-U8远程】",
         "keyword": "body=\"javascript/bw8.js\" && body=\"var servervendor = 'yonyouupcn'\"",
         "type": "cms"
@@ -10581,7 +10766,7 @@
     },
     {
         "name": "【用友-NC-Cloud】",
-        "keyword": "body=\"/Client/Uclient/UClient.exe\" || body=\"ufida.ico\" || body=\"nccloud\" || body=\"/api/uclient/public/\" || (header=\"nccloud\" && header=\"Location\" && header=\"JSESSIONID\") || (body=\"/platform/yonyou-yyy.js\" && body=\"/platform/ca/nccsign.js\") || body=\"window.location.href=\\\"platform/pub/welcome.do\\\";\"",
+        "keyword": "(body=\"大型企业数字化平台\" || body=\"Application\" && body=\"../../../../platform/resource/yonyou-yyy.js\") || body=\"/Client/Uclient/UClient.exe\" || body=\"ufida.ico\" || body=\"nccloud\" || body=\"/api/uclient/public/\" || (header=\"nccloud\" && header=\"Location\" && header=\"JSESSIONID\") || (body=\"/platform/yonyou-yyy.js\" && body=\"/platform/ca/nccsign.js\") || body=\"window.location.href=\\\"platform/pub/welcome.do\\\";\"",
         "type": "cms"
     },
     {
@@ -11030,7 +11215,7 @@
         "type": "cms"
     },
     {
-        "name": "【思福迪-LOGBASE Log Management Integrated Audit System】",
+        "name": "【思福迪堡垒机】",
         "keyword": "((title=\"Logbase\" || header=\"Server: dummy\" || body=\"onclick=\\\"location.href='trustcert.cgi'\") && body!=\"couchdb\") || header=\"Server: dummy\"",
         "type": "cms"
     },
@@ -11077,7 +11262,7 @@
     {
         "name": "【Linux-operating system】",
         "keyword": "(header=\"linux\" && header!=\"unix\" && title!=\"28ZE\") || (header=\"linux\" && header!=\"unix\")",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【深信服-应用交付管理系统】",
@@ -11586,7 +11771,7 @@
     },
     {
         "name": "【护卫神·主机大师】",
-        "keyword": "body=\"content=\\\"护卫神·主机大师 前台管理登录\\\"\"",
+        "keyword": "body=\"content=\\\"护卫神·主机大师 前台管理登录\\\"\" || icon_hash=\"1188645141\"",
         "type": "cms"
     },
     {
@@ -15282,6 +15467,16 @@
     {
         "name": "【New Morning Sunshine - Academic Office Management Platform】",
         "keyword": "body=\">Digital Anywhere Platform</h2>\"",
+        "type": "cms"
+    },
+    {
+        "name": "【深信服-上网行为管理系统】",
+        "keyword": "body=\"utccjfaewjb = function(str, key)\" || body=\"document.write(WRFWWCSFBXMIGKRKHXFJ\"",
+        "type": "cms"
+    },
+    {
+        "name": "【深信服-应用交付报表系统】",
+        "keyword": "body=\"/reportCenter/index.php?cls_mode=cluster_mode_others\"",
         "type": "cms"
     },
     {
@@ -25095,11 +25290,6 @@
         "type": "cms"
     },
     {
-        "name": "【FOUNDER-full media editing system】",
-        "keyword": "body=\"/newsedit/newsedit/css/login_1.css\"",
-        "type": "cms"
-    },
-    {
         "name": "【华为-USG6320】",
         "keyword": "((((body=\"(logo_type)? document.write(logo_type):document.write('')\" || body=\"var logo_type = GetCookie('logotype')\") && body=\"USG6320\") || header=\"&Huawei USG6320&langfrombrows=zh-CN\") && body!=\"Server: couchdb\") || header=\"Huawei USG6320\" || header=\"Secospace USG6320\"",
         "type": "cms"
@@ -25175,7 +25365,7 @@
         "type": "cms"
     },
     {
-        "name": "【DzzOffice- product】",
+        "name": "【DzzOffice-product】",
         "keyword": "body=\"dzz/system/scripts/jquery.jstree.min.js\" || body=\"dzz/scripts/dzz_min.js\" || body=\"<a href=\\\"http://www.dzzoffice.com\\\"\" || body=\"misc.php?mod=sendmail\"",
         "type": "cms"
     },
@@ -25710,7 +25900,7 @@
         "type": "cms"
     },
     {
-        "name": "【ABT-deep security gateway】",
+        "name": "【安博通深度安全网关】",
         "keyword": "(body=\"/php/common/checknum_creat.php?module=config_authnum&time=\" && title=\"安博通深度安全网关\") || title=\"安博通应用网关\"",
         "type": "cms"
     },
@@ -26121,7 +26311,7 @@
     },
     {
         "name": "【易软天创-禅道系统】",
-        "keyword": "body=\"/zentao\" || title=\"欢迎使用禅道集成运行环境\" || body=\"<a id='zentaopro' href='/pro/'\" || body=\"$('#zentaopro').addClass\" || body=\"powered by <a href='http://www.zentao.net' target='_blank'>ZenTaoPMS\" || body=\"Welcome to use zentao!\" || body=\"href='/zentao/favicon.ico\"",
+        "keyword": "body=\"/zentao\" || title=\"欢迎使用禅道集成运行环境\" || body=\"<a id='zentaopro' href='/pro/'\" || body=\"$('#zentaopro').addClass\" || body=\"powered by <a href='http://www.zentao.net' target='_blank'>ZenTaoPMS\" || body=\"Welcome to use zentao!\" || body=\"href='/zentao/favicon.ico\" || header=\"禅道项目管理软件\"",
         "type": "cms"
     },
     {
@@ -26140,7 +26330,7 @@
         "type": "cms"
     },
     {
-        "name": "【Lancome Technology - Lan Eye Threat Perception System】",
+        "name": "【兰眼下一代威胁感知系统】",
         "keyword": "body=\"<font>兰眼下一代威胁感知系统</font>\" || body=\"/Skin/Admin/Img/login/laneye.png\"",
         "type": "cms"
     },
@@ -30230,6 +30420,16 @@
         "type": "cms"
     },
     {
+        "name": "【启明星辰-4A统一安全管控平台】",
+        "keyword": "body=\"cas/css/ace-part2.min.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【汉塔科技上网行为流量管理系统】",
+        "keyword": "title=\"汉塔科技 - 上网行为管理系统\"",
+        "type": "cms"
+    },
+    {
         "name": "【ShowDoc】",
         "keyword": "title=\"ShowDoc\"",
         "type": "cms"
@@ -30340,29 +30540,29 @@
         "type": "cms"
     },
     {
-        "name": "【China Unicom - Electronic Mall Network Access Platform】",
+        "name": "【中国联通-电子商城外网接入平台】",
         "keyword": "title=\"中国联通电子商城外网接入平台\"",
         "type": "cms"
     },
     {
-        "name": "【China Unicom - Tiangong Integrated Operation Platform】",
+        "name": "【中国联通-天宫一体化运营平台】",
         "keyword": "title=\"天宫一体化运营平台\"",
         "type": "cms"
     },
     {
         "name": "【Miranda-ftp】",
         "keyword": "header=\"Miranda FTP server\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Tencent - Enterprise Edition QQ】",
         "keyword": "body=\"http://wpa.b.qq.com/cgi/wpa.php\" || body=\"href=\\\"http://wpa.qq.com/\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Microsoft-FTP】",
         "keyword": "header=\"Microsoft FTP\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【FAST-FW300R router】",
@@ -31792,11 +31992,6 @@
     {
         "name": "【phpmps】",
         "keyword": "body=\"Powered by Phpmps\" || body=\"templates/phpmps/style/index.css\"",
-        "type": "cms"
-    },
-    {
-        "name": "【Changjie Tong - Enterprise Management】",
-        "keyword": "title=\"畅捷通\"",
         "type": "cms"
     },
     {
@@ -34180,8 +34375,8 @@
         "type": "cms"
     },
     {
-        "name": "【Flying Sight - Video Conference System】",
-        "keyword": "body=\"class=\\\"subNav\\\">飞视美</div>\"",
+        "name": "【飞视美-视频会议系统】",
+        "keyword": "body=\"class=\\\"subNav\\\">飞视美</div>\" || title=\"飞视美视频会议系统\"",
         "type": "cms"
     },
     {
@@ -37050,6 +37245,11 @@
         "type": "cms"
     },
     {
+        "name": "【中新网安-中新金盾安全管理与运维审计系统】",
+        "keyword": "body=\"/fort_新版UI主线版本/WebRoot/pages/commons/meta.jsp\"",
+        "type": "cms"
+    },
+    {
         "name": "【金电网安-安全隔离与信息交换系统】",
         "keyword": "body=\"金电网安安全隔离与信息交换系统\" && body=\"jdwa/sysconf/oem\"",
         "type": "cms"
@@ -38590,7 +38790,7 @@
         "type": "cms"
     },
     {
-        "name": "【锐捷 Networks (Login)】",
+        "name": "【锐捷-Networks (Login)】",
         "keyword": "icon_hash=\"-692947551\"",
         "type": "cms"
     },
