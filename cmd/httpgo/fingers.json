@@ -1,5 +1,40 @@
 [ 
     {
+        "name": "【Altenergy电力系统控制软件】",
+        "keyword": "title=\"Altenergy Power Control Software\"",
+        "type": "cms"
+    },
+    {
+        "name": "【点企来客服系统】",
+        "keyword": "body=\"layui-form-item\" && body=\"/admin/login/check.html\"",
+        "type": "cms"
+    },
+    {
+        "name": "【南京星源图科技-SparkShop】",
+        "keyword": "body=\"SparkShop\"",
+        "type": "cms"
+    },
+    {
+        "name": "【超易企业管理系统】",
+        "keyword": "body=\"超易企业管理系统\"",
+        "type": "cms"
+    },
+    {
+        "name": "【山石网科-应用防火墙WAF】",
+        "keyword": "icon_hash=\"-839455805\"",
+        "type": "cms"
+    },
+    {
+        "name": "【广东全程云科技有限公司-全程云OA】",
+        "keyword": "body=\"全程云OA\" || body=\"images/yipeoplehover.png\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WPS 开放平台】",
+        "keyword": "body=\"WPS 开放平台\" || body=\"WPS开放平台\" || icon_hash=\"-27115031\"",
+        "type": "other"
+    },
+    {
         "name": "【百度云主机】",
         "keyword": "header=\"百度云主机\"",
         "type": "other"
@@ -641,7 +676,7 @@
     },
     {
         "name": "【联软安渡UniNXG安全数据交换系统】",
-        "keyword": "body=\"深圳市联软科技股份有限公司\"",
+        "keyword": "body=\"深圳市联软科技股份有限公司\" || icon_hash=\"1397838899\"",
         "type": "cms"
     },
     {
@@ -777,6 +812,11 @@
     {
         "name": "【正方教学管理信息服务平台】",
         "keyword": "body=\"正方软件股份有限公司\" && title=\"教学管理信息服务平台\"",
+        "type": "cms"
+    },
+    {
+        "name": "【正方移动信息服务管理系统】",
+        "keyword": "title=\"移动信息服务管理\" || body=\"URL=/zftal-mobile\"",
         "type": "cms"
     },
     {
@@ -1721,7 +1761,7 @@
     },
     {
         "name": "【普元eos】",
-        "keyword": "body=\"eos-web.js\" || (body=\"ame.primeton.com\" && body=\"eos-web\") || icon_hash=\"1483217389\"",
+        "keyword": "body=\"eos-web.js\" || body=\"普元\" || (body=\"ame.primeton.com\" && body=\"eos-web\")",
         "type": "cms"
     },
     {
@@ -7231,7 +7271,7 @@
     },
     {
         "name": "【致远互联-OA】",
-        "keyword": "title=\"致远A8+协同管理软件 V7.1SP1\" || title=\"协同管理软件 V7.0SP2\" || title=\"协同管理软件 V8.0SP2\" || title=\"致远\" || body=\"/seeyon/USER-DATA/IMAGES/LOGIN/login.gif\" || title=\"用友致远A\" || (body=\"/yyoa/\" && body!=\"本站内容均采集于\") || header=\"path=/yyoa\" || header=\"SY8044\" || (body=\"A6-V5企业版\" && body=\"seeyon\" && body=\"seeyonProductId\") || (body=\"/seeyon/common/\" && body=\"var _ctxpath = '/seeyon'\") || (body=\"A8-V5企业版\" && body=\"/seeyon/\") || header=\"Server: SY8044\" || header=\"Server: SY8045\" || header=\"Location: /seeyon/index.jsp\"",
+        "keyword": "title=\"致远A8+协同管理软件 V8.2SP1\"title=\"A6 V8.1SP1\" || title=\"致远A8+协同管理软件 V7.1SP1\" || title=\"协同管理软件 V7.0SP2\" || title=\"协同管理软件 V8.0SP2\" || title=\"致远\" || body=\"/seeyon/USER-DATA/IMAGES/LOGIN/login.gif\" || title=\"用友致远A\" || (body=\"/yyoa/\" && body!=\"本站内容均采集于\") || header=\"path=/yyoa\" || header=\"SY8044\" || (body=\"A6-V5企业版\" && body=\"seeyon\" && body=\"seeyonProductId\") || (body=\"/seeyon/common/\" && body=\"var _ctxpath = '/seeyon'\") || (body=\"A8-V5企业版\" && body=\"/seeyon/\") || header=\"Server: SY8044\" || header=\"Server: SY8045\" || header=\"Location: /seeyon/index.jsp\"",
         "type": "cms"
     },
     {
@@ -24020,7 +24060,7 @@
         "type": "cms"
     },
     {
-        "name": "【Sub-software - Academic Administration System】",
+        "name": "【正方教务管理系统】",
         "keyword": "(body=\"style/base/jw.css\" && body=\"content=\\\"站点介绍\\\"\") || title=\"正方教务管理系统\"",
         "type": "cms"
     },
@@ -37790,7 +37830,7 @@
         "type": "cms"
     },
     {
-        "name": "【Gitlab】",
+        "name": "【GitLab】",
         "keyword": "icon_hash=\"1278323681\"",
         "type": "cms"
     },
