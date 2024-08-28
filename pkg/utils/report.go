@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"github.com/gofrs/flock"
 	"os"
-	"path/filepath"
 )
 
 // URLFingerprint 结构体表示每个 URL 的指纹信息
@@ -23,10 +22,9 @@ var HtmlHeaderA = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charse
 var HtmlHeaderB = "')\n                .then(response => {\n                    if (!response.ok) {\n                        throw new Error('Network response was not ok');\n                    }\n                    return response.json();\n                })\n                .then(data => {\n                    originalData = data;\n                    updateStats(data);\n                    updateTable(data);\n                    updateAllButton(data);\n                })\n                .catch(error => console.error('Error loading JSON data:', error));\n        });\n    </script>\n</head>\n<body>\n    <h1>URL Fingerprint Report</h1>\n    <div class=\"stats\">\n        <div id=\"cms-stats\"></div>\n        <div id=\"other-stats\"></div>\n        <div id=\"all-stats\"></div>\n    </div>\n    <div id=\"modal\" class=\"modal\">\n        <div class=\"modal-content\">\n            <span class=\"modal-close\">&times;</span>\n            <img id=\"modal-img\" src=\"\" alt=\"Screenshot\">\n        </div>\n    </div>\n    <table>\n        <thead>\n            <tr>\n                <th>Details</th>\n            </tr>\n        </thead>\n        <tbody>\n            <!-- Data rows will be inserted here by JavaScript -->\n        </tbody>\n    </table>\n    <button id=\"scroll-to-top\" title=\"Go to Top\">&#8679;</button>\n</body>\n</html>\n"
 
 // 创建 HTML 报告
-func InitializeHTMLReport(filename string) (*os.File, error) {
+func InitializeHTMLReport(filename string, json string) (*os.File, error) {
 	// 去除.html后缀
-	reportJson := filename[:len(filename)-5] + ".json"
-	var HtmlHeader = HtmlHeaderA + reportJson + HtmlHeaderB
+	var HtmlHeader = HtmlHeaderA + json + HtmlHeaderB
 	file, err := os.Create(filename)
 	if err != nil {
 		return nil, err
@@ -39,16 +37,16 @@ func InitializeHTMLReport(filename string) (*os.File, error) {
 	return file, nil
 }
 
-// ReplaceHTMLWithJSON 函数将 HTML 文件名的扩展名替换为 JSON 扩展名
-func ReplaceHTMLWithJSON(filePath string) string {
-	// 获取文件名和扩展名
-	base := filepath.Base(filePath)
-	ext := filepath.Ext(base)
-	nameWithoutExt := base[:len(base)-len(ext)]
-
-	// 生成新的 JSON 文件名
-	return filepath.Join(filepath.Dir(filePath), nameWithoutExt+".json")
-}
+//// ReplaceHTMLWithJSON 函数将 HTML 文件名的扩展名替换为 JSON 扩展名
+//func ReplaceHTMLWithJSON(filePath string) string {
+//	// 获取文件名和扩展名
+//	base := filepath.Base(filePath)
+//	ext := filepath.Ext(base)
+//	nameWithoutExt := base[:len(base)-len(ext)]
+//
+//	// 生成新的 JSON 文件名
+//	return filepath.Join(filepath.Dir(filePath), nameWithoutExt+".json")
+//}
 
 // AppendJSONReport 将 URLFingerprint 数据追加到指定的 JSON 文件中
 func AppendJSONReport(filename string, data URLFingerprint) error {

@@ -29,9 +29,15 @@ func main() {
 	thead := flag.Int("thead", 20, "并发数")
 	fingers := flag.String("fingers", "fingers.json", "指纹文件")
 	hash := flag.String("hash", "", "计算hash")
-	output := flag.String("outputcsv", "output.csv", "输出文件")
-	outputhtml := flag.String("outputhtml", "report.html", "输出文件")
-	server := flag.Bool("server", false, "启动web服务")
+	output := flag.String("output", "output", "输出结果文件夹名称,不用加后缀(包含csv,json,html文件)")
+	//outputhtml := flag.String("outputhtml", "report.html", "输出文件")
+	server := flag.String("server", "", "指定output路径，启动web服务，自带随机密码，增加安全性")
+
+	//取当前路径
+	dir, err := os.Getwd()
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	// 解析命令行标志
 	flag.Parse()
@@ -47,20 +53,17 @@ func main() {
 		return
 	}
 	// 如果指定了server，则启动web服务
-	if *server != false {
-		dir, err := os.Getwd()
-		if err != nil {
-			log.Fatal(err)
-		}
+	if *server != "" {
+		newdir := dir + "/" + *server + "/"
 		// 取随机字符串作为密码
 		Spasswd := utils.GenerateRandomString(10)
+		fmt.Printf("Serving：http://127.0.0.1:%d/%s.html\n", 6231, *server)
+		fmt.Printf("Serving：http://0.0.0.1:%d/%s.html\n", 6231, *server)
 		fmt.Printf("UserInfo: admin/%s\n", Spasswd)
-		fmt.Printf("Serving：http://127.0.0.1:%d\n", 6231)
-		err = httpgo.ServeDirectoryWithAuth(dir, "admin", Spasswd, 6231)
+		err := httpgo.ServeDirectoryWithAuth(newdir, "admin", Spasswd, 6231)
 		if err != nil {
 			log.Fatal(err)
 		}
-
 	}
 
 	fingerlist, err := utils.LoadFingerprints(*fingers)
@@ -93,25 +96,38 @@ func main() {
 		return
 	}
 
-	// 替换.html为.json
-	reportJson := utils.ReplaceHTMLWithJSON(*outputhtml)
-
-	// 创建HTML报告
-	htmlfile, err := utils.InitializeHTMLReport(*outputhtml)
-	if err != nil {
-		fmt.Println("Error creating HTML report:", err)
-		return
-	}
-	defer htmlfile.Close()
-
 	// 创建一个通道来控制并发数量
 	sem := make(chan struct{}, *thead)
 
 	// 使用WaitGroup和goroutines并发处理URL
 	var wg sync.WaitGroup
 
+	outdir := dir + "/" + *output
+	outdircsv := outdir + "/" + *output + ".csv"
+	outdirhtml := outdir + "/" + *output + ".html"
+	outdirjson := outdir + "/" + *output + ".json"
+	outhtmljson := *output + ".json"
+
+	// 创建目录（如果不存在）
+	err = os.MkdirAll(outdir, os.ModePerm)
+	if err != nil {
+		fmt.Println("创建目录出错:", err)
+		return
+	}
+
+	// 替换.html为.json
+	reportJson := outdirjson
+
+	// 创建HTML报告
+	htmlfile, err := utils.InitializeHTMLReport(outdirhtml, outhtmljson)
+	if err != nil {
+		fmt.Println("Error creating HTML report:", err)
+		return
+	}
+	defer htmlfile.Close()
+
 	// 创建CSV文件
-	file, err := os.Create(*output)
+	file, err := os.Create(outdircsv)
 	if err != nil {
 		fmt.Println("创建CSV文件出错:", err)
 		return

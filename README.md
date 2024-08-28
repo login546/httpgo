@@ -6,26 +6,26 @@ httpgo是一个web指纹识别工具，支持多线程、HTTP代理、批量识�
 ## 使用
 ### 帮助
 ```
-[shym]% ./httpgo_mac -h                                                          
+[shym]% ./httpgo_mac -h
 Usage of ./httpgo_mac:
   -file string
-        请求的文件 (default "target.txt")
+    	请求的文件 (default "target.txt")
   -fingers string
-        指纹文件 (default "fingers.json")
+    	指纹文件 (default "fingers.json")
   -hash string
-        计算hash
-  -outputcsv string
-        输出文件 (default "output.csv")
-  -outputhtml string
-        输出文件 (default "report.html")
+    	计算hash
+  -output string
+    	输出结果文件夹名称,不用加后缀(包含csv,json,html文件) (default "output")
   -proxy string
-        添加代理
+    	添加代理
+  -server string
+    	指定output路径，启动web服务，自带随机密码，增加安全性
   -thead int
-        并发数 (default 20)
+    	并发数 (default 20)
   -timeout duration
-        超时时间 (default 15ns)
+    	超时时间 (default 15ns)
   -url string
-        请求的url
+    	请求的url
 ```
 ### 单个url识别
 ![image-20240815115840552](README.assets/image-20240815115840552.png)
@@ -33,21 +33,33 @@ Usage of ./httpgo_mac:
 ### 批量url识别
 -file 指定批量url文件，每行一个url
 
--outputcsv 保存结果到文件，仅支持csv格式，未设置默认输出到output.csv
-
--outputhtml 保存结果到文件，仅支持html格式，未设置默认输出到report.html
+-output 指定输出文件夹名称，不用加后缀，会在指定的文件夹生成csv,json,html文件
 
 -thead 指定并发数，未设置默认20
 
-![image-20240815120134576](README.assets/image-20240815120134576.png)
+![image-20240828135258064](README.assets/image-20240828135258064.png)
 
-会在程序路径下生成target.csv表格文件
+会在指定的-output的路径下生成对应的result.csv表格文件
 
-![image-20240815120206444](README.assets/image-20240815120206444.png)
+![image-20240828135511437](README.assets/image-20240828135511437.png)
 
-同时也会生成target.html网页文件和指纹信息target.json文件
+同时也会生成result.html网页文件和指纹信息result.json文件
 
-在当前路径下使用python3 -m http.server 3333起一个web服务
+如果想查看result.html页面，可以使用-server 开启web服务，自动生成一个加密的web服务
+
+![image-20240828135747673](README.assets/image-20240828135747673.png)
+
+![image-20240828135942331](README.assets/image-20240828135942331.png)
+
+![image-20240828140106825](README.assets/image-20240828140106825.png)
+
+当输入账号密码认证过后，可直接访问根目录，下载csv文件，方便在服务器部署时，下载csv结果
+
+![image-20240828140231253](README.assets/image-20240828140231253.png)
+
+
+
+或在html结果路径下使用python3 -m http.server 3333起一个web服务
 
 ![image-20240815120249467](README.assets/image-20240815120249467.png)
 
