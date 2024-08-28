@@ -7,6 +7,7 @@ import (
 	"httpgo/pkg/fingerprint"
 	"httpgo/pkg/httpgo"
 	"httpgo/pkg/utils"
+	"log"
 	"os"
 	"strconv"
 	"strings"
@@ -30,6 +31,7 @@ func main() {
 	hash := flag.String("hash", "", "计算hash")
 	output := flag.String("outputcsv", "output.csv", "输出文件")
 	outputhtml := flag.String("outputhtml", "report.html", "输出文件")
+	server := flag.Bool("server", false, "启动web服务")
 
 	// 解析命令行标志
 	flag.Parse()
@@ -43,6 +45,22 @@ func main() {
 		icohash := utils.Mmh3Hash32(ahash)
 		fmt.Printf("icon_hash=\"%s\"\n", icohash)
 		return
+	}
+	// 如果指定了server，则启动web服务
+	if *server != false {
+		dir, err := os.Getwd()
+		if err != nil {
+			log.Fatal(err)
+		}
+		// 取随机字符串作为密码
+		Spasswd := utils.GenerateRandomString(10)
+		fmt.Printf("UserInfo: admin/%s\n", Spasswd)
+		fmt.Printf("Serving：http://127.0.0.1:%d\n", 6231)
+		err = httpgo.ServeDirectoryWithAuth(dir, "admin", Spasswd, 6231)
+		if err != nil {
+			log.Fatal(err)
+		}
+
 	}
 
 	fingerlist, err := utils.LoadFingerprints(*fingers)

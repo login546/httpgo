@@ -1,5 +1,45 @@
 [ 
     {
+        "name": "【麦迪斯顿-院前急救临床信息系统软件】",
+        "keyword": "body=\"院前急救临床信息系统软件\" || (body=\"Scripts/nprogress-0.2.0/nprogress.js\" && body=\"/Account/Login?ReturnUrl=%2F\")",
+        "type": "cms"
+    },
+    {
+        "name": "【国医科技-资质证照云平台】",
+        "keyword": "icon_hash=\"-1481260984\" || body=\"登录-资质证照云平台\" || body=\"alt=\\\"国医科技\"",
+        "type": "cms"
+    },
+    {
+        "name": "【停车场后台管理系统】",
+        "keyword": "icon_hash=\"938984120\"",
+        "type": "cms"
+    },
+    {
+        "name": "【同鑫科技T9eHR信息化管理系统】",
+        "keyword": "body=\"T9eHR\"",
+        "type": "cms"
+    },
+    {
+        "name": "【乐牛-云食堂】",
+        "keyword": "body=\"alyecstest1.xnzn.net\" || icon_hash=\"2075127067\"",
+        "type": "cms"
+    },
+    {
+        "name": "【EMQX Dashboard】",
+        "keyword": "body=\"EMQX Dashboard\"",
+        "type": "cms"
+    },
+    {
+        "name": "【360终端安全管理系统】",
+        "keyword": "title=\"360终端安全管理系统\" || icon_hash=\"-1166914780\"",
+        "type": "cms"
+    },
+    {
+        "name": "【武汉地大信息工程股份有限公司基础信息平台】",
+        "keyword": "body=\"/SystemManage/BaseProject\"",
+        "type": "cms"
+    },
+    {
         "name": "【Altenergy电力系统控制软件】",
         "keyword": "title=\"Altenergy Power Control Software\"",
         "type": "cms"
@@ -32,7 +72,7 @@
     {
         "name": "【WPS 开放平台】",
         "keyword": "body=\"WPS 开放平台\" || body=\"WPS开放平台\" || icon_hash=\"-27115031\"",
-        "type": "other"
+        "type": "cms"
     },
     {
         "name": "【百度云主机】",
@@ -232,6 +272,11 @@
     {
         "name": "【鼎游信息-票务系统】",
         "keyword": "body=\"/scripts/ectrip-system-ui.min.js\" || body=\"ECTRIP\" || body=\"createimage?Rgb=255\"",
+        "type": "cms"
+    },
+    {
+        "name": "【鼎游信息-鼎游旅游网】",
+        "keyword": "body=\"ticket/applyforlxs/applyTicketIndex.action\" || title=\"鼎游旅游网\"",
         "type": "cms"
     },
     {
@@ -790,13 +835,23 @@
         "type": "cms"
     },
     {
-        "name": "【泛微移动管理平台】",
+        "name": "【泛微-移动管理平台】",
         "keyword": "title=\"移动管理平台\"",
         "type": "cms"
     },
     {
-        "name": "【泛微E-Office10】",
+        "name": "【泛微-E-Office10】",
         "keyword": "body=\"eoffice_loading_tip\" && body=\"eoffice10\"",
+        "type": "cms"
+    },
+    {
+        "name": "【泛微-云桥e-Bridge】",
+        "keyword": "(body=\"content=\\\"泛微云桥e-Bridge\\\"\" && body=\"content=\\\"webkit\\\"\") || title=\"泛微云桥e-Bridge\"",
+        "type": "cms"
+    },
+    {
+        "name": "【泛微-EOffice】",
+        "keyword": "((header=\"general/login/index.php\" || body=\"/general/login/view//images/updateLoad.gif\" || (body=\"szFeatures\" && body=\"eoffice\") || header=\"Server: eOffice\") && body!=\"Server: couchdb\") || header=\"general/login/index.php\"",
         "type": "cms"
     },
     {
@@ -1486,7 +1541,7 @@
     },
     {
         "name": "【华天动力-OA8000】",
-        "keyword": "icon_hash=\"-1812358961\" || body=\"/app/module/login/js/loginComm.min.js\" || body=\"/OAapp/htpages/\"",
+        "keyword": "icon_hash=\"-1812358961\" || body=\"/app/module/login/js/loginComm.min.js\" || body=\"/OAapp/htpages/\" || body=\"/OAapp/WebObjects/OAapp.woa\"",
         "type": "cms"
     },
     {
@@ -1932,11 +1987,6 @@
     {
         "name": "【通天星-CMSV6】",
         "keyword": "body=\"./open/webApi.html\" || body=\"/808gps/\"",
-        "type": "cms"
-    },
-    {
-        "name": "【AspCms】",
-        "keyword": "body=\"src=\\\"/inc/AspCms\"",
         "type": "cms"
     },
     {
@@ -3329,11 +3379,7 @@
         "keyword": "(body=\"http-equiv=\\\"refresh\\\" content=\\\"0; url=/cgi-bin/luci\\\"\" && header=\"Tx-Server: MiXr\" && title!=\"小米路由器\" && header!=\"Micgi\") || title=\"迈外迪商业Wi-Fi设备管理后台\"",
         "type": "cms"
     },
-    {
-        "name": "【10,000 network -CMS】",
-        "keyword": "body=\"css/css_whir.css\"",
-        "type": "cms"
-    },
+
     {
         "name": "【ExtMail】",
         "keyword": "title=\"欢迎使用ExtMail\" || body=\"setCookie('extmail_username\"",
@@ -3785,11 +3831,6 @@
         "type": "cms"
     },
     {
-        "name": "【泛微-云桥e-Bridge】",
-        "keyword": "(body=\"content=\\\"泛微云桥e-Bridge\\\"\" && body=\"content=\\\"webkit\\\"\") || title=\"泛微云桥e-Bridge\"",
-        "type": "cms"
-    },
-    {
         "name": "【Wavetop-days disaster software】",
         "keyword": "body=\"application/views/img/logo_wavetop.png\"",
         "type": "cms"
@@ -4097,7 +4138,7 @@
     {
         "name": "【Chart.js】",
         "keyword": "body=\"chart.js\" || body=\"chart.min.js\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【FOSCAM-NVR】",
@@ -4207,7 +4248,7 @@
     {
         "name": "【Cowboy】",
         "keyword": "(header=\"Server: Cowboy\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"Server: Cowboy\" && header!=\"couchdb\" && header!=\"drupal\")",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【D_LINK-Network Monitoring Video】",
@@ -5197,7 +5238,7 @@
     {
         "name": "【Cloudflare-产品】",
         "keyword": "((header=\"Server: cloudflare-nginx\" || header=\"__cfduid=\" || body=\"CloudFlare Ray ID:\" || body=\"var cloudflare=\" || header=\"cloudflare\") && header!=\"couchdb\" && header!=\"drupal\" && body!=\"Server: couchdb\") || ((header=\"Server: cloudflare-nginx\" || header=\"Server: cloudflare\") && header!=\"couchdb\" && header!=\"drupal\")",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Mitel-SX-2000】",
@@ -5357,6 +5398,11 @@
     {
         "name": "【KesionCMS】",
         "keyword": "body=\"/ks_inc/common.js\" || body=\"publish by KesionCMS\"",
+        "type": "cms"
+    },
+    {
+        "name": "【科汛新职教网校系统】",
+        "keyword": "body=\"/KS_Inc/static/edu\"",
         "type": "cms"
     },
     {
@@ -6097,7 +6143,7 @@
     {
         "name": "【GWS】",
         "keyword": "header=\"Server: gws\" || (header=\"Server: gws\" && header!=\"couchdb\")",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【tiki-Wiki-CMS】",
@@ -6312,12 +6358,12 @@
     {
         "name": "【KISSY】",
         "keyword": "body=\"KISSY.ready\" || body=\"kissy-min.js\" || body=\"kissy.js\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Amaze-UI】",
         "keyword": "body=\"amazeui.min.js\" || body=\"amazeui.js\" || body=\"amazeui.css\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【eTicket】",
@@ -7272,6 +7318,11 @@
     {
         "name": "【致远互联-OA】",
         "keyword": "title=\"致远A8+协同管理软件 V8.2SP1\"title=\"A6 V8.1SP1\" || title=\"致远A8+协同管理软件 V7.1SP1\" || title=\"协同管理软件 V7.0SP2\" || title=\"协同管理软件 V8.0SP2\" || title=\"致远\" || body=\"/seeyon/USER-DATA/IMAGES/LOGIN/login.gif\" || title=\"用友致远A\" || (body=\"/yyoa/\" && body!=\"本站内容均采集于\") || header=\"path=/yyoa\" || header=\"SY8044\" || (body=\"A6-V5企业版\" && body=\"seeyon\" && body=\"seeyonProductId\") || (body=\"/seeyon/common/\" && body=\"var _ctxpath = '/seeyon'\") || (body=\"A8-V5企业版\" && body=\"/seeyon/\") || header=\"Server: SY8044\" || header=\"Server: SY8045\" || header=\"Location: /seeyon/index.jsp\"",
+        "type": "cms"
+    },
+    {
+        "name": "【致远互联-OA】",
+        "keyword": "header=\"Server: Seeyon-Server\" || (header=\"Server: Seeyon-Server\" && header!=\"couchdb\")",
         "type": "cms"
     },
     {
@@ -8515,7 +8566,7 @@
         "type": "cms"
     },
     {
-        "name": "【Qi Ming Star-Thai Information Security Operation Center】",
+        "name": "【泰合信息安全运营中心】",
         "keyword": "title=\"泰合信息安全运营中心\"",
         "type": "cms"
     },
@@ -9725,7 +9776,7 @@
         "type": "cms"
     },
     {
-        "name": "【Mingyuan Yun - Sales Management System】",
+        "name": "【明源-售楼管理系统V5.0】",
         "keyword": "body=\"value=\\\"明源售楼管理系统V5.0\\\"\" || body=\"<img id=\\\"erp\\\" src=\\\"/_imgs/login/zs_erp.png\"",
         "type": "cms"
     },
@@ -9852,7 +9903,7 @@
     {
         "name": "【一所-网防G01新版本】",
         "keyword": "(header=\"security_session_verify\" && header!=\"yunsuo_session_verify\") || (body!=\"href=\\\"http://bbs.yunsuo.com.cn\" && body=\"<img class=\\\"yunsuologo\\\"\") || (header=\"security_session_verify\" && header!=\"yunsuo_session_verify\")",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【DZS-ZHONE-INNBOX-module】",
@@ -10337,7 +10388,7 @@
     {
         "name": "【Passenger】",
         "keyword": "header=\"Phusion_Passenger\" || header=\"Phusion Passenger\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Pc4Uploader】",
@@ -10857,6 +10908,11 @@
     {
         "name": "【用友U8CRM】",
         "keyword": "body=\"用友U8CRM\"",
+        "type": "cms"
+    },
+    {
+        "name": "【用友畅捷通CRM】",
+        "keyword": "icon_hash=\"-1068428644\"",
         "type": "cms"
     },
     {
@@ -14035,7 +14091,7 @@
         "type": "cms"
     },
     {
-        "name": "【New point OA】",
+        "name": "【新点-OA】",
         "keyword": "title=\"新点协同办公系统\" || body=\"请安装新点\"",
         "type": "cms"
     },
@@ -14922,6 +14978,11 @@
     {
         "name": "【泛微 e-Cology 协同商务系统】",
         "keyword": "icon_hash=\"1578525679\" || body=\"wui/common/page/sysRemind.jsp\"",
+        "type": "cms"
+    },
+    {
+        "name": "【泛微-协同办公OA】",
+        "keyword": "header=\"testBanCookie\" || header=\"testBanCookie\" || body=\"/wui/common/css/w7OVFont.css\" || (body=\"typeof poppedWindow\" && body=\"client/jquery.client_wev8.js\") || body=\"/theme/ecology8/jquery/js/zDialog_wev8.js\" || body=\"ecology8/lang/weaver_lang_7_wev8.js\"",
         "type": "cms"
     },
     {
@@ -17577,7 +17638,7 @@
     {
         "name": "【Sina-SAE】",
         "keyword": "header=\"lib.sinaapp.com\" || body=\"lib.sinaapp.com\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【NETGEAR-DGN2200】",
@@ -17607,12 +17668,12 @@
     {
         "name": "【jsdelivr】",
         "keyword": "header=\"cdn.jsdelivr.net\" || header=\"cdn.jsdelivr.net\" || body=\"cdn.jsdelivr.net\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Google-Hosted-Libraries】",
         "keyword": "header=\"ajax.googleapis.com/ajax/libs\" || header=\"ajax.googleapis.com/ajax/libs\" || body=\"ajax.googleapis.com/ajax/libs\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【奇安信- website guards commonly used front-end public library】",
@@ -18065,11 +18126,6 @@
         "type": "cms"
     },
     {
-        "name": "【泛微-EOffice】",
-        "keyword": "((header=\"general/login/index.php\" || body=\"/general/login/view//images/updateLoad.gif\" || (body=\"szFeatures\" && body=\"eoffice\") || header=\"Server: eOffice\") && body!=\"Server: couchdb\") || header=\"general/login/index.php\"",
-        "type": "cms"
-    },
-    {
         "name": "【思科-IronPort】",
         "keyword": "header=\"Cisco IronPort\" || header=\"Basic realm=\\\"Cisco IronPort\"",
         "type": "cms"
@@ -18332,7 +18388,7 @@
     {
         "name": "【miningcore-ui】",
         "keyword": "title=\"miningcore-ui\" || body=\"\\\"http://www.creative-tim.com\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Wen Net Yilian - Wen Wang Guardian Safety Router】",
@@ -19532,7 +19588,7 @@
     {
         "name": "【envoy】",
         "keyword": "header=\"envoy\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【AirDroid - equipment housekeeper】",
@@ -19803,11 +19859,6 @@
         "name": "【Ruizhe Technology-CDN】",
         "keyword": "header=\"Server: Reyzar-CDN\" || header=\"Server: Reyzar-CDN\"",
         "type": "other"
-    },
-    {
-        "name": "【Zhiyuan Interconnection - Sheyon-Server】",
-        "keyword": "header=\"Server: Seeyon-Server\" || (header=\"Server: Seeyon-Server\" && header!=\"couchdb\")",
-        "type": "cms"
     },
     {
         "name": "【PRICOM-H-260U】",
@@ -20950,7 +21001,7 @@
         "type": "cms"
     },
     {
-        "name": "【SuperMap-iServer】",
+        "name": "【超图SuperMap-iServer】",
         "keyword": "title=\"欢迎使用 SuperMap iServer 6R\" || body=\"window.location.href=\\\"iserver\\\";\" || body=\"id=\\\"copyright\\\"><a href=\\\"http://www.supermap.com.cn\" || title=\"SuperMap iServer\"",
         "type": "cms"
     },
@@ -26067,22 +26118,22 @@
     {
         "name": "【WebRay-WAF】",
         "keyword": "header=\"Rayengine\" || header=\"Drivedby: RaySrv\" || header=\"Rayengine\" || header=\"Drivedby: RaySrv\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Swiftlet】",
         "keyword": "header=\"Swiftlet\" || header=\"Swiftlet\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Perl】",
         "keyword": "header=\"perl\" || header=\"perl\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Ruby】",
         "keyword": "header=\"ruby\" || header=\"WEBrick\" || header=\"Phusion\" || header=\"Mongrel\" || header=\"X-Rack-Cache\" || (body=\"src=\\\"/assets/\" && (body=\"name=\\\"csrf-param\" && body=\"content=\\\"authenticity_token\")) || header=\"Rails_env\" || header=\"Rubyversion\" || header=\"ruby\" || header=\"WEBrick\" || header=\"Phusion\" || header=\"Mongrel\" || header=\"X-Rack-Cache\" || header=\"Rails_env\" || header=\"Rubyversion\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【ZTE-ZXDSL】",
@@ -26275,11 +26326,6 @@
         "type": "cms"
     },
     {
-        "name": "【泛微-协同办公OA】",
-        "keyword": "header=\"testBanCookie\" || header=\"testBanCookie\" || body=\"/wui/common/css/w7OVFont.css\" || (body=\"typeof poppedWindow\" && body=\"client/jquery.client_wev8.js\") || body=\"/theme/ecology8/jquery/js/zDialog_wev8.js\" || body=\"ecology8/lang/weaver_lang_7_wev8.js\"",
-        "type": "cms"
-    },
-    {
         "name": "【O2Security-VPN】",
         "keyword": "header=\"client_param=install_active\"",
         "type": "cms"
@@ -26290,9 +26336,9 @@
         "type": "cms"
     },
     {
-        "name": "【Qi'an letter - website security testing】",
+        "name": "【360网站安全检测】",
         "keyword": "body=\"webscan.360.cn/status/pai/hash\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Symantec-thawte_ssl_cert】",
@@ -26326,7 +26372,7 @@
     },
     {
         "name": "【深信服-SSL-VPN】",
-        "keyword": "body=\"login_psw.csp\" || header=\"TWFID\" || header=\"Set-Cookie: TWFID\" || body=\"luyi 20120223\" || title=\"Sangfor-SSL\" || (body=\"<font color=\\\"white\\\">深信服科技版权所有\" && body=\"SSL VPN\")",
+        "keyword": "body=\"login_psw.csp\" || header=\"TWFID\" || header=\"Set-Cookie: TWFID\" || body=\"luyi 20120223\" || title=\"Sangfor-SSL\" || (body=\"<font color=\\\"white\\\">深信服科技版权所有\" && body=\"SSL VPN\") || body=\"sangforsvpn@sangfor.com.cn\"",
         "type": "cms"
     },
     {
@@ -28757,7 +28803,7 @@
     {
         "name": "【FreeBSD-system】",
         "keyword": "(header=\"FreeBSD\" && header!=\"couchdb\") || (header=\"FreeBSD\" && header!=\"couchdb\")",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【PLDSEC- Unified Safety Management and Integrated Audit System】",
@@ -28937,11 +28983,6 @@
     {
         "name": "【ThinkSAAS】",
         "keyword": "body=\"href=\\\"https://www.thinksaas.cn/app/home/skins/default/style.css\\\"\"",
-        "type": "cms"
-    },
-    {
-        "name": "【Hua Tian Power -Oa8000】",
-        "keyword": "body=\"/OAapp/WebObjects/OAapp.woa\"",
         "type": "cms"
     },
     {
@@ -29427,7 +29468,7 @@
     {
         "name": "【HIGHCHARTS】",
         "keyword": "body=\"highcharts.js\" || body=\"highcharts.min.js\" || body=\"highcharts({\" || body=\"highcharts()\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【ZTE-alarm research】",
@@ -29842,11 +29883,6 @@
     {
         "name": "【Falcon】",
         "keyword": "title=\"OpsPlatform\" || body=\"<h3 class=\\\"font-bold\\\">OpsPlatform</h3>\" || title=\"OpsPlatform\" || body=\"<h3 class=\\\"font-bold\\\">OpsPlatform</h3>\" || body=\"textarea class=\\\"form-control endpoints\"",
-        "type": "cms"
-    },
-    {
-        "name": "【Puping Stars - Firewall】",
-        "keyword": "((body=\"var title_zh = '天清汉马USG防火墙';\" || body=\"Venusense FW\") && title!=\"应用交付系统\") || title=\"天清汉马USG\" || title=\"Venusense USG\" || title=\"启明星辰 安全系统\"",
         "type": "cms"
     },
     {
@@ -30450,8 +30486,13 @@
         "type": "cms"
     },
     {
-        "name": "【启明星辰-天清汉马USG】",
+        "name": "【启明星辰-天清汉马USG防火墙】",
         "keyword": "title=\"天清汉马USG\" || (body=\"var hasloading = $changeYZM.is(\\\".item_code_loading\\\")\" && body=\"span id=\\\"changeYZM\\\"\")",
+        "type": "cms"
+    },
+    {
+        "name": "【启明星辰-天清汉马USG防火墙】",
+        "keyword": "((body=\"var title_zh = '天清汉马USG防火墙';\" || body=\"Venusense FW\") && title!=\"应用交付系统\") || title=\"天清汉马USG\" || title=\"Venusense USG\" || title=\"启明星辰 安全系统\"",
         "type": "cms"
     },
     {
@@ -31812,7 +31853,7 @@
     {
         "name": "【openSUSE】",
         "keyword": "header=\"openSUSE\" || header=\"openSUSE\" || header=\"x01Welcome to SUSE\" || header=\"SUSE\" || header=\"SUSE\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【1039SOFT - Home School】",
@@ -32455,8 +32496,8 @@
         "type": "cms"
     },
     {
-        "name": "【ASPCMS】",
-        "keyword": "title=\"Powered by ASPCMS\" || body=\"content=\\\"ASPCMS\" || body=\"/inc/AspCms_AdvJs.asp\"",
+        "name": "【AspCMS】",
+        "keyword": "title=\"Powered by ASPCMS\" || body=\"content=\\\"ASPCMS\" || body=\"/inc/AspCms_AdvJs.asp\" || body=\"src=\\\"/inc/AspCms\"",
         "type": "cms"
     },
     {
@@ -32470,7 +32511,7 @@
         "type": "cms"
     },
     {
-        "name": "【大汉Dahan Software - Dahan System】",
+        "name": "【大汉软件-Dahan-System】",
         "keyword": "body=\"Produced By 大汉网络\" || body=\"<a href='http://www.hanweb.com' style='display:none'>\" || body=\"<meta name='Generator' content='大汉版通'>\" || body=\"<meta name='Author' content='大汉网络'>\" || body=\"/jcms_files/jcms\"",
         "type": "cms"
     },
@@ -37477,7 +37518,7 @@
     {
         "name": "【React】",
         "keyword": "icon_hash=\"-2009722838\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Atlassian – JIRA】",
@@ -38975,7 +39016,7 @@
         "type": "cms"
     },
     {
-        "name": "【Tongda】",
+        "name": "【TDXK-通达OA】",
         "keyword": "icon_hash=\"-759108386\"",
         "type": "cms"
     },
