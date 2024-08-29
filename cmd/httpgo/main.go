@@ -57,10 +57,17 @@ func main() {
 		newdir := dir + "/" + *server + "/"
 		// 取随机字符串作为密码
 		Spasswd := utils.GenerateRandomString(10)
-		fmt.Printf("Serving：http://127.0.0.1:%d/%s.html\n", 6231, *server)
-		fmt.Printf("Serving：http://0.0.0.1:%d/%s.html\n", 6231, *server)
+
+		// 获取随机未占用端口
+		port, err := utils.GetRandomPort()
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		fmt.Printf("Serving：http://127.0.0.1:%d/%s.html\n", port, *server)
+		fmt.Printf("Serving：http://0.0.0.1:%d/%s.html\n", port, *server)
 		fmt.Printf("UserInfo: admin/%s\n", Spasswd)
-		err := httpgo.ServeDirectoryWithAuth(newdir, "admin", Spasswd, 6231)
+		err = httpgo.ServeDirectoryWithAuth(newdir, "admin", Spasswd, port)
 		if err != nil {
 			log.Fatal(err)
 		}

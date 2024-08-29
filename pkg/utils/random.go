@@ -2,6 +2,7 @@ package utils
 
 import (
 	"math/rand"
+	"net"
 	"time"
 )
 
@@ -19,4 +20,15 @@ func GenerateRandomString(length int) string {
 	}
 
 	return string(b)
+}
+
+func GetRandomPort() (int, error) {
+	// Listen on a random port
+	addr, err := net.Listen("tcp", ":0")
+	if err != nil {
+		return 0, err
+	}
+	defer addr.Close()
+	port := addr.Addr().(*net.TCPAddr).Port
+	return port, nil
 }
