@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	"time"
 )
 
 // ServeDirectoryWithAuth 启动一个带有基本身份验证的文件服务器
@@ -17,8 +18,8 @@ func ServeDirectoryWithAuth(dir, username, password string, port int) error {
 	// 创建一个文件服务器处理程序
 	fs := http.FileServer(http.Dir(dir))
 
-	// 使用 BasicAuth 中间件保护文件服务器
-	protectedFS := BasicAuth(fs, username, password)
+	// 使用 BasicAuth 和 Logging 中间件保护和记录文件服务器
+	protectedFS := BasicAuth(LoggingMiddleware(fs), username, password)
 
 	// 启动 Web 服务器
 	addr := ":" + strconv.Itoa(port)
@@ -37,4 +38,35 @@ func BasicAuth(next http.Handler, username, password string) http.Handler {
 		}
 		next.ServeHTTP(w, r)
 	})
+}
+
+// LoggingMiddleware 是一个中间件函数，用于记录每个请求的详细信息
+func LoggingMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		start := time.Now()
+
+		// 使用自定义的 ResponseWriter 来捕获状态码
+		lrw := &loggingResponseWriter{ResponseWriter: w, statusCode: http.StatusOK}
+		next.ServeHTTP(lrw, r)
+
+		// 打印日志
+		log.Printf("%s %s %s %d %s",
+			r.RemoteAddr,
+			r.Method,
+			r.URL.Path,
+			lrw.statusCode,
+			time.Since(start))
+	})
+}
+
+// loggingResponseWriter 是一个包装 ResponseWriter 的结构体，用于捕获响应状态码
+type loggingResponseWriter struct {
+	http.ResponseWriter
+	statusCode int
+}
+
+// WriteHeader 捕获状态码
+func (lrw *loggingResponseWriter) WriteHeader(code int) {
+	lrw.statusCode = code
+	lrw.ResponseWriter.WriteHeader(code)
 }
