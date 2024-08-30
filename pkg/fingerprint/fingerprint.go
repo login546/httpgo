@@ -289,6 +289,8 @@ func CheckFingerprint(response *httpgo.Response, expression string, faviconhashs
 // evaluatePostfix 评估后缀表达式
 func evaluatePostfix(postfix []string, respBody, respHeader, respTitle string, respCert string, iconHashes []string) bool {
 	var stack []bool
+	//检查指纹错误
+	//fmt.Printf("Evaluating postfix expression: %v\n", postfix) // 打印后缀表达式
 
 	for _, token := range postfix {
 		switch token {
