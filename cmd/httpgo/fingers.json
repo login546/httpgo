@@ -1,5 +1,15 @@
 [ 
     {
+        "name": "【百胜E3OMS-E3全渠道中台】",
+        "keyword": "icon_hash=\"-597371144\" || body=\"e3/webcommon/web/\" || icon_hash=\"-1722784935\"",
+        "type": "cms"
+    },
+    {
+        "name": "【天锐绿盾审批系统】",
+        "keyword": "body=\"location.href=location.href+\\\"trwfe\\\";\"",
+        "type": "cms"
+    },
+    {
         "name": "【中腾OA】",
         "keyword": "body=\"systemAction\" && body=\"zt_webframe\" && body=\"login\"",
         "type": "cms"
@@ -1300,7 +1310,7 @@
         "type": "cms"
     },
     {
-        "name": "【正方教学管理信息服务平台】",
+        "name": "【正方数字化校园信息门户】",
         "keyword": "title=\"正方数字化校园信息门户\" || title=\"数字化校园信息门户\" || title=\"统一身份认证中心\" && body=\"正方\" && body=\"zfca/login\" && body=\"login_bg\"",
         "type": "cms"
     },
@@ -1627,6 +1637,11 @@
     {
         "name": "【云匣子堡垒机】",
         "keyword": "body=\"type=application/x-xtx-axhost\" && cert=\"云匣子\"",
+        "type": "cms"
+    },
+    {
+        "name": "【云匣子堡垒机】",
+        "keyword": "(body=\"id=mTokenPlugin width=0 height=0 style=\\\"position: absolute;LEFT: 0px; TOP: 0px\\\"\" && body=\"type=application/x-xtx-axhost\") && (cert=\"Domain Control Validated\" || cert=\"云匣子\")",
         "type": "cms"
     },
     {
@@ -2361,7 +2376,7 @@
     },
     {
         "name": "【小绿叶-零度空间】",
-        "keyword": "icon_hash=\"-1170794986\"",
+        "keyword": "icon_hash=\"-1170794986\" || body=\"/scripts/leftTime/leftTime.min.js\"",
         "type": "cms"
     },
     {
@@ -4318,7 +4333,7 @@
     {
         "name": "【Azure-ARR】",
         "keyword": "header=\"ARRAffinity\" || header=\"ARRAffinity\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【legendsec-Secips】",
@@ -21166,8 +21181,8 @@
         "type": "cms"
     },
     {
-        "name": "【shopex】",
-        "keyword": "body=\"content=\\\"ShopEx\" || body=\"@author litie[aita]shopex.cn\" || body=\"http://www.shopex.cn' target='_blank'\"",
+        "name": "【ShopEx】",
+        "keyword": "body=\"content=\\\"ShopEx\" || body=\"@author litie[aita]shopex.cn\" || body=\"http://www.shopex.cn' target='_blank'\" || body=\"index.php?ctl=passport&url=\" || body=\"app/desktop/statics/commerce.png\"",
         "type": "cms"
     },
     {
@@ -32586,11 +32601,6 @@
         "type": "cms"
     },
     {
-        "name": "【云安宝-云匣子-云资源安全管理工具】",
-        "keyword": "(body=\"id=mTokenPlugin width=0 height=0 style=\\\"position: absolute;LEFT: 0px; TOP: 0px\\\"\" && body=\"type=application/x-xtx-axhost\") && (cert=\"Domain Control Validated\" || cert=\"云匣子\")",
-        "type": "cms"
-    },
-    {
         "name": "【Sports Technology --SPammark Email Information Security Gateway】",
         "keyword": "title=\"Spammark邮件信息安全网关\" || body=\"/cgi-bin/spammark?empty=1\" || header=\"smtp server (Spammark\"",
         "type": "cms"
@@ -38226,7 +38236,7 @@
         "type": "cms"
     },
     {
-        "name": "【Apache - Tomcat】",
+        "name": "【Apache-Tomcat】",
         "keyword": "icon_hash=\"-297069493\"",
         "type": "cms"
     },

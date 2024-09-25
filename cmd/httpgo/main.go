@@ -65,7 +65,7 @@ func main() {
 		}
 
 		fmt.Printf("Serving：http://127.0.0.1:%d/%s.html\n", port, *server)
-		fmt.Printf("Serving：http://0.0.0.1:%d/%s.html\n", port, *server)
+		fmt.Printf("Serving：http://0.0.0.0:%d/%s.html\n", port, *server)
 		fmt.Printf("UserInfo: admin/%s\n", Spasswd)
 		err = httpgo.ServeDirectoryWithAuth(newdir, "admin", Spasswd, port)
 		if err != nil {
