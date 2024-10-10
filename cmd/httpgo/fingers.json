@@ -1,5 +1,10 @@
 [ 
     {
+        "name": "【Spug开源运维平台】",
+        "keyword": "icon_hash=\"-168333308\" || (title=\"Spug\" && body=\"manifest.json\")",
+        "type": "cms"
+    },
+    {
         "name": "【百胜E3OMS-E3全渠道中台】",
         "keyword": "icon_hash=\"-597371144\" || body=\"e3/webcommon/web/\" || icon_hash=\"-1722784935\"",
         "type": "cms"
@@ -12652,7 +12657,7 @@
     },
     {
         "name": "【Adobe-Experience-Manager】",
-        "keyword": "(body=\"Adobe Experience Manager\" && body=\" class=\\\"coral-Heading coral-Heading--1\\\"\") ||(title=\"AEM 登录\" && body=\"Adobe\")",
+        "keyword": "(body=\"Adobe Experience Manager\" && body=\" class=\\\"coral-Heading coral-Heading--1\\\"\") || (title=\"AEM 登录\" && body=\"Adobe\")",
         "type": "cms"
     },
     {
@@ -14691,8 +14696,13 @@
         "type": "cms"
     },
     {
-        "name": "【新点-OA】",
-        "keyword": "title=\"新点协同办公系统\" || body=\"请安装新点\"",
+        "name": "【Epoint-新点-网上协同办公平台(OA)】",
+        "keyword": "title=\"新点协同办公系统\" || body=\"请安装新点\" || (body=\"frame/fui/js/cssboot.js\" && body=\"loginaction/getLoginData\")",
+        "type": "cms"
+    },
+    {
+        "name": "【Epoint-新点-移动应用管理平台】",
+        "keyword": "title=\"新点移动应用管理平台\" || (body=\"images/rhino.ico\" && body=\"images/emplogin.jpg\")",
         "type": "cms"
     },
     {
@@ -21481,7 +21491,7 @@
         "type": "cms"
     },
     {
-        "name": "【Kozi-ARAS】",
+        "name": "【Kozi-ARAS-科来网络回溯分析系统】",
         "keyword": "title=\"科来网络回溯\" || ((body=\"科来软件 版权所有\" || body=\"i18ninit.min.js\") && body!=\"nfr=\\\"true\\\"\")",
         "type": "cms"
     },
@@ -21521,7 +21531,7 @@
         "type": "cms"
     },
     {
-        "name": "【HEJIA-machine room monitoring】",
+        "name": "【HEJIA-机房动力环境监控系统】",
         "keyword": "title=\"和嘉科技-机房动力环境监控系统\" || body=\"content=\\\"www.hejia-tech.com\"",
         "type": "cms"
     },
@@ -22006,7 +22016,7 @@
         "type": "cms"
     },
     {
-        "name": "【Dongfang - Application Server Tongweb】",
+        "name": "【东方通-Server-Tongweb】",
         "keyword": "header=\"TongWeb Server\" || header=\"Server: TongWeb Server\"",
         "type": "cms"
     },
@@ -22367,7 +22377,7 @@
     },
     {
         "name": "【Struts2】",
-        "keyword": "body=\"Struts Problem Report\" || body=\"There is no Action mapped for namespace\" || body=\"No result defined for action and result input\" || title=\"Struts2 Showcase\" ||(body=\"<input type=\\\"hidden\\\" name=\\\"struts.token.name\\\"\" && body=\"action\")",
+        "keyword": "body=\"Struts Problem Report\" || body=\"There is no Action mapped for namespace\" || body=\"No result defined for action and result input\" || title=\"Struts2 Showcase\" || (body=\"<input type=\\\"hidden\\\" name=\\\"struts.token.name\\\"\" && body=\"action\")",
         "type": "cms"
     },
     {
@@ -23588,11 +23598,6 @@
     {
         "name": "【VictorySoft-developed new well design management system】",
         "keyword": "body=\"value=\\\"style2012/style1/Scripts/expressInstall.swf\\\"\"",
-        "type": "cms"
-    },
-    {
-        "name": "【移动应用管理平台】",
-        "keyword": "(body=\"onclick=\\\"javascript:document.loginForm.reset();\\\"\" && body=\"font-family:Verdana, Geneva, sans-serif\") || title=\"移动应用管理平台\"",
         "type": "cms"
     },
     {
@@ -25732,7 +25737,7 @@
     },
     {
         "name": "【蓝凌-OA】",
-        "keyword": "icon_hash=\"831854882\" || (body=\"lui_login_message_td\" && body=\"form_bottom\") || (body=\"蓝凌软件 版权所有\" && (body=\"j_acegi_security_check\" || title=\"欢迎登录智慧协同平台\")) ||(body=\"j_acegi_security_check\" && body=\"onsubmit=\\\"return kmss_onsubmit();\" && (body=\"ExceptionTranslationFilter对SPRING_SECURITY_TARGET_URL 进行未登录url保持 请求中的hash并不会传递到服务端，故只能前端处理\" || body=\"kkDownloadLink link\"))",
+        "keyword": "icon_hash=\"831854882\" || (body=\"lui_login_message_td\" && body=\"form_bottom\") || (body=\"蓝凌软件 版权所有\" && (body=\"j_acegi_security_check\" || title=\"欢迎登录智慧协同平台\")) || (body=\"j_acegi_security_check\" && body=\"onsubmit=\\\"return kmss_onsubmit();\" && (body=\"ExceptionTranslationFilter对SPRING_SECURITY_TARGET_URL 进行未登录url保持 请求中的hash并不会传递到服务端，故只能前端处理\" || body=\"kkDownloadLink link\"))",
         "type": "cms"
     },
     {
