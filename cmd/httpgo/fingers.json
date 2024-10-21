@@ -1,5 +1,80 @@
 [ 
     {
+        "name": "【迈普pnsr2900x系统】",
+        "keyword": "body=\"/assets/css/ui-dialog.css\" && body=\"/form/formUserLogin\"",
+        "type": "cms"
+    },
+    {
+        "name": "【众智OA办公系统】",
+        "keyword": "body=\"/Account/Login?ACT=Index\"",
+        "type": "cms"
+    },
+    {
+        "name": "【同望OA】",
+        "keyword": "body=\"loginAction.struts?actionType=blockLogin\"",
+        "type": "cms"
+    },
+    {
+        "name": "【PAN(Palo Alto Networks Expedition)系统】",
+        "keyword": "title=\"Expedition Project\"",
+        "type": "cms"
+    },
+    {
+        "name": "【pgAdmin4】",
+        "keyword": "icon_hash=\"1502815117\"",
+        "type": "cms"
+    },
+    {
+        "name": "【FLIR-AX8热成像仪】",
+        "keyword": "icon_hash=\"1319830077\" || body=\"/public/css/FLIR/light/style-common.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【孚盟云系统】",
+        "keyword": "body=\"hidLicResult\" && body=\"hidProductID\"",
+        "type": "cms"
+    },
+    {
+        "name": "【中新天达系统】",
+        "keyword": "body=\"aexp/ValidateImage\"",
+        "type": "cms"
+    },
+    {
+        "name": "【知识吾爱纯净版小程序】",
+        "keyword": "body=\"域名/skdjfdf\"",
+        "type": "cms"
+    },
+    {
+        "name": "【灵当CRM系统】",
+        "keyword": "body=\"crmcommon/js/jquery/jquery-1.10.1.min.js\" || (body=\"http://localhost:8088/crm/index.php\" && body=\"ldcrm.base.js\")",
+        "type": "cms"
+    },
+    {
+        "name": "【Cloudlog系统】",
+        "keyword": "icon_hash=\"-460032467\"",
+        "type": "cms"
+    },
+    {
+        "name": "【志华软件】",
+        "keyword": "boby=\"b28web/Utility/\"",
+        "type": "cms"
+    },
+    {
+        "name": "【网动统一通信平台】",
+        "keyword": "title=\"网动统一通信平台(Active UC)\"",
+        "type": "cms"
+    },
+    {
+        "name": "【夜莺开源监控系统系统】",
+        "keyword": "icon_hash=\"-2047686847\" || body=\"icon-yijigaojing\"",
+        "type": "cms"
+    },
+    {
+        "name": "【锐明技术股份有限公司-Mangrove系统】",
+        "keyword": "icon_hash=\"564025728\" || body=\"Mvsp/RegisterLogin/Default.do\"",
+        "type": "cms"
+    },
+    {
         "name": "【Spug开源运维平台】",
         "keyword": "icon_hash=\"-168333308\" || (title=\"Spug\" && body=\"manifest.json\")",
         "type": "cms"
@@ -237,6 +312,16 @@
     {
         "name": "【五指CMS】",
         "keyword": "body=\"北京五指互联科技有限公司\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-Tainacan插件】",
+        "keyword": "body=\"/wp-content/plugins/tainacan/\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-Gutenkit插件】",
+        "keyword": "body=\"/wp-content/plugins/gutenkit-blocks-addon\"",
         "type": "cms"
     },
     {
@@ -1066,7 +1151,7 @@
     },
     {
         "name": "【百易云资产管理运营系统】",
-        "keyword": "body=\"不要着急，点此\" || title=\"资管云\"",
+        "keyword": "body=\"不要着急，点此\" || (title=\"资管云\" && body=\"media/css/uniform.default.css\")",
         "type": "cms"
     },
     {
@@ -2145,6 +2230,11 @@
         "type": "cms"
     },
     {
+        "name": "【大华-智能云网关注册管理平台】",
+        "keyword": "title=\"智能云网关注册管理平台\"",
+        "type": "cms"
+    },
+    {
         "name": "【大华-DSS】",
         "keyword": "icon_hash=\"2095320044\" || icon_hash=\"411052691\" || (body=\"itcLoginForm\" && body=\"portal/login_init.action\")",
         "type": "cms"
@@ -2215,7 +2305,7 @@
         "type": "cms"
     },
     {
-        "name": "【北大医信HBI】",
+        "name": "【北大医信HBI-运营管理与决策支持系统】",
         "keyword": "body=\"desktop/ui/custom/getImage?img\" || icon_hash=\"-1462321960\"",
         "type": "cms"
     },
@@ -7302,7 +7392,7 @@
     },
     {
         "name": "【GitLab】",
-        "keyword": "header=\"_gitlab_session\" || header=\"_gitlab_session\" || body=\"gon.default_issues_tracker\" || body=\"content=\\\"GitLab Community Edition\\\"\" || title=\"Sign in · GitLab\" || body=\"content=\\\"GitLab \" || body=\"<a href=\\\"https://about.gitlab.com/\\\">About GitLab\" || body=\"class=\\\"col-sm-7 brand-holder pull-left\\\"\"",
+        "keyword": "title=\"Sigin·GitLab\" || title=\"登录 · GitLab\" || body=\"GitLab 社区版\" || icon_hash=\"1265477436\" || icon_hash=\"1278323681\" || icon_hash=\"516963061\" || header=\"_gitlab_session\" || header=\"_gitlab_session\" || body=\"gon.default_issues_tracker\" || body=\"content=\\\"GitLab Community Edition\\\"\" || title=\"Sign in · GitLab\" || body=\"content=\\\"GitLab \" || body=\"<a href=\\\"https://about.gitlab.com/\\\">About GitLab\" || body=\"class=\\\"col-sm-7 brand-holder pull-left\\\"\"",
         "type": "cms"
     },
     {
@@ -24998,7 +25088,7 @@
     {
         "name": "【Beego-Server】",
         "keyword": "(header=\"Server: beegoServer\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"Server: beegoServer\" && header!=\"couchdb\" && header!=\"drupal\")",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【SingleComm-Analysis Platform】",
@@ -28316,7 +28406,7 @@
         "type": "cms"
     },
     {
-        "name": "【Eyou-mail system】",
+        "name": "【亿邮（eYou）电子邮件系统】",
         "keyword": "title=\"eYou 邮件系统\" || header=\"eYouWS\" || body=\"cr\\\">eYouMail\" || header=\"EMPHPSID\" || body=\"content=\\\"亿邮电子邮件系统\" || body=\"/tpl/login/user/images/dbg.png\" || body=\"var loginssl = document.form_login.login_ssl.value;\" || header=\"eYou MUA\"",
         "type": "cms"
     },
@@ -30896,7 +30986,7 @@
         "type": "cms"
     },
     {
-        "name": "【深信服-BBC分支机构业务管理系统】",
+        "name": "【深信服-BBC集中安全管理平台】",
         "keyword": "body=\"location.href = '/bbc/index'\"",
         "type": "cms"
     },
@@ -35731,7 +35821,7 @@
         "type": "cms"
     },
     {
-        "name": "【Wisedu- Smart Campus Platform】",
+        "name": "【金智-Wisedu-智慧校园】",
         "keyword": "body=\"portal/js/plugins/changeSkin.js\" && body=\"前端配置文件\"",
         "type": "cms"
     },
@@ -35741,7 +35831,7 @@
         "type": "cms"
     },
     {
-        "name": "【HikVision - Video Cloud】",
+        "name": "【HikVision-Video Cloud】",
         "keyword": "header=\"Server: FACE-Webs\" || header=\"Server: FACE-Webs\" || (body=\"placeholder=\\\"{{oLan.password}}\" && body=\"oCheckUser.szPassWd\" && body!=\"/ui/css/style.css\")",
         "type": "cms"
     },
