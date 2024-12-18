@@ -1,5 +1,50 @@
 [ 
     {
+        "name": "【锁群管理系统】",
+        "keyword": "title=\"锁群管理系统 V2.0\"",
+        "type": "cms"
+    },
+    {
+        "name": "【时空WMS-仓储精细化管理系统】",
+        "keyword": "body=\"SKControlKLForJson.ashx\"",
+        "type": "cms"
+    },
+    {
+        "name": "【DockerUI】",
+        "keyword": "body=\"static/common/js/ui.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【生命港湾服务配置工具平台】",
+        "keyword": "body=\"css/markdown.css\" && body=\"icon-512.png\"",
+        "type": "cms"
+    },
+    {
+        "name": "【圣乔ERP系统】",
+        "keyword": "title=\"圣乔ERP系统\"",
+        "type": "cms"
+    },
+    {
+        "name": "【安科瑞企业用电监控预警系统】",
+        "keyword": "body=\"myCss/phone.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【办公OA系统-思普信息技术有限公司】",
+        "keyword": "icon_hash=\"-403479360\"",
+        "type": "cms"
+    },
+    {
+        "name": "【电子图书阅读平台】",
+        "keyword": "body=\"/Index.aspx/SearchBy\"",
+        "type": "cms"
+    },
+    {
+        "name": "【服务配置工具-安徽生命港湾信息技术有限公司】",
+        "keyword": "body=\"css/markdown.css\" && body=\"icon-512.png\"",
+        "type": "cms"
+    },
+    {
         "name": "【大商创多用户商城】",
         "keyword": "body=\"dsc-choie\"",
         "type": "cms"
@@ -41,12 +86,12 @@
     },
     {
         "name": "【顺景ERP管理系统】",
-        "keyword": "body=\"/api/DBRecord/getDBRecords\"",
+        "keyword": "body=\"/api/DBRecord/getDBRecords\" || body=\"顺景软件 WebAPI 服务端\"",
         "type": "cms"
     },
     {
         "name": "【F22服装管理软件系统-广州锦铭泰软件科技有限公司】",
-        "keyword": "body=\"IDWebSoft/\"",
+        "keyword": "body=\"b28web/Utility/\"",
         "type": "cms"
     },
     {
@@ -172,11 +217,6 @@
     {
         "name": "【Cloudlog系统】",
         "keyword": "icon_hash=\"-460032467\"",
-        "type": "cms"
-    },
-    {
-        "name": "【志华软件】",
-        "keyword": "boby=\"b28web/Utility/\"",
         "type": "cms"
     },
     {
@@ -2165,12 +2205,12 @@
         "type": "cms"
     },
     {
-        "name": "【EasyCVR 视频管理平台】",
+        "name": "【EasyCVR-视频管理平台】",
         "keyword": "title=\"EasyCVR\"",
         "type": "cms"
     },
     {
-        "name": "【Docassemble V1.4.96】",
+        "name": "【Docassemble-V1.4.96】",
         "keyword": "icon_hash=\"-575790689\"",
         "type": "cms"
     },
@@ -5763,6 +5803,11 @@
     {
         "name": "【Mitel-Communications-Director】",
         "keyword": "title=\"Mitel Communications Director\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Mitel企业协作平台】",
+        "keyword": "body=\"MiCollab End User Portal\"",
         "type": "cms"
     },
     {
@@ -25372,7 +25417,7 @@
     },
     {
         "name": "【PbootCMS】",
-        "keyword": "header=\"Set-Cookie: pbootsystem=\" || header=\"Set-Cookie: pbootsystem=\" || title=\"PbootCMS\" || header=\"X-Powered-By: PbootCMS\"",
+        "keyword": "body=\"zbeol.com\" || header=\"Set-Cookie: pbootsystem=\" || header=\"Set-Cookie: pbootsystem=\" || title=\"PbootCMS\" || header=\"X-Powered-By: PbootCMS\"",
         "type": "cms"
     },
     {
