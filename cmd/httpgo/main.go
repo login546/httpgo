@@ -9,6 +9,7 @@ import (
 	"httpgo/pkg/utils"
 	"log"
 	"os"
+	"os/signal"
 	"strconv"
 	"strings"
 	"sync"
@@ -24,7 +25,7 @@ const (
 func main() {
 	// 定义命令行标志
 	urlFlag := flag.String("url", "", "请求的url")
-	fileFlag := flag.String("file", "target.txt", "请求的文件")
+	fileFlag := flag.String("file", "", "请求的文件")
 	proxyFlag := flag.String("proxy", "", "添加代理")
 	timeoutInt := flag.Duration("timeout", 8, "超时时间")
 	thead := flag.Int("thead", 20, "并发数")
@@ -121,11 +122,10 @@ func main() {
 		return
 	}
 
-	//获取target.txt文件中的url
 	targetlist, err := utils.ReadFileToSlice(*fileFlag)
 	if err != nil {
-		fmt.Println("Error reading file:", err)
-		return
+		//fmt.Println("Error reading file:", err)
+		//return
 	}
 
 	// 创建一个通道来控制并发数量
@@ -175,7 +175,9 @@ func main() {
 		fmt.Println("写入CSV表头出错:", err)
 		return
 	}
-	fmt.Printf("%-40s %-10s %-30s %-10s %-10s\n", "URL", "Status", "Title", "CMSList", "OtherList")
+	if *fileFlag != "" {
+		fmt.Printf("%-40s %-10s %-30s %-10s %-10s\n", "URL", "Status", "Title", "CMSList", "OtherList")
+	}
 
 	for _, target := range targetlist {
 		wg.Add(1)
@@ -219,4 +221,12 @@ func main() {
 
 	wg.Wait()
 	fmt.Println("处理完毕")
+
+	//捕获系统信号，保持程序运行，防止web服务关闭
+	c := make(chan os.Signal, 1)
+	signal.Notify(c, os.Interrupt, os.Kill)
+
+	fmt.Println("程序运行中，按 Ctrl+C 停止...")
+	<-c // 等待信号
+	fmt.Println("程序已退出")
 }
