@@ -11,7 +11,7 @@
     },
     {
         "name": "【Yourphp企业网站管理系统】",
-        "keyword": "header=\"YP_onlineid\"",
+        "keyword": "header=\"Set-Cookie: YP_onlineid\"",
         "type": "cms"
     },
     {
@@ -1571,7 +1571,7 @@
     },
     {
         "name": "【泛微-OA】",
-        "keyword": "icon_hash=\"1578525679\" || body=\"wui/common/page/sysRemind.jsp\" || header=\"ecology_JSessionid\" || header=\"testBanCookie\" || header=\"testBanCookie\" || body=\"/wui/common/css/w7OVFont.css\" || (body=\"typeof poppedWindow\" && body=\"client/jquery.client_wev8.js\") || body=\"/theme/ecology8/jquery/js/zDialog_wev8.js\" || body=\"ecology8/lang/weaver_lang_7_wev8.js\"",
+        "keyword": "icon_hash=\"1578525679\" || body=\"wui/common/page/sysRemind.jsp\" || header=\"ecology_JSessionid\" || header=\"testBanCookie\" || body=\"/wui/common/css/w7OVFont.css\" || (body=\"typeof poppedWindow\" && body=\"client/jquery.client_wev8.js\") || body=\"/theme/ecology8/jquery/js/zDialog_wev8.js\" || body=\"ecology8/lang/weaver_lang_7_wev8.js\"",
         "type": "cms"
     },
     {
@@ -2601,7 +2601,7 @@
     },
     {
         "name": "【金和oa】",
-        "keyword": "title=\"金和协同管理平台\" || body=\"js/PasswordCommon.js\" || body=\"js/PasswordNew.js\" || body=\"Jinher Network\" || (body=\"c6/Jhsoft.Web.login\" && body=\"CloseWindowNoAsk\") || header=\"Path=/jc6\" || (body=\"JC6金和协同管理平台\" && body=\"src=\\\"/jc6/platform/\") || body=\"window.location = \\\"JHSoft.MobileApp/Default.htm\\\";\" || header=\"Path=/jc6\"",
+        "keyword": "title=\"金和协同管理平台\" || body=\"js/PasswordCommon.js\" || body=\"js/PasswordNew.js\" || body=\"Jinher Network\" || (body=\"c6/Jhsoft.Web.login\" && body=\"CloseWindowNoAsk\") || (body=\"JC6金和协同管理平台\" && body=\"src=\\\"/jc6/platform/\") || body=\"window.location = \\\"JHSoft.MobileApp/Default.htm\\\";\" || header=\"Path=/jc6\"",
         "type": "cms"
     },
     {
@@ -2776,7 +2776,7 @@
     },
     {
         "name": "【友点建站-CMS】",
-        "keyword": "body=\"index.php/channel/search\"",
+        "keyword": "body=\"index.php/channel/search\" || header=\"X-Powered-By: YoudianCMS\"",
         "type": "cms"
     },
     {
@@ -2846,7 +2846,7 @@
     },
     {
         "name": "【sky-Router】",
-        "keyword": "header=\"realm=\\\"SKY Router\" || header=\"realm=\\\"SKY Router\" || (header=\"Server: sky_router\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"Server: sky_router\" && header!=\"couchdb\" && header!=\"drupal\")",
+        "keyword": "header=\"realm=\\\"SKY Router\" || (header=\"Server: sky_router\" && header!=\"couchdb\" && header!=\"drupal\")",
         "type": "cms"
     },
     {
@@ -2886,7 +2886,7 @@
     },
     {
         "name": "【Wing-FTP-Server】",
-        "keyword": "header=\"Server: Wing FTP Server\" || header=\"Server: Wing FTP Server\" || body=\"/help_javascript.htm\" || cert=\"Wing FTP Server\"",
+        "keyword": "header=\"Server: Wing FTP Server\" || body=\"/help_javascript.htm\" || cert=\"Wing FTP Server\"",
         "type": "cms"
     },
     {
@@ -2961,7 +2961,7 @@
     },
     {
         "name": "【AirOS】",
-        "keyword": "header=\"AIROS_SESSIONID\" || header=\"cookiechecker?uri=\" || header=\"AIROS_SESSIONID\" || header=\"cookiechecker?uri=\"",
+        "keyword": "header=\"AIROS_SESSIONID\" || header=\"cookiechecker?uri=\" || header=\"cookiechecker?uri=\"",
         "type": "other"
     },
     {
@@ -2991,7 +2991,7 @@
     },
     {
         "name": "【OpenAM】",
-        "keyword": "title=\"OpenAM（登录）\" || body=\"action=\\\"/openam/UI/Login\\\"\" || header=\"OpenAM Web Agent\" || header=\"/OpenAM/UI/Login.jsp\" || header=\"/openam/XUI/\" || header=\"OpenAM Web Agent\" || header=\"openam/SSORedirect\" || header=\"OpenAM-11.0.0\"",
+        "keyword": "title=\"OpenAM（登录）\" || body=\"action=\\\"/openam/UI/Login\\\"\" || header=\"OpenAM Web Agent\" || header=\"/OpenAM/UI/Login.jsp\" || header=\"/openam/XUI/\" || header=\"openam/SSORedirect\" || header=\"OpenAM-11.0.0\"",
         "type": "cms"
     },
     {
@@ -3121,7 +3121,7 @@
     },
     {
         "name": "【ABO.CMS】",
-        "keyword": "header=\"ABO.CMS\" || header=\"ABO.CMS\"",
+        "keyword": "header=\"ABO.CMS\"",
         "type": "cms"
     },
     {
@@ -3146,12 +3146,12 @@
     },
     {
         "name": "【Codis】",
-        "keyword": "title=\"Codis\" || body=\"ng-app=codisControllers\" || header=\"realm=\\\"Welcome to visit Codis dashboard.\" || (body=\"MainCodisCtrl\" && title=\"Codis \") || header=\"realm=\\\"Welcome to visit Codis dashboard.\"",
+        "keyword": "title=\"Codis\" || body=\"ng-app=codisControllers\" || header=\"realm=\\\"Welcome to visit Codis dashboard.\" || (body=\"MainCodisCtrl\" && title=\"Codis \")",
         "type": "cms"
     },
     {
         "name": "【DSS-stream media server】",
-        "keyword": "header=\"Server: DSS\" || header=\"Server: DSS\"",
+        "keyword": "header=\"Server: DSS\"",
         "type": "cms"
     },
     {
@@ -3196,7 +3196,7 @@
     },
     {
         "name": "【Agfeo-TK-Suite-Server】",
-        "keyword": "header=\"Server: tksock\" || header=\"Server: tksock\"",
+        "keyword": "header=\"Server: tksock\"",
         "type": "cms"
     },
     {
@@ -3241,7 +3241,7 @@
     },
     {
         "name": "【intelbras-WRN150】",
-        "keyword": "header=\"realm=\\\"WRN150\" || title=\"Roteador Wireless N WRN150\" || header=\"realm=\\\"WRN150\"",
+        "keyword": "header=\"realm=\\\"WRN150\" || title=\"Roteador Wireless N WRN150\"",
         "type": "cms"
     },
     {
@@ -3261,57 +3261,57 @@
     },
     {
         "name": "【DrayTek-Vigor-AP902】",
-        "keyword": "header=\"realm=\\\"VigorAP902\" || header=\"realm=\\\"VigorAP902\"",
+        "keyword": "header=\"realm=\\\"VigorAP902\"",
         "type": "cms"
     },
     {
         "name": "【DrayTek-Vigor-AP810】",
-        "keyword": "header=\"realm=\\\"VigorAP810\" || header=\"realm=\\\"VigorAP810\"",
+        "keyword": "header=\"realm=\\\"VigorAP810\"",
         "type": "cms"
     },
     {
         "name": "【NETGEAR-WGR-614L】",
-        "keyword": "header=\"realm=\\\"WGR-614L\" || header=\"realm=\\\"WGR614v2\" || header=\"realm=\\\"WGR614v3\" || header=\"realm=\\\"WGR614v4\" || header=\"realm=\\\"WGR614v6\" || header=\"realm=\\\"WGR614v7\" || header=\"realm=\\\"WGR-614L\" || header=\"realm=\\\"WGR614v2\" || header=\"realm=\\\"WGR614v3\" || header=\"realm=\\\"WGR614v4\" || header=\"realm=\\\"WGR614v6\" || header=\"realm=\\\"WGR614v7\"",
+        "keyword": "header=\"realm=\\\"WGR-614L\" || header=\"realm=\\\"WGR614v2\" || header=\"realm=\\\"WGR614v3\" || header=\"realm=\\\"WGR614v4\" || header=\"realm=\\\"WGR614v6\" || header=\"realm=\\\"WGR614v7\"",
         "type": "cms"
     },
     {
         "name": "【ADVANTECH-WR-600N】",
-        "keyword": "header=\"realm=\\\"WR-600N\" || header=\"realm=\\\"WR-600N\"",
+        "keyword": "header=\"realm=\\\"WR-600N\"",
         "type": "cms"
     },
     {
         "name": "【Hiawatha-web-server】",
-        "keyword": "header=\"Server: Hiawatha Web Server\" || header=\"Server: Hiawatha Web Server\"",
+        "keyword": "header=\"Server: Hiawatha Web Server\"",
         "type": "cms"
     },
     {
         "name": "【AVIGILON-Gateway】",
-        "keyword": "(header=\"Server: AvigilonGateway\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"Server: AvigilonGateway\" && header!=\"couchdb\" && header!=\"drupal\")",
+        "keyword": "header=\"Server: AvigilonGateway\" && header!=\"couchdb\" && header!=\"drupal\"",
         "type": "cms"
     },
     {
         "name": "【SUN-Solaris】",
-        "keyword": "header=\"login: Solaris 5.9 (SUN)\" || header=\"Sun Solaris\" || header=\"Sun Solaris\" || header=\"sun_ssh\" || header=\"SunOS\" || header=\"SunOS\"",
+        "keyword": "header=\"login: Solaris 5.9 (SUN)\" || header=\"Sun Solaris\" || header=\"sun_ssh\" || header=\"SunOS\"",
         "type": "cms"
     },
     {
         "name": "【ADB-HTTP-Server】",
-        "keyword": "(header=\"Server: ADB Broadband HTTP Server\" && header!=\"couchdb\" && header!=\"Drupal\") || (header=\"Server: ADB Broadband HTTP Server\" && header!=\"couchdb\" && header!=\"Drupal\")",
+        "keyword": "header=\"Server: ADB Broadband HTTP Server\" && header!=\"couchdb\" && header!=\"Drupal\"",
         "type": "cms"
     },
     {
         "name": "【H3C-Miniware-Webs】",
-        "keyword": "(header=\"Server: H3C-Miniware-Webs\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"Server: H3C-Miniware-Webs\" && header!=\"couchdb\" && header!=\"drupal\")",
+        "keyword": "header=\"Server: H3C-Miniware-Webs\" && header!=\"couchdb\" && header!=\"drupal\"",
         "type": "cms"
     },
     {
         "name": "【ERICOM-Access-Server】",
-        "keyword": " header=\"Server: Ericom Access Server\" || header=\"Server: Ericom Access Server\"",
+        "keyword": " header=\"Server: Ericom Access Server\"",
         "type": "cms"
     },
     {
         "name": "【IPWEBS】",
-        "keyword": "header=\"Server: IPWEBS\" || header=\"Server: IPWEBS\"",
+        "keyword": "header=\"Server: IPWEBS\"",
         "type": "cms"
     },
     {
@@ -3321,37 +3321,37 @@
     },
     {
         "name": "【rosewill-router】",
-        "keyword": "header=\"RNX-N300RT\" || header=\"Default: admin/admin\" || header=\"RNX-N300RT\"",
+        "keyword": "header=\"RNX-N300RT\" || header=\"Default: admin/admin\"",
         "type": "cms"
     },
     {
         "name": "【Sagemcom-SE681-WiMAX】",
-        "keyword": "header=\"Server: Sagemcom SE681 WiMAX\" || header=\"Server: Sagemcom SE681 WiMAX\" || title=\"Sagemcom SE681 WiMAX\"",
+        "keyword": "header=\"Server: Sagemcom SE681 WiMAX\" || title=\"Sagemcom SE681 WiMAX\"",
         "type": "cms"
     },
     {
         "name": "【klhttpd】",
-        "keyword": "header=\"Server: klhttpd\" || header=\"Server: klhttpd\"",
+        "keyword": "header=\"Server: klhttpd\"",
         "type": "cms"
     },
     {
         "name": "【HDHomeRun】",
-        "keyword": "header=\"Server: HDHomeRun\" || header=\"Server: HDHomeRun\"",
+        "keyword": "header=\"Server: HDHomeRun\"",
         "type": "cms"
     },
     {
         "name": "【QNX-Slinger】",
-        "keyword": "header=\"Server: Slinger\" || header=\"Server: Slinger\"",
+        "keyword": "header=\"Server: Slinger\"",
         "type": "cms"
     },
     {
         "name": "【adaptv-Web-Server】",
-        "keyword": "header=\"server: adaptv\" || header=\"server: adaptv\"",
+        "keyword": "header=\"server: adaptv\"",
         "type": "cms"
     },
     {
         "name": "【KIMAX-Unicorn-Router】",
-        "keyword": "header=\"Server: HUI-AI SERVER\" || header=\"Server: HUI-AI SERVER\"",
+        "keyword": "header=\"Server: HUI-AI SERVER\"",
         "type": "cms"
     },
     {
@@ -3366,12 +3366,12 @@
     },
     {
         "name": "【INEOQUEST】",
-        "keyword": "header=\"Server: INEOQUEST\" || header=\"Server: INEOQUEST\"",
+        "keyword": "header=\"Server: INEOQUEST\"",
         "type": "cms"
     },
     {
         "name": "【acmetool-redirector】",
-        "keyword": "header=\"Server: acmetool-redirector\" || header=\"Server: acmetool-redirector\"",
+        "keyword": "header=\"Server: acmetool-redirector\"",
         "type": "cms"
     },
     {
@@ -3401,7 +3401,7 @@
     },
     {
         "name": "【Mesosphere-DC/OS】",
-        "keyword": "title=\"Mesosphere DCOS\" || title=\"Mesosphere DC/OS\" || title=\"DC/OS\" || header=\"realm=\\\"Mesosphere\" || header=\"realm=\\\"Mesosphere\"",
+        "keyword": "title=\"Mesosphere DCOS\" || title=\"Mesosphere DC/OS\" || title=\"DC/OS\" || header=\"realm=\\\"Mesosphere\"",
         "type": "cms"
     },
     {
@@ -3466,7 +3466,7 @@
     },
     {
         "name": "【Tomcat-Manager-Application】",
-        "keyword": "(header=\"Tomcat Manager Application\" && header!=\"X-Generator: Drupal\") || (header=\"Tomcat Manager Application\" && header!=\"X-Generator: Drupal\")",
+        "keyword": "header=\"Tomcat Manager Application\" && header!=\"X-Generator: Drupal\"",
         "type": "cms"
     },
     {
@@ -3496,7 +3496,7 @@
     },
     {
         "name": "【Zhongyu Wantong -TrustMore 安全可信的应用授权平台】",
-        "keyword": "body=\"alt=\\\"TrustMore 安全可信的应用授权平台\\\"\" || header=\"Server: TrustMore Proxy\" || header=\"Server: TrustMore Proxy\"",
+        "keyword": "body=\"alt=\\\"TrustMore 安全可信的应用授权平台\\\"\" || header=\"Server: TrustMore Proxy\"",
         "type": "cms"
     },
     {
@@ -3506,7 +3506,7 @@
     },
     {
         "name": "【TivoWebPlus】",
-        "keyword": "header=\"realm=\\\"TivoWebPlus\" || header=\"realm=\\\"TivoWebPlus\"",
+        "keyword": "header=\"realm=\\\"TivoWebPlus\"",
         "type": "cms"
     },
     {
@@ -3536,7 +3536,7 @@
     },
     {
         "name": "【FrontView-Http-Server】",
-        "keyword": "header=\"FrontView Http Server\" || (body=\"content=\\\"FrontView\" && body=\"warningText\") || header=\"FrontView Http Server\"",
+        "keyword": "header=\"FrontView Http Server\" || (body=\"content=\\\"FrontView\" && body=\"warningText\")",
         "type": "cms"
     },
     {
@@ -3551,7 +3551,7 @@
     },
     {
         "name": "【TMSoft-MyAuth-Gateway】",
-        "keyword": "header=\"TMSoft Solucoes (www.tmsoft.com.br)\" || header=\"x-software-info MyAuth Gateway\" || header=\"x-software-owner Patrick Brandao\" || header=\"x-manager-by MyAuth Gateway\" || header=\"set-cookie MyAuth\" || header=\"TMSoft Solucoes (www.tmsoft.com.br)\" || header=\"x-software-info MyAuth Gateway\" || header=\"x-software-owner Patrick Brandao\" || header=\"x-manager-by MyAuth Gateway\" || header=\"set-cookie MyAuth\"",
+        "keyword": "header=\"TMSoft Solucoes (www.tmsoft.com.br)\" || header=\"x-software-info MyAuth Gateway\" || header=\"x-software-owner Patrick Brandao\" || header=\"x-manager-by MyAuth Gateway\" || header=\"set-cookie MyAuth\"",
         "type": "cms"
     },
     {
@@ -3611,7 +3611,7 @@
     },
     {
         "name": "【Toshiba-Projector】",
-        "keyword": "header=\"Server: TOSHIBA-Projector\" || header=\"Server: TOSHIBA-Projector\"",
+        "keyword": "header=\"Server: TOSHIBA-Projector\"",
         "type": "cms"
     },
     {
@@ -3635,8 +3635,8 @@
         "type": "cms"
     },
     {
-        "name": "【Easy to enter the sky - seek CMS】",
-        "keyword": "body=\"title='cms系统，首选蝉知cms\" || body=\"chanzhi.js\" || header=\"Set-Cookie: frontsid\" || header=\"Set-Cookie: frontsid\" || body=\"poweredBy'><a href='http://www.chanzhi.org\"",
+        "name": "【蝉知cms-seek-CMS】",
+        "keyword": "body=\"title='cms系统，首选蝉知cms\" || body=\"chanzhi.js\" || header=\"Set-Cookie: frontsid\" || body=\"poweredBy'><a href='http://www.chanzhi.org\"",
         "type": "cms"
     },
     {
@@ -3646,7 +3646,7 @@
     },
     {
         "name": "【zywall-usg-100】",
-        "keyword": "header=\"zywall-usg-100\" || header=\"ZyWALL USG 100\" || title=\"ZyWALL USG 100\"",
+        "keyword": "header=\"zywall-usg-100\" || title=\"ZyWALL USG 100\"",
         "type": "cms"
     },
     {
@@ -3661,7 +3661,7 @@
     },
     {
         "name": "【TwonkyServer】",
-        "keyword": "title=\"TwonkyMedia server media browser\" || title=\"TwonkyServer Media Browser\" || header=\"TwonkyMedia UPnP\" || header=\"TwonkyMedia UPnP\" || (body=\"<meta name=\\\"description\\\" content=\\\"TwonkyMedia Digital Home\\\">\" && body!=\"Server: couchdb\")",
+        "keyword": "title=\"TwonkyMedia server media browser\" || title=\"TwonkyServer Media Browser\" || header=\"TwonkyMedia UPnP\" || (body=\"<meta name=\\\"description\\\" content=\\\"TwonkyMedia Digital Home\\\">\" && body!=\"Server: couchdb\")",
         "type": "cms"
     },
     {
@@ -3891,7 +3891,7 @@
     },
     {
         "name": "【mylittleforum】",
-        "keyword": "body=\"powered by my little forum\" || body=\"index.php?mode=js_defaults\" || header=\"mlf2_general_forum_usersettings\" || header=\"mlf2_general_forum_usersettings\"",
+        "keyword": "body=\"powered by my little forum\" || body=\"index.php?mode=js_defaults\" || header=\"mlf2_general_forum_usersettings\"",
         "type": "cms"
     },
     {
@@ -3906,7 +3906,7 @@
     },
     {
         "name": "【Mobotix-Camera】",
-        "keyword": "body=\"content=\\\"MOBOTIX AG\" || header=\"MOBOTIX Camera\" || header=\"MOBOTIX Camera\"",
+        "keyword": "body=\"content=\\\"MOBOTIX AG\" || header=\"MOBOTIX Camera\"",
         "type": "cms"
     },
     {
@@ -3936,12 +3936,12 @@
     },
     {
         "name": "【Schneider-PowerLogic-ION】",
-        "keyword": "(title=\"PowerLogic\" && title=\"ION\" && header=\"Allegro-Software-RomPager\") || header=\"7650 ION\" || header=\"7550 ION\" || header=\"8650 ION\" || header=\"8600 ION\" || header=\"7300 ION\" || header=\"6200 ION\" || header=\"7650 ION\" || header=\"7550 ION\" || header=\"8650 ION\" || header=\"8600 ION\" || header=\"7300 ION\" || header=\"6200 ION\"",
+        "keyword": "(title=\"PowerLogic\" && title=\"ION\" && header=\"Allegro-Software-RomPager\") || header=\"7650 ION\" || header=\"7550 ION\" || header=\"8650 ION\" || header=\"8600 ION\" || header=\"7300 ION\" || header=\"6200 ION\"",
         "type": "cms"
     },
     {
         "name": "【MOXA-serial server】",
-        "keyword": "header=\"moxa_1.0\" || header=\"Server: MoxaHttp\" || header=\"Server: moxahttp\"",
+        "keyword": "header=\"moxa_1.0\" || header=\"Server: MoxaHttp\"",
         "type": "cms"
     },
     {
@@ -3956,17 +3956,17 @@
     },
     {
         "name": "【NETGEAR-R6220】",
-        "keyword": "header=\"NETGEAR R6220\" || header=\"NETGEAR R6220\" || title=\"NETGEAR Router R6220 \"",
+        "keyword": "header=\"NETGEAR R6220\" || title=\"NETGEAR Router R6220 \"",
         "type": "cms"
     },
     {
         "name": "【NETGEAR-R6400】",
-        "keyword": "header=\"NETGEAR R6400\" || (body=\"var mmc = {\" && body=\"Netgear R6400\") || (body=\"content=\\\"R6400\\\"\" && cert=\"Organization: NETGEAR\") || header=\"Netgear R6400\" || header=\"NETGEAR R6400\"",
+        "keyword": "header=\"NETGEAR R6400\" || (body=\"var mmc = {\" && body=\"Netgear R6400\") || (body=\"content=\\\"R6400\\\"\" && cert=\"Organization: NETGEAR\")",
         "type": "cms"
     },
     {
         "name": "【NETGEAR-R8000】",
-        "keyword": "header=\"NETGEAR R8000\" || header=\"NETGEAR R8000\" || header=\"Netgear R8000\" || header=\"Netgear-R8000\"",
+        "keyword": "header=\"NETGEAR R8000\"",
         "type": "cms"
     },
     {
@@ -4031,7 +4031,7 @@
     },
     {
         "name": "【Common-Serial-Server】",
-        "keyword": "header=\"realm=\\\"Serial Server\" || header=\"realm=\\\"Serial Server\" || header=\"Welcome to serial server\"",
+        "keyword": "header=\"realm=\\\"Serial Server\" || header=\"Welcome to serial server\"",
         "type": "cms"
     },
     {
@@ -4182,7 +4182,7 @@
     },
     {
         "name": "【ASUS-DSL-AC51】",
-        "keyword": "header=\"DSL-AC51\" || body=\"<div class=\\\"prod_madelName\\\">DSL-AC51\" || header=\"DSL-AC51\"",
+        "keyword": "header=\"DSL-AC51\" || body=\"<div class=\\\"prod_madelName\\\">DSL-AC51\"",
         "type": "cms"
     },
     {
@@ -4327,7 +4327,7 @@
     },
     {
         "name": "【思科-VPN】",
-        "keyword": "((header=\"webvpn\" || header=\"Centrala_vpnRV082\" || body=\"value=\\\" + svpnBtnLogin + \\\"\") && header!=\"couchdb\" && header!=\"drupal\" && body!=\"couchdb\") || header=\"RV082\" || title=\"Cisco Systems, Inc. VPN 3000 Concentrator\" || header=\"4-Port SSL/IPSec VPN \" || cert=\"CommonName: SFSHQ-RTR-01.SPI.STUDIFRANCHINI.COM\" || (title=\"''+ SITETITLE + \\\"\" && body=\"cisco\") || header=\"Basic realm=\\\"vpn8\\\"\" || header=\"Basic realm=\\\"vpn8\\\"\"",
+        "keyword": "((header=\"webvpn\" || header=\"Centrala_vpnRV082\" || body=\"value=\\\" + svpnBtnLogin + \\\"\") && header!=\"couchdb\" && header!=\"drupal\" && body!=\"couchdb\") || header=\"RV082\" || title=\"Cisco Systems, Inc. VPN 3000 Concentrator\" || header=\"4-Port SSL/IPSec VPN \" || cert=\"CommonName: SFSHQ-RTR-01.SPI.STUDIFRANCHINI.COM\" || (title=\"''+ SITETITLE + \\\"\" && body=\"cisco\") || header=\"Basic realm=\\\"vpn8\\\"\"",
         "type": "cms"
     },
     {
@@ -15747,7 +15747,7 @@
     },
     {
         "name": "【Oracle-JAVA】",
-        "keyword": "header=\"Set-Cookie: JSESSIONID\" || header=\"Set-Cookie: JSESSIONID\" || body=\"<h2>Struts Problem Report</h2>\" || body=\"There is no Action mapped for namespace\" || body=\"No result defined for action and result input\" || header=\"X-Powered-By: Servlet\" || header=\"X-Powered-By: Servlet\" || (header=\"JBoss\" && header=\"X-Powered-By\" && header!=\"Router\") || (header=\"JBoss\" && header=\"X-Powered-By\" && header!=\"Router\") || body=\"index.jsp\" || (header!=\"Server: 360 web server\" && header!=\"Docker\" && header=\"jsp\" && header=\"X-Powered-By\") || (header!=\"360 web server\" && header!=\"Docker\" && header=\"jsp\" && header=\"X-Powered-By\")",
+        "keyword": "header=\"Set-Cookie: JSESSIONID\" || body=\"<h2>Struts Problem Report</h2>\" || body=\"There is no Action mapped for namespace\" || body=\"No result defined for action and result input\" || header=\"X-Powered-By: Servlet\" || (header=\"JBoss\" && header=\"X-Powered-By\" && header!=\"Router\") || body=\"index.jsp\" || (header!=\"360 web server\" && header!=\"Docker\" && header=\"jsp\" && header=\"X-Powered-By\")",
         "type": "other"
     },
     {
@@ -15757,7 +15757,7 @@
     },
     {
         "name": "【TOTO_LINK-N151RT】",
-        "keyword": "header=\"realm=\\\"TOTOLINK N151RT\" || header=\"realm=\\\"TOTOLINK N151RT\" || header=\"realm=\\\"TOTOLINK N151RT\" || header=\"realm=\\\"TOTOLINK N151RT\"",
+        "keyword": "header=\"realm=\\\"TOTOLINK N151RT\"",
         "type": "cms"
     },
     {
@@ -15782,57 +15782,57 @@
     },
     {
         "name": "【ABUS-TVIP10001】",
-        "keyword": "header=\"realm=\\\"TVIP10001\" || header=\"realm=\\\"TVIP10001\"",
+        "keyword": "header=\"realm=\\\"TVIP10001\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP10500】",
-        "keyword": "header=\"realm=\\\"TVIP10500\" || header=\"realm=\\\"TVIP10500\"",
+        "keyword": "header=\"realm=\\\"TVIP10500\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP20000】",
-        "keyword": "header=\"realm=\\\"TVIP20000\" || header=\"realm=\\\"TVIP20000\"",
+        "keyword": "header=\"realm=\\\"TVIP20000\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP21502】",
-        "keyword": "header=\"realm=\\\"TVIP21502\" || header=\"realm=\\\"TVIP21502\"",
+        "keyword": "header=\"realm=\\\"TVIP21502\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP21550】",
-        "keyword": "header=\"realm=\\\"TVIP21550\" || header=\"realm=\\\"TVIP21550\"",
+        "keyword": "header=\"realm=\\\"TVIP21550\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP21551】",
-        "keyword": "header=\"realm=\\\"TVIP21551\" || header=\"realm=\\\"TVIP21551\"",
+        "keyword": "header=\"realm=\\\"TVIP21551\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP21552】",
-        "keyword": "header=\"realm=\\\"TVIP21552\" || header=\"realm=\\\"TVIP21552\"",
+        "keyword": "header=\"realm=\\\"TVIP21552\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP62000】",
-        "keyword": "header=\"realm=\\\"TVIP62000\" || header=\"realm=\\\"TVIP62000\"",
+        "keyword": "header=\"realm=\\\"TVIP62000\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP71501】",
-        "keyword": "header=\"realm=\\\"TVIP71501\" || header=\"realm=\\\"TVIP71501\"",
+        "keyword": "header=\"realm=\\\"TVIP71501\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP71551】",
-        "keyword": "header=\"realm=\\\"TVIP71551\" || header=\"realm=\\\"TVIP71551\"",
+        "keyword": "header=\"realm=\\\"TVIP71551\"",
         "type": "cms"
     },
     {
         "name": "【ABUS-TVIP72500】",
-        "keyword": "header=\"realm=\\\"TVIP72500\" || header=\"realm=\\\"TVIP72500\"",
+        "keyword": "header=\"realm=\\\"TVIP72500\"",
         "type": "cms"
     },
     {
@@ -22897,7 +22897,7 @@
     },
     {
         "name": "【小猪PigCMS】",
-        "keyword": "header=\"X-Powered-By: PigCms.com\" || header=\"X-Powered-By: PigCms.com\" || body=\"tpl/Home/pigcms/common/js/daohang.js\"",
+        "keyword": "header=\"X-Powered-By: PigCms.com\" || body=\"tpl/Home/pigcms/common/js/daohang.js\"",
         "type": "cms"
     },
     {
@@ -29242,7 +29242,7 @@
     },
     {
         "name": "【ThinkPHP】",
-        "keyword": "((header=\"thinkphp\" || header=\"think_template\") && header!=\"couchdb\" && header!=\"St: upnp:rootdevice\") || body=\"href=\\\"http://www.thinkphp.cn\\\">ThinkPHP</a><sup>\" || ((header=\"thinkphp\" || header=\"think_template\") && header!=\"couchdb\" && header!=\"St: upnp:rootdevice\")",
+        "keyword": "header=\"thinkphp\" || header=\"think_template\" || body=\"href=\\\"http://www.thinkphp.cn\\\">ThinkPHP</a><sup>\" || header=\"X-Powered-By: ThinkPHP\"",
         "type": "cms"
     },
     {
@@ -37616,11 +37616,6 @@
         "type": "cms"
     },
     {
-        "name": "【友点建站-CMS】",
-        "keyword": "header=\"X-Powered-By: YoudianCMS\" || header=\"X-Powered-By: YoudianCMS\"",
-        "type": "cms"
-    },
-    {
         "name": "【PRIME_COMPUTER-Server】",
         "keyword": "header=\"Server: Prime\" || header=\"Server: Prime\"",
         "type": "cms"
@@ -37782,7 +37777,7 @@
     },
     {
         "name": "【vmware-NSX】",
-        "keyword": "title=\"VMware NSX\" || (header=\"Server: NSX\" && header!=\"Server: NSX LB\") || body=\"/VMW_NSX_Logo-Black-Triangle-500w.png\" || (header=\"Server: NSX\" && header!=\"Server: NSX LB\")",
+        "keyword": "title=\"VMware NSX\" || (header=\"Server: NSX\" && header!=\"Server: NSX LB\") || body=\"/VMW_NSX_Logo-Black-Triangle-500w.png\"",
         "type": "cms"
     },
     {
@@ -37857,7 +37852,7 @@
     },
     {
         "name": "【JavaMelody】",
-        "keyword": "(header=\"JavaMelody\" && header=\"X-Application-Context\") || (header=\"JavaMelody\" && header=\"X-Application-Context\") || body=\"<a href=\\\"monitoring\\\" target=\\\"_new\\\">JavaMelody监控</a>\" || body=\"<a href=\\\"/internal/javamelody\\\">java melody monitoring</a>\"",
+        "keyword": "(header=\"JavaMelody\" && header=\"X-Application-Context\") || body=\"<a href=\\\"monitoring\\\" target=\\\"_new\\\">JavaMelody监控</a>\" || body=\"<a href=\\\"/internal/javamelody\\\">java melody monitoring</a>\"",
         "type": "cms"
     },
     {
@@ -37877,7 +37872,7 @@
     },
     {
         "name": "【MyBatis】",
-        "keyword": "(body=\"基于SpringBoot2.0的权限管理系统\" && body=\"mybatis\") || body=\"<li><i class=\\\"fa fa-arrow-circle-o-right m-r-xs\\\"></i> Mybatis</li>\" || (header=\"X-Application-Context\" && header=\"include-mybatis:\") || (header=\"X-Application-Context\" && header=\"include-mybatis:\")",
+        "keyword": "(body=\"基于SpringBoot2.0的权限管理系统\" && body=\"mybatis\") || body=\"<li><i class=\\\"fa fa-arrow-circle-o-right m-r-xs\\\"></i> Mybatis</li>\" || (header=\"X-Application-Context\" && header=\"include-mybatis:\")",
         "type": "cms"
     },
     {
@@ -37912,12 +37907,12 @@
     },
     {
         "name": "【ECLIPSE-jetty9】",
-        "keyword": "header=\"Server: jetty9\" || header=\"Server: jetty9\" || ((body=\"<h1>Jetty9 worked</h1>\" || body=\"<h1>Welcome to Jetty 9</h1>\") && title=\"Jetty\") || (body=\"jetty9\" && title=\"Error 404\")",
+        "keyword": "header=\"Server: jetty9\" || ((body=\"<h1>Jetty9 worked</h1>\" || body=\"<h1>Welcome to Jetty 9</h1>\") && title=\"Jetty\") || (body=\"jetty9\" && title=\"Error 404\")",
         "type": "cms"
     },
     {
         "name": "【druid-server】",
-        "keyword": "header=\"realm=\\\"Druid server\" || header=\"realm=\\\"Druid server\"",
+        "keyword": "header=\"realm=\\\"Druid server\"",
         "type": "cms"
     },
     {
@@ -37982,7 +37977,7 @@
     },
     {
         "name": "【BROADCOM-Layer7-API-Gateway】",
-        "keyword": "header=\"Server: Layer7-API-Gateway\" || header=\"Server: Layer7-API-Gateway\" || header=\"Layer7 API Gateway\"",
+        "keyword": "header=\"Server: Layer7-API-Gateway\" || header=\"Layer7 API Gateway\"",
         "type": "cms"
     },
     {
@@ -38152,7 +38147,7 @@
     },
     {
         "name": "【DELL-EMC-OpenManage-Enterprise】",
-        "keyword": "(header=\"/core/api/Console/Session\" && header=\"Location\") || (header=\"/core/api/Console/Session\" && header=\"Location\") || (cert=\"CommonName: openmanage1\" && cert=\"Organization: Dell Inc.\") || (body=\"url: '/core/api/Console/Configuration'\" && body=\"/topic/messages\")",
+        "keyword": "(header=\"/core/api/Console/Session\" && header=\"Location\") || (cert=\"CommonName: openmanage1\" && cert=\"Organization: Dell Inc.\") || (body=\"url: '/core/api/Console/Configuration'\" && body=\"/topic/messages\")",
         "type": "cms"
     },
     {
