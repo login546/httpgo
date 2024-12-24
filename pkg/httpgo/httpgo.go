@@ -95,16 +95,29 @@ func GetResponse(urlStr string, proxyStr string, timeoutInt time.Duration) (*Res
 
 	resp, err := httpClient.Do(req)
 	if err != nil {
-		//log.Println("Error making HTTP request:", err)
-		return &Response{
-			Url:        urlStr,
-			StatusCode: 000,
-			Title:      "",
-			Body:       nil,
-			HeadersMap: nil,
-			HeadersStr: "",
-			Cert:       "",
-		}, nil
+		tlsconfig.CipherSuites = []uint16{
+			tls.TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,   // 常用且支持较好的前向保密
+			tls.TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,   // 较高安全性，性能稍低
+			tls.TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, // 更快的ECDSA验证
+			tls.TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, // 高安全性支持
+			tls.TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305,    // 高效并适合低性能设备
+			tls.TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305,  // 高效且兼容移动设备
+		}
+
+		// Retry the request
+		resp, err = httpClient.Do(req)
+		if err != nil {
+			//log.Println("Error making HTTP request after retry:", err)
+			return &Response{
+				Url:        urlStr,
+				StatusCode: -1,
+				Title:      "",
+				Body:       nil,
+				HeadersMap: nil,
+				HeadersStr: "",
+				Cert:       "",
+			}, nil
+		}
 	}
 	defer resp.Body.Close()
 
@@ -136,12 +149,14 @@ func GetResponse(urlStr string, proxyStr string, timeoutInt time.Duration) (*Res
 	//获取body内容
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		log.Println("read from resp.Body failed, err:", err)
+		//log.Println("read from resp.Body failed, err:", err)
 		return nil, err
 	}
 
 	//获取状态码
 	statusCode := resp.StatusCode
+
+	//获取title
 	title, _ := utils.ExtractTitle(body)
 
 	//获取返回包headers

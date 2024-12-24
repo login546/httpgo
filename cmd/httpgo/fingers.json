@@ -1,5 +1,25 @@
 [ 
     {
+        "name": "【万能门店小程序管理系统】",
+        "keyword": "body=\"/comhome/cases/index.html\"",
+        "type": "cms"
+    },
+    {
+        "name": "【唯徳知识产权管理系统】",
+        "keyword": "body=\"JSCOMM/language.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Yourphp企业网站管理系统】",
+        "keyword": "header=\"YP_onlineid\"",
+        "type": "cms"
+    },
+    {
+        "name": "【电子资料管理系统】",
+        "keyword": "body=\"Menu/Login/ThirdLoginHandler.ashx\"",
+        "type": "cms"
+    },
+    {
         "name": "【锁群管理系统】",
         "keyword": "title=\"锁群管理系统 V2.0\"",
         "type": "cms"
@@ -271,7 +291,7 @@
     },
     {
         "name": "【税控服务器管理系统】",
-        "keyword": "body=\"sys/login.do\" && body\"resources/css/login_yzm.css\"",
+        "keyword": "body=\"sys/login.do\" && body=\"resources/css/login_yzm.css\"",
         "type": "cms"
     },
     {
@@ -1116,7 +1136,7 @@
     },
     {
         "name": "【列目录】",
-        "keyword": "body=\"Index of /\" || title=\"Index of /\" || body=\"Directory: /\" || body=\"[To Parent Directory]\" || body=\"Directory listing for \"",
+        "keyword": "body=\"Index of /\" || title=\"Index of /\" || body=\"Directory: /\" || body=\"[To Parent Directory]\" || body=\"Directory listing for \" || (header=\"ZLMediaKit(git hash:/\")",
         "type": "cms"
     },
     {
@@ -4011,7 +4031,7 @@
     },
     {
         "name": "【Common-Serial-Server】",
-        "keyword": "header=\"realm=\\\"Serial Server\" || header=\"realm=\\\"Serial Server\" || header=\"Welcome to serial server\"",
+        "keyword": "header=\"realm=\\\"Serial Server\" || header=\"realm=\\\"Serial Server\" || header=\"Welcome to serial server\"",
         "type": "cms"
     },
     {
@@ -5667,7 +5687,7 @@
     },
     {
         "name": "【HIKVISION-视频监控】",
-        "keyword": "header=\"realm=\\\"Hikvision\" || (header=\"realm=\\\"Hikvision\" && header!=\"couchdb\" && header!=\"drupal\") || ((body=\"updateTips\" && body=\"doc/page/login.asp\") && server!=\"NVR Webserver\") || ((body=\"doc/page/login.asp\" && body=\"screen.availWidth,screen.availHeight\") && server!=\"NVR Webserver\") || (header=\"_goaheadwebSessionId\" && header=\"Server: Hikvision-Webs\" && title!=\"ABUS DVR\") || (header=\"Server: DVRDVS-Webs\" && header!=\"couchdb\" && header!=\"drupal\" && body!=\"couchdb\") || (header=\"Server: DNVRS-Webs\" && body!=\"ABUS\" && header!=\"couchdb\" && header!=\"drupal\" && body!=\"couchdb\") || (header=\"Server: DNVRS-Webs\" && header!=\"couchdb\" && header!=\"drupal\" && header!=\"couchdb\") || header=\"Hik-B20\" || (body=\"HCNetVideoActiveX.cab\" && header!=\"drupal\") || (body=\"codebase=\\\"../codebase/NewHCNetActiveX.cab\" && header!=\"drupal\") || (body=\"window.location.href = \\\"/doc/page/login.asp?_\" && header=\"App-webs\") || header=\"Server: StreamSystem4.0\" || (body=\"codebase=\\\"../codebase/NetVideoOCX.cab\" && title=\"NetVideoOCX\") || (body=\"//alert(\\\"The system language is not supported!\\\");\" && header!=\"drupal\") || cert=\"o=Hikvision, ou=IPCamera\" || header=\"\\xff\\xfd\\x01\\xff\\xfd\\x1f\\xff\\xfd!\\xff\\xfb\\x01\\xff\\xfb\\x03Hik-B20-S login:\" || header=\"Hikvision login:\" || (header=\"App-webs/\" && header=\"Content-Length: 481\") || header=\"dvrdvs login:\" || header=\"NetDVRDVS\" || (body=\"classid=\\\"clsid:7B43048F-DA7A-458F-AF35-D825BDBB6816\\\" codebase=\\\"../codebase/NetVideoOCX.cab\" && title!=\"ABUS DVR\" && header!=\"drupal\") || (body=\"classid=\\\"clsid:F030F48F-CD67-45D1-B622-A5D88A7BCFE9\\\" id=\\\"HCNetVideo\" && header!=\"drupal\") || header=\"192.0.0.64 login:\" || (header=\"Server: App-webs/\" && cert=\"Subject: o=Product Root CA, ou=IP Camera\") || (header=\"DVRDVS-Webs\" && cert=\"o=HIKVISION, ou=DVRNVR\") || cert=\"st=zj, l=hz, o=yunwei, ou=hik\" || header=\"Server: hikvision\" || (body=\"/HIKGIS/\" && header!=\"drupal\") || header=\"Server: StreamSystem4.1\" || header=\"Hikvision company products\" || (body=\"window.location.href = \\\"/doc/page/login.asp?_\\\" + (new Date()).getTime()\" && header=\"Content-Length: 480\") || (body=\"/ui/css/ui.css?version=\\\" + new Date().getTime\" && body=\"ng-bind=\\\"oLan.anonymous\\\" ng-click=\\\"login('anonymous')\\\"\" && body!=\"css/login.css?version=\\\" + new Date()\") || (body=\"var syslanguage= navigator.browserLanguage.toLowerCase()\" && body=\"var szlanguage = sysLanguage.substring(0,2)\") || (body=\"ng-bind=\\\"oLan.anonymous\\\" ng-click=\\\"login('anonymous')\\\">\" && body=\"class=\\\"btn btn-primary login-btn\\\"\") || (body=\"id=\\\"divAnonymous\\\"\" && body=\"id=\\\"divPswStrength\\\"\") || header=\"hai210E\" || (body=\"<FORM action=\\\"/goform/formCobraLogin\" && header!=\"drupal\") || body=\"去除edge下将数字处理成电话的错误\"",
+        "keyword": "header=\"realm=\\\"Hikvision\" || (header=\"realm=\\\"Hikvision\" && header!=\"couchdb\" && header!=\"drupal\") || ((body=\"updateTips\" && body=\"doc/page/login.asp\") && header!=\"NVR Webserver\") || ((body=\"doc/page/login.asp\" && body=\"screen.availWidth,screen.availHeight\") && header!=\"NVR Webserver\") || (header=\"_goaheadwebSessionId\" && header=\"Server: Hikvision-Webs\" && title!=\"ABUS DVR\") || (header=\"Server: DVRDVS-Webs\" && header!=\"couchdb\" && header!=\"drupal\" && body!=\"couchdb\") || (header=\"Server: DNVRS-Webs\" && body!=\"ABUS\" && header!=\"couchdb\" && header!=\"drupal\" && body!=\"couchdb\") || (header=\"Server: DNVRS-Webs\" && header!=\"couchdb\" && header!=\"drupal\" && header!=\"couchdb\") || header=\"Hik-B20\" || (body=\"HCNetVideoActiveX.cab\" && header!=\"drupal\") || (body=\"codebase=\\\"../codebase/NewHCNetActiveX.cab\" && header!=\"drupal\") || (body=\"window.location.href = \\\"/doc/page/login.asp?_\" && header=\"App-webs\") || header=\"Server: StreamSystem4.0\" || (body=\"codebase=\\\"../codebase/NetVideoOCX.cab\" && title=\"NetVideoOCX\") || (body=\"//alert(\\\"The system language is not supported!\\\");\" && header!=\"drupal\") || cert=\"o=Hikvision, ou=IPCamera\" || header=\"\\xff\\xfd\\x01\\xff\\xfd\\x1f\\xff\\xfd!\\xff\\xfb\\x01\\xff\\xfb\\x03Hik-B20-S login:\" || header=\"Hikvision login:\" || (header=\"App-webs/\" && header=\"Content-Length: 481\") || header=\"dvrdvs login:\" || header=\"NetDVRDVS\" || (body=\"classid=\\\"clsid:7B43048F-DA7A-458F-AF35-D825BDBB6816\\\" codebase=\\\"../codebase/NetVideoOCX.cab\" && title!=\"ABUS DVR\" && header!=\"drupal\") || (body=\"classid=\\\"clsid:F030F48F-CD67-45D1-B622-A5D88A7BCFE9\\\" id=\\\"HCNetVideo\" && header!=\"drupal\") || header=\"192.0.0.64 login:\" || (header=\"Server: App-webs/\" && cert=\"Subject: o=Product Root CA, ou=IP Camera\") || (header=\"DVRDVS-Webs\" && cert=\"o=HIKVISION, ou=DVRNVR\") || cert=\"st=zj, l=hz, o=yunwei, ou=hik\" || header=\"Server: hikvision\" || (body=\"/HIKGIS/\" && header!=\"drupal\") || header=\"Server: StreamSystem4.1\" || header=\"Hikvision company products\" || (body=\"window.location.href = \\\"/doc/page/login.asp?_\\\" + (new Date()).getTime()\" && header=\"Content-Length: 480\") || (body=\"/ui/css/ui.css?version=\\\" + new Date().getTime\" && body=\"ng-bind=\\\"oLan.anonymous\\\" ng-click=\\\"login('anonymous')\\\"\" && body!=\"css/login.css?version=\\\" + new Date()\") || (body=\"var syslanguage= navigator.browserLanguage.toLowerCase()\" && body=\"var szlanguage = sysLanguage.substring(0,2)\") || (body=\"ng-bind=\\\"oLan.anonymous\\\" ng-click=\\\"login('anonymous')\\\">\" && body=\"class=\\\"btn btn-primary login-btn\\\"\") || (body=\"id=\\\"divAnonymous\\\"\" && body=\"id=\\\"divPswStrength\\\"\") || header=\"hai210E\" || (body=\"<FORM action=\\\"/goform/formCobraLogin\" && header!=\"drupal\") || body=\"去除edge下将数字处理成电话的错误\"",
         "type": "cms"
     },
     {
@@ -6082,7 +6102,7 @@
     },
     {
         "name": "【TRECK-Company Products】",
-        "keyword": "banner=icmp_166",
+        "keyword": "header=\"icmp_166\"",
         "type": "cms"
     },
     {
@@ -7627,7 +7647,7 @@
     },
     {
         "name": "【WildFly-Server】",
-        "keyword": "(header=\"Server: WildFly\" || header=\"Server: WildFly\" || (body=\"href=\\\"wildfly.css\" && body=\"WildFly Project\") || title=\"Welcome to WildFly\") && server!=\"360 web server\" && header!=\"couchdb\"",
+        "keyword": "(header=\"Server: WildFly\" || (body=\"href=\\\"wildfly.css\" && body=\"WildFly Project\") || title=\"Welcome to WildFly\") && header!=\"Server: 360 web server\" && header!=\"Server: couchdb\"",
         "type": "cms"
     },
     {
@@ -7757,7 +7777,7 @@
     },
     {
         "name": "【AliyunOSS】",
-        "keyword": "header=\"Server: AliyunOSS\" || (header=\"X-Oss-Request-Id\" && server!=\"AliyunOcm\") || header=\"Server: AliyunOSS\"",
+        "keyword": "header=\"Server: AliyunOSS\" || (header=\"X-Oss-Request-Id\" && header!=\"Server: AliyunOcm\") || header=\"Server: AliyunOSS\"",
         "type": "cms"
     },
     {
@@ -8337,7 +8357,7 @@
     },
     {
         "name": "【Hikvision-iVMS】",
-        "keyword": "cert=\"o=Hikvision, ou=louyu, cn=ivms8700\" || (((body=\"g_szCacheTime\" && body=\"iVMS\") || title=\"iVMS-\" || body=\"tab-border code-iivms\\\">\" || body=\" window.document.location = '/license!getExpireDateOfDays.action';\" || body=\"var uuid = \\\"2b73083e-9b29-4005-a123-1d4ec47a36d5\\\"; // 用于检测VMS是否超时, chenliangyf1\" || (body=\"class=\\\"enname\\\">iVMS-4200\" && body=\"laRemPassword\") || (body=\"//caoshiyan modify 2015-06-30 中转页面\" && body=\"/home/locationIndex.action?time=\") || body=\"<div class=\\\"enname\\\">iVMS-4200\" || header=\"Server: If you want know, you can ask me\" || body=\"if (refreshurl == null || refreshurl == '') { window.location.reload();}\" || body=\"class=\\\"out\\\"><a href=\\\"download/iVMS-\") && body!=\"Server: couchdb\")",
+        "keyword": "cert=\"o=Hikvision, ou=louyu, cn=ivms8700\" || (((body=\"g_szCacheTime\" && body=\"iVMS\") || title=\"iVMS-\" || body=\"tab-border code-iivms\\\">\" || body=\" window.document.location = '/license!getExpireDateOfDays.action';\" || body=\"var uuid = \\\"2b73083e-9b29-4005-a123-1d4ec47a36d5\\\"; // 用于检测VMS是否超时, chenliangyf1\" || (body=\"class=\\\"enname\\\">iVMS-4200\" && body=\"laRemPassword\") || (body=\"//caoshiyan modify 2015-06-30 中转页面\" && body=\"/home/locationIndex.action?time=\") || body=\"<div class=\\\"enname\\\">iVMS-4200\" || header=\"Server: If you want know, you can ask me\" || body=\"if (refreshurl == null \\|\\| refreshurl == '') { window.location.reload();}\" || body=\"class=\\\"out\\\"><a href=\\\"download/iVMS-\") && body!=\"Server: couchdb\")",
         "type": "cms"
     },
     {
@@ -10406,11 +10426,6 @@
         "type": "cms"
     },
     {
-        "name": "【CUISEC- Safety island chain】",
-        "keyword": "(title=\"联通智慧安全\" && body=\"r=e&&e.__esModule?function\")",
-        "type": "cms"
-    },
-    {
         "name": "【Dingjie Software - Enterprise Mobile Navigation Software】",
         "keyword": "body=\"class=\\\"common_footer1030_textFontLink\\\"\"",
         "type": "cms"
@@ -10877,7 +10892,7 @@
     },
     {
         "name": "【华为-7706】",
-        "keyword": "(header=\"simple/view/login.html\" && header=\"7706\" && server!=\"S7706\") || (header=\"simple/view/login.html\" && header=\"7706\" && header=\"server\" && server!=\"S7706\")",
+        "keyword": "(header=\"simple/view/login.html\" && header=\"7706\" && header!=\"Server: S7706\") || (header=\"simple/view/login.html\" && header=\"7706\" && header=\"server\" && header!=\"Server: S7706\")",
         "type": "cms"
     },
     {
@@ -14027,7 +14042,7 @@
     },
     {
         "name": "【H3C-switch】",
-        "keyword": "header=\"H3C S3600V2\" || header=\"H3C S5500\" || header=\"H3C S5500EI\" || header=\"H3C S9508E\" || header=\"H3C S5800\" || (title=\"Web user login\" && body=\"nLanguageSupported\" && server!=\"Lanswitch\") || header=\"H3C S5560-\" || header=\"h3c httpd\" || (body=\"window.location = \\\"/wcn/banner?lang=\" && body=\"style=\\\"background-color: #E1E9F5;\\\" onload=\\\"onBodyLoad()\") || (body=\"window.location = sLang + \\\"/login.html\\\";\" && (header=\"Switch\" || title=\"Web user login\")) || (body=\"window.location = \\\"en/login.html\\\";\" && header=\"switch\") || (body=\"window.location = \\\"/web/device/login?lang=\\\"+sLang;\" && title=\"Web user login\" && body=\"<H2>Web网管中\")",
+        "keyword": "header=\"H3C S3600V2\" || header=\"H3C S5500\" || header=\"H3C S5500EI\" || header=\"H3C S9508E\" || header=\"H3C S5800\" || (title=\"Web user login\" && body=\"nLanguageSupported\" && header!=\"Server: Lanswitch\") || header=\"H3C S5560-\" || header=\"h3c httpd\" || (body=\"window.location = \\\"/wcn/banner?lang=\" && body=\"style=\\\"background-color: #E1E9F5;\\\" onload=\\\"onBodyLoad()\") || (body=\"window.location = sLang + \\\"/login.html\\\";\" && (header=\"Switch\" || title=\"Web user login\")) || (body=\"window.location = \\\"en/login.html\\\";\" && header=\"switch\") || (body=\"window.location = \\\"/web/device/login?lang=\\\"+sLang;\" && title=\"Web user login\" && body=\"<H2>Web网管中\")",
         "type": "cms"
     },
     {
@@ -15562,7 +15577,7 @@
     },
     {
         "name": "【IBM-WebSphere-DataPower】",
-        "keyword": "(header=\"x-backside-transport\" && title!=\"28ZE\" && header!=\"360 web server\") || (header=\"x-backside-transport\" && header!=\"360 web server\")",
+        "keyword": "(header=\"x-backside-transport\" && title!=\"28ZE\" && header!=\"Server: 360 web server\") || (header=\"x-backside-transport\" && header!=\"Server: 360 web server\")",
         "type": "cms"
     },
     {
@@ -15732,7 +15747,7 @@
     },
     {
         "name": "【Oracle-JAVA】",
-        "keyword": "header=\"Set-Cookie: JSESSIONID\" || header=\"Set-Cookie: JSESSIONID\" || body=\"<h2>Struts Problem Report</h2>\" || body=\"There is no Action mapped for namespace\" || body=\"No result defined for action and result input\" || header=\"X-Powered-By: Servlet\" || header=\"X-Powered-By: Servlet\" || (header=\"JBoss\" && header=\"X-Powered-By\" && header!=\"Router\") || (header=\"JBoss\" && header=\"X-Powered-By\" && header!=\"Router\") || body=\"index.jsp\" || (header!=\"360 web server\" && header!=\"Docker\" && header=\"jsp\" && header=\"X-Powered-By\") || (header!=\"360 web server\" && header!=\"Docker\" && header=\"jsp\" && header=\"X-Powered-By\")",
+        "keyword": "header=\"Set-Cookie: JSESSIONID\" || header=\"Set-Cookie: JSESSIONID\" || body=\"<h2>Struts Problem Report</h2>\" || body=\"There is no Action mapped for namespace\" || body=\"No result defined for action and result input\" || header=\"X-Powered-By: Servlet\" || header=\"X-Powered-By: Servlet\" || (header=\"JBoss\" && header=\"X-Powered-By\" && header!=\"Router\") || (header=\"JBoss\" && header=\"X-Powered-By\" && header!=\"Router\") || body=\"index.jsp\" || (header!=\"Server: 360 web server\" && header!=\"Docker\" && header=\"jsp\" && header=\"X-Powered-By\") || (header!=\"360 web server\" && header!=\"Docker\" && header=\"jsp\" && header=\"X-Powered-By\")",
         "type": "other"
     },
     {
@@ -22391,11 +22406,6 @@
         "type": "cms"
     },
     {
-        "name": "【CETC-reader configuration system】",
-        "keyword": "body=\"if (suser == \\\"admin\\\" && spass == \\\"cetc52\\\") {\" && body=\"rfid/content/superuser\"",
-        "type": "cms"
-    },
-    {
         "name": "【KPPW】",
         "keyword": "body=\"content=\\\"kekezu\" || (body=\"var siteurl\" && body=\"skin_path = 'tpl/default',\") || body=\"<img id='imgflag' src=\\\"tpl/default/img/\"",
         "type": "cms"
@@ -26327,7 +26337,7 @@
     },
     {
         "name": "【ReeCam-IP-Camera】",
-        "keyword": "(header=\"ReeCam\" && server!=\"360 web server\") || (header=\"ReeCam\" && header!=\"360 web server\")",
+        "keyword": "(header=\"ReeCam\" && header!=\"Server: 360 web server\") || (header=\"ReeCam\" && header!=\"Server: 360 web server\")",
         "type": "cms"
     },
     {
@@ -29012,7 +29022,7 @@
     },
     {
         "name": "【TENDA-router】",
-        "keyword": "(title=\"Tenda | LOGIN\" || title=\"Tenda|登录\" || title=\"Tenda\" || (title=\"Tenda \" && title=\"Router\") || (body=\"('TENDA '+sys_target+' Router');\" && body!=\"href=\\\"http://www.nexxtsolutions.com/\") || header=\"access to tenda \" || body=\"background:url(tenda-logo-big.png)\" || body=\"/css/tenda.css\" || title=\"TENDA 11N无线路由器登录界面\" || (title=\"Tenda Web Master\" && (body=\"router to restore\" || body=\"router and reset\"))) && header!=\"360 web server\" && body!=\"Server: couchdb\"",
+        "keyword": "(title=\"Tenda | LOGIN\" || title=\"Tenda|登录\" || title=\"Tenda\" || (title=\"Tenda \" && title=\"Router\") || (body=\"('TENDA '+sys_target+' Router');\" && body!=\"href=\\\"http://www.nexxtsolutions.com/\") || header=\"access to tenda \" || body=\"background:url(tenda-logo-big.png)\" || body=\"/css/tenda.css\" || title=\"TENDA 11N无线路由器登录界面\" || (title=\"Tenda Web Master\" && (body=\"router to restore\" || body=\"router and reset\"))) && header!=\"Server: 360 web server\" && body!=\"Server: couchdb\"",
         "type": "cms"
     },
     {
@@ -29252,7 +29262,7 @@
     },
     {
         "name": "【Elasticsearch】",
-        "keyword": "(((header=\"application/json\" && body=\"build_hash\") || (body=\"You Know, for Search\" && server!=\"DVRDVS-Webs\" && body!=\"<html\")) && header!=\"couchdb\" && header!=\"Drupal\" && body!=\"couchdb\") || header=\"realm=\\\"ElasticSearch\" || header=\"realm=\\\"ElasticSearch\" || (cert=\"CommonName: elasticsearch\" && (header=\"realm=\\\"security\" || header=\"realm=\\\"security\"))",
+        "keyword": "(((header=\"application/json\" && body=\"build_hash\") || (body=\"You Know, for Search\" && header!=\"Server: DVRDVS-Webs\" && body!=\"<html\")) && header!=\"couchdb\" && header!=\"Drupal\" && body!=\"couchdb\") || header=\"realm=\\\"ElasticSearch\" || header=\"realm=\\\"ElasticSearch\" || (cert=\"CommonName: elasticsearch\" && (header=\"realm=\\\"security\" || header=\"realm=\\\"security\"))",
         "type": "cms"
     },
     {
@@ -30577,7 +30587,7 @@
     },
     {
         "name": "【D_Link-Airlink-IP-webcam】",
-        "keyword": "((header=\"Server: Camera Web Server\" && header!=\"couchdb\" && header!=\"drupal\" && body!=\"Server: couchdb\") && server!=\"Apache-Coyote\" && body=\"bv = navigator.appVersion\")",
+        "keyword": "((header=\"Server: Camera Web Server\" && header!=\"couchdb\" && header!=\"drupal\" && body!=\"Server: couchdb\") && header!=\"Server: Apache-Coyote\" && body=\"bv = navigator.appVersion\")",
         "type": "cms"
     },
     {
@@ -33062,7 +33072,7 @@
     },
     {
         "name": "【QSee-Camera】",
-        "keyword": "(body=\"handlerOcxEvents && handlerOcxEvents.DrawNetPlayRecord(chn);\")",
+        "keyword": "(body=\"handlerOcxEvents \\&\\& handlerOcxEvents.DrawNetPlayRecord(chn);\")",
         "type": "cms"
     },
     {
@@ -33207,7 +33217,7 @@
     },
     {
         "name": "【IPC@CHIP】",
-        "keyword": "(header=\"Server: IPC@CHIP\" && header!=\"boa\" && body!=\"Server: boa\") || (header=\"IPC@CHIP\" && protocol!=\"http\")",
+        "keyword": "header=\"Server: IPC@CHIP\" && header!=\"Server: boa\"",
         "type": "cms"
     },
     {

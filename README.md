@@ -19,13 +19,15 @@ Usage of ./httpgo_mac:
   -proxy string
     	添加代理
   -server string
-    	指定output路径，启动web服务，自带随机密码，增加安全性
+    	指定需要远程访问的output的文件夹名称，启动web服务，自带随机密码，增加安全性
   -thead int
     	并发数 (default 20)
   -timeout duration
     	超时时间 (default 15ns)
   -url string
     	请求的url
+  -check bool
+    	检查指纹文件是否正确
 ```
 ### 单个url识别
 ![image-20240815115840552](README.assets/image-20240815115840552.png)
@@ -78,7 +80,7 @@ Usage of ./httpgo_mac:
 
 ~~~
 title="xxxxx" 匹配title的内容
-header="bbbb"	匹配响应标头的内容
+header="Server: bbbb"	匹配响应标头Server的内容
 icon_hash="1111111"	匹配favico.ico图标hash内容
 body="cccc"	匹配body中的内容
 cert="dddd"	匹配证书中内容

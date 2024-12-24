@@ -1,7 +1,9 @@
 package httpgo
 
 import (
+	"fmt"
 	"log"
+	"net"
 	"net/http"
 	"os"
 	"strconv"
@@ -23,7 +25,7 @@ func ServeDirectoryWithAuth(dir, username, password string, port int) error {
 
 	// 启动 Web 服务器
 	addr := ":" + strconv.Itoa(port)
-	log.Printf("Serving %s on HTTP port %d\n", dir, port)
+	//log.Printf("Serving %s on HTTP port %d\n", dir, port)
 	return http.ListenAndServe(addr, protectedFS)
 }
 
@@ -69,4 +71,32 @@ type loggingResponseWriter struct {
 func (lrw *loggingResponseWriter) WriteHeader(code int) {
 	lrw.statusCode = code
 	lrw.ResponseWriter.WriteHeader(code)
+}
+
+func GetLocalIP() string {
+	// 获取本地机器的所有网络接口
+	addrs, err := net.Interfaces()
+	if err != nil {
+		fmt.Println("获取网卡信息失败:", err)
+		return "0.0.0.0"
+	}
+
+	// 遍历网络接口
+	for _, iface := range addrs {
+		// 获取该接口的所有IP地址
+		addrs, err := iface.Addrs()
+		if err != nil {
+			continue
+		}
+
+		// 遍历每个地址，查找第一个非回环地址
+		for _, addr := range addrs {
+			if ipnet, ok := addr.(*net.IPNet); ok && !ipnet.IP.IsLoopback() && ipnet.IP.To4() != nil {
+				// 返回找到的局域网IP地址
+				return ipnet.IP.String()
+			}
+		}
+	}
+
+	return "0.0.0.0" // 如果未找到有效的局域网IP地址，返回默认地址
 }

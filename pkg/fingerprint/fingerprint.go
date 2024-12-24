@@ -30,7 +30,7 @@ func GetFinger(urlStr string, proxyStr string, fingerlist []utils.FingerprintFil
 		//fmt.Println("Error making HTTP request:", err)
 		return &Fingers{
 			Url:        urlStr,
-			StatusCode: 000,
+			StatusCode: -1,
 			Title:      "",
 			CmsList:    nil,
 			OtherList:  nil,
@@ -40,7 +40,6 @@ func GetFinger(urlStr string, proxyStr string, fingerlist []utils.FingerprintFil
 
 	// 获取faviconhash
 	faviconhash, err := a.GetFaviconHash(proxyStr, timeoutInt)
-
 	if err != nil {
 		//fmt.Println("Error getting favicon hash:", err)
 		return &Fingers{
@@ -66,6 +65,9 @@ func GetFinger(urlStr string, proxyStr string, fingerlist []utils.FingerprintFil
 
 	cmslist := httpgo.RemoveDuplicates(cms)
 	otherlist := httpgo.RemoveDuplicates(other)
+
+	// 请求一次Screenshot，方便后期快速查看
+	_, _ = httpgo.GetResponse(ScreenShotPath, proxyStr, timeoutInt)
 
 	return &Fingers{
 		Url:        urlStr,
@@ -127,7 +129,7 @@ func evaluateCondition(condition, respBody, respHeader, respTitle string, respCe
 	case strings.HasPrefix(respCert, "cert!="):
 		value := strings.Trim(strings.TrimPrefix(condition, "cert!="), "\"")
 		value = unescape(value)
-		return !strings.Contains(respTitle, value)
+		return !strings.Contains(respCert, value)
 	}
 	return false
 }
@@ -322,4 +324,64 @@ func evaluatePostfix(postfix []string, respBody, respHeader, respTitle string, r
 		return false
 	}
 	return stack[0]
+}
+
+func ValidateFingerprints(fingerlist []utils.FingerprintFile) error {
+	validPrefixes := []string{
+		"body=", "header=", "title=", "cert=", "icon_hash=",
+		"body!=", "header!=", "title!=", "cert!=",
+	}
+
+	for i, fp := range fingerlist {
+		if fp.Keyword == "" {
+			return fmt.Errorf("fingerprint %d ('%s') has an empty keyword", i, fp.Name)
+		}
+
+		// Attempt to fix common issues in the keyword
+		fp.Keyword = fixCommonIssues(fp.Keyword)
+
+		// Tokenize and parse the keyword to check syntax
+		tokens := tokenize(fp.Keyword)
+		if tokens == nil {
+			return fmt.Errorf("fingerprint %d ('%s') has invalid syntax in keyword: '%s'", i, fp.Name, fp.Keyword)
+		}
+
+		// Validate each token in the expression
+		for _, token := range tokens {
+			// Skip logical operators and parentheses
+			if token == "&&" || token == "||" || token == "(" || token == ")" {
+				continue
+			}
+
+			// Ensure the token starts with a valid prefix
+			isValid := false
+			for _, prefix := range validPrefixes {
+				if strings.HasPrefix(token, prefix) {
+					isValid = true
+					break
+				}
+			}
+
+			if !isValid {
+				return fmt.Errorf("fingerprint %d ('%s') has an invalid token in keyword: '%s'", i, fp.Name, token)
+			}
+		}
+
+		// Check overall syntax using Shunting Yard
+		_, err := shuntingYard(fp.Keyword)
+		if err != nil {
+			return fmt.Errorf("fingerprint %d ('%s') has invalid logical syntax: '%s'", i, fp.Name, fp.Keyword)
+		}
+	}
+	return nil
+}
+
+// fixCommonIssues 尝试修复指纹中的常见格式问题
+func fixCommonIssues(keyword string) string {
+	// 修复遗漏的 '='
+	keyword = strings.ReplaceAll(keyword, "body\"", "body=\"")
+	keyword = strings.ReplaceAll(keyword, "header\"", "header=\"")
+	keyword = strings.ReplaceAll(keyword, "title\"", "title=\"")
+	keyword = strings.ReplaceAll(keyword, "cert\"", "cert=\"")
+	return keyword
 }
