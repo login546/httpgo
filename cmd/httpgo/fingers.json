@@ -1,5 +1,130 @@
 [ 
     {
+        "name": "【Ymnets.net框架】",
+        "keyword": "body=\"/Core/verify_code.ashx\"",
+        "type": "cms"
+    },
+    {
+        "name": "【上海商鼎-教育教学监测与保障系统】",
+        "keyword": "body=\"/metronic/media/css/bootstrap.min.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【深圳国威-HB1910数字IP程控交换机】",
+        "keyword": "body=\"themes/tenant/css/login.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【中科商软-云连ERP】",
+        "keyword": "body=\"管理中心 - Powered By chaosZ\"",
+        "type": "cms"
+    },
+    {
+        "name": "【博斯外贸管理软件】",
+        "keyword": "title=\"欢迎使用 博斯软件\"",
+        "type": "cms"
+    },
+    {
+        "name": "【中犇科技-数字化智能中台系统】",
+        "keyword": "body=\"/member/get_verify_code/get_code\"",
+        "type": "cms"
+    },
+    {
+        "name": "【BSPHP-会员管理系统】",
+        "keyword": "body=\"href=\\\"http://Bsphp.com/\\\">Bsphp\"",
+        "type": "cms"
+    },
+    {
+        "name": "【西迪特-Wi-Fi-Web管理】",
+        "keyword": "title=\"Wi-Fi Web管理\"",
+        "type": "cms"
+    },
+    {
+        "name": "【XETUX】",
+        "keyword": "title=\"@XETUX - XPOS / BackEnd\"",
+        "type": "cms"
+    },
+    {
+        "name": "【世纪信通管理系统】",
+        "keyword": "body=\"版权所有：广东世纪信通科技股份有限公司\"",
+        "type": "cms"
+    },
+    {
+        "name": "【玲珑扫描器】",
+        "keyword": "icon_hash=\"684115083\"",
+        "type": "cms"
+    },
+    {
+        "name": "【堡塔云-WAF】",
+        "keyword": "title=\"404 - Website not exist!\"",
+        "type": "other"
+    },
+    {
+        "name": "【千宜科技医药管理系统】",
+        "keyword": "body=\"ResourceScripts/zh-cn-Login.aspx.js\" || icon_hash=\"775044030\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Kass-文档管理系统】",
+        "keyword": "body=\"/pan/mobile/index.html\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Sharp-打印机】",
+        "keyword": "body=\"連接至Sharp 全球網站\"",
+        "type": "cms"
+    },
+    {
+        "name": "【厦门网中网-财会实训教学平台】",
+        "keyword": "body=\"厦门网中网软件有限公司\" || icon_hash=\"-830753458\"",
+        "type": "cms"
+    },
+    {
+        "name": "【妈妈宝盒-ERP】",
+        "keyword": "icon_hash=\"-185925207\" || icon_hash=\"-621990555\"",
+        "type": "cms"
+    },
+    {
+        "name": "【秒优科技-供应链管理系统】",
+        "keyword": "icon_hash=\"2125837574\" || body=\"MU Supply Chain Mangangement System\"",
+        "type": "cms"
+    },
+    {
+        "name": "【DBSyncer】",
+        "keyword": "icon_hash=\"-21174807\"",
+        "type": "cms"
+    },
+    {
+        "name": "【唯德科创-IPEasy知易通】",
+        "keyword": "title=\"_IPEasy知易通\"",
+        "type": "cms"
+    },
+    {
+        "name": "【吉林某医药系统】",
+        "keyword": "icon_hash=\"775044030\"",
+        "type": "cms"
+    },
+    {
+        "name": "【佰鼎OA】",
+        "keyword": "body=\"default.aspx\" && body=\"Style/Style.css\" && body=\"Skin2017\" && body=\"TxtUserPwd\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WiseGrid慧敏应用交付网关】",
+        "keyword": "icon_hash=\"910523681\"",
+        "type": "cms"
+    },
+    {
+        "name": "【信锐物联平台】",
+        "keyword": "icon_hash=\"147973611\"",
+        "type": "cms"
+    },
+    {
+        "name": "【微宏OA】",
+        "keyword": "body=\"wh/servlet/MainServer\"",
+        "type": "cms"
+    },
+    {
         "name": "【万能门店小程序管理系统】",
         "keyword": "body=\"/comhome/cases/index.html\"",
         "type": "cms"
@@ -327,6 +452,11 @@
     {
         "name": "【慧林ICP/iP备案系统】",
         "keyword": "icon_hash=\"-556918553\"",
+        "type": "cms"
+    },
+    {
+        "name": "【慧林信息安全管理系统】",
+        "keyword": "body=\"用户管理登录\" && body=\"login\" && body=\"images/zh-CN/login_03.gif\"",
         "type": "cms"
     },
     {
@@ -756,12 +886,22 @@
     },
     {
         "name": "【北京久其财务报表】",
-        "keyword": "(body=\"netrep/js/func.js\" && body=\"/netrep/js/des.js\") || body=\"/netrep/sysmgr/usermanager/reguser.jsp\"",
+        "keyword": "(body=\"netrep/js/func.js\" && body=\"/netrep/js/des.js\") || body=\"/netrep/sysmgr/usermanager/reguser.jsp\" || body=\"/netrep/\"",
         "type": "cms"
     },
     {
         "name": "【安徽阳光心健-心理测量平台】",
         "keyword": "icon_hash=\"3974070341\"",
+        "type": "cms"
+    },
+    {
+        "name": "【方维o2o商业系统】",
+        "keyword": "title=\"方维o2o商业系统\" || icon_hash=\"1989380033\" || icon_hash=\"1285373991\"",
+        "type": "cms"
+    },
+    {
+        "name": "【FDCMS方达内容管理系统】",
+        "keyword": "title=\"FDCMS方达内容管理系统\"",
         "type": "cms"
     },
     {
@@ -1055,7 +1195,7 @@
         "type": "cms"
     },
     {
-        "name": "【enjoyscm-捷诚供应链管理系统】",
+        "name": "【EnjoySCM-捷诚供应链管理系统】",
         "keyword": "title=\"供应商网上服务厅\" || icon_hash=\"4082750171\" || body=\"Content/dist/js/login_real\"",
         "type": "cms"
     },
@@ -1136,7 +1276,7 @@
     },
     {
         "name": "【列目录】",
-        "keyword": "body=\"Index of /\" || title=\"Index of /\" || body=\"Directory: /\" || body=\"[To Parent Directory]\" || body=\"Directory listing for \" || (header=\"ZLMediaKit(git hash:/\")",
+        "keyword": "body=\" - /</title>\" || body=\"Index of /\" || title=\"Index of /\" || body=\"Directory: /\" || body=\"[To Parent Directory]\" || body=\"Directory listing for \" || (header=\"ZLMediaKit(git hash:/\")",
         "type": "cms"
     },
     {
@@ -1386,7 +1526,7 @@
     },
     {
         "name": "【极简云-网络验证系统】",
-        "keyword": "body=\"../assets/img/bg/logo_white.png\"",
+        "keyword": "body=\"../assets/img/bg/logo_white.png\" || title=\"极简云验证-商业版\"",
         "type": "cms"
     },
     {
@@ -1536,7 +1676,7 @@
     },
     {
         "name": "【海洋CMS】",
-        "keyword": "body=\"http://www.seacms.net\"",
+        "keyword": "body=\"http://www.seacms.net\" || body=\"/templets/default/images/css/mytheme-font.css\"",
         "type": "cms"
     },
     {
@@ -1581,7 +1721,7 @@
     },
     {
         "name": "【汇智ERP】",
-        "keyword": "icon_hash=\"-642591392\"",
+        "keyword": "icon_hash=\"-642591392\" || icon_hash=\"3652375904\"",
         "type": "cms"
     },
     {
@@ -2350,12 +2490,12 @@
         "type": "cms"
     },
     {
-        "name": "【帆软报表 2012】",
+        "name": "【帆软报表-2012】",
         "keyword": "body=\"down.download?FM_SYS_ID\"",
         "type": "cms"
     },
     {
-        "name": "【帆软报表 V8】",
+        "name": "【帆软报表-V8】",
         "keyword": "body=\"isSupportForgetPwd\"",
         "type": "cms"
     },
@@ -5481,8 +5621,8 @@
         "type": "cms"
     },
     {
-        "name": "【Palladium-Core4A-UTM】",
-        "keyword": "title=\"帕拉迪Core4A-UTM\" || title=\"帕拉迪 iCore-4A\"",
+        "name": "【帕拉迪Core4A-UTM】",
+        "keyword": "title=\"帕拉迪Core4A-UTM\" || title=\"帕拉迪 iCore-4A\" || icon_hash=\"3928629595\"",
         "type": "cms"
     },
     {
@@ -6016,7 +6156,7 @@
         "type": "cms"
     },
     {
-        "name": "【Dangpo Technology --arcvideo-Live】",
+        "name": "【当虹科技-Arcvideo-Live】",
         "keyword": "title=\"Arcvideo Live\" || header=\"Arcvideo\" || header=\"Server: ArcVideo\"",
         "type": "cms"
     },
@@ -13201,7 +13341,7 @@
         "type": "cms"
     },
     {
-        "name": "【深信服-数据中心】",
+        "name": "【深信服-DC数据中心管理系统】",
         "keyword": "body=\"acloglogin.php\" || title=\"SANGFOR 数据中心\" || header=\"Location: ./src/acloglogin.php\" || header=\"Location: ./src/acloglogin.php\"",
         "type": "cms"
     },
@@ -15026,12 +15166,12 @@
         "type": "cms"
     },
     {
-        "name": "【S-CMS】",
+        "name": "【闪灵S-CMS建站系统】",
         "keyword": "body=\"class=\\\"scms_container w1200\\\"\" || body=\"<p class=\\\"alignRight\\\">Powered by S:CMS - Copyright ©\" || title=\"SCMS\" || body=\"<!-- Inizio righe di indicizzazione nei motori di ricerca -->\" || body=\"www.smartlogic.com\" || body=\"/media/20151019095214828.png\" || body=\"<h2>闪灵CMS建站系统</h2>\" || body=\"type=news&s_id=\" || body=\"type=newsinfo&s_id=\"",
         "type": "cms"
     },
     {
-        "name": "【Strait Information - Black Shield Operation and Safety Gateway】",
+        "name": "【黑盾运维安全网关】",
         "keyword": "title=\"黑盾运维安全网关(HD-SGS/V4.0)\"",
         "type": "cms"
     },
@@ -16447,7 +16587,7 @@
     },
     {
         "name": "【深信服-应用交付报表系统】",
-        "keyword": "body=\"/reportCenter/index.php?cls_mode=cluster_mode_others\"",
+        "keyword": "body=\"/reportCenter/index.php?cls_mode=cluster_mode_others\" || body=\"top.location.href = \\\"/rep/login\\\";\" || body=\"top.location.href = \\\"/report/index.php\\\";\"",
         "type": "cms"
     },
     {
@@ -24721,7 +24861,7 @@
         "type": "cms"
     },
     {
-        "name": "【金盘软件-金盘移动图书馆系统】",
+        "name": "【金盘软件-金盘移动图书馆管理系统】",
         "keyword": "body=\"/styles/opac/goldlib-opac.css\" || body=\"onclick=\\\"change('Book');\" || body=\"/opac/periodicals\" || body=\"class=\\\"jp-searchTabs\" || (body=\"金盘软件\" && body=\"图书\")",
         "type": "cms"
     },
@@ -26012,7 +26152,7 @@
     },
     {
         "name": "【蓝凌-OA】",
-        "keyword": "icon_hash=\"831854882\" || (body=\"lui_login_message_td\" && body=\"form_bottom\") || (body=\"蓝凌软件 版权所有\" && (body=\"j_acegi_security_check\" || title=\"欢迎登录智慧协同平台\")) || (body=\"j_acegi_security_check\" && body=\"onsubmit=\\\"return kmss_onsubmit();\" && (body=\"ExceptionTranslationFilter对SPRING_SECURITY_TARGET_URL 进行未登录url保持 请求中的hash并不会传递到服务端，故只能前端处理\" || body=\"kkDownloadLink link\"))",
+        "keyword": "(body=\"蓝凌软件\" && body=\"App_Themes/Login\") || (body=\"sys/ui/extend/theme/default/style/icon.css\" && body=\"sys/ui/extend/theme/default/style/profile.css\") || icon_hash=\"831854882\" || (body=\"lui_login_message_td\" && body=\"form_bottom\") || (body=\"蓝凌软件 版权所有\" && (body=\"j_acegi_security_check\" || title=\"欢迎登录智慧协同平台\")) || (body=\"j_acegi_security_check\" && body=\"onsubmit=\\\"return kmss_onsubmit();\" && (body=\"ExceptionTranslationFilter对SPRING_SECURITY_TARGET_URL 进行未登录url保持 请求中的hash并不会传递到服务端，故只能前端处理\" || body=\"kkDownloadLink link\"))",
         "type": "cms"
     },
     {
@@ -26661,14 +26801,14 @@
         "type": "cms"
     },
     {
-        "name": "【Rising-anti-drug wall】",
+        "name": "【瑞星防毒墙】",
         "keyword": "(cert=\"ou=Rising\" && cert=\"cn=Antivirus Gateway\") || title=\"瑞星防毒墙\" || body=\"action=\\\"/index.php\\\" onsubmit=\\\"return checkfrm(this);\"",
         "type": "cms"
     },
     {
         "name": "【CPython】",
-        "keyword": "(header=\"CPython\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"CPython\" && header!=\"couchdb\" && header!=\"drupal\")",
-        "type": "cms"
+        "keyword": "header=\"CPython\" && header!=\"couchdb\" && header!=\"drupal\"",
+        "type": "other"
     },
     {
         "name": "【UCloud-Enterprise-WAF】",
@@ -27117,7 +27257,7 @@
     },
     {
         "name": "【Spring-GW】",
-        "keyword": "header=\"realm=\\\"Spring GW\" || header=\"realm=\\\"Spring GW\"",
+        "keyword": "header=\"realm=\\\"Spring GW\"",
         "type": "cms"
     },
     {
@@ -31316,7 +31456,7 @@
         "type": "cms"
     },
     {
-        "name": "【汉塔科技上网行为流量管理系统】",
+        "name": "【汉塔科技-上网行为流量管理系统】",
         "keyword": "title=\"汉塔科技 - 上网行为管理系统\"",
         "type": "cms"
     },
@@ -36926,7 +37066,7 @@
         "type": "cms"
     },
     {
-        "name": "【UTT-security network management system】",
+        "name": "【UTT-艾泰安全网络管理系统】",
         "keyword": "body=\"上海艾泰科技有限公司\" && title=\"Technology, Inc.\"",
         "type": "cms"
     },
@@ -40742,12 +40882,12 @@
     },
     {
         "name": "【存在登录页面】",
-        "keyword": "body=\"login.htm\" || body=\"login.ashx\" || body=\"login.jsp\" || body=\"login.php\" || body=\"login.asp\" || body=\"login.aspx\" || body=\"login.do\" || body=\"后台管理\" || body=\"点击登录\" || body=\"点击登陆\" || body=\"短信登陆\" || body=\"短信登录\" || body=\"邮箱登陆\" || body=\"邮箱登录\"",
+        "keyword": "body=\"login.htm\" || body=\"login.ashx\" || body=\"login.jsp\" || body=\"login.php\" || body=\"login.asp\" || body=\"login.aspx\" || body=\"login.do\" || body=\"后台管理\" || body=\"后台登录\" || body=\"后台登陆\" || body=\"点击登录\" || body=\"点击登陆\" || body=\"短信登陆\" || body=\"短信登录\" || body=\"邮箱登陆\" || body=\"邮箱登录\" || body=\"/admin/login/\"",
         "type": "cms"
     },
     {
         "name": "【疑似存在赌博色情等关键词】",
-        "keyword": "body=\"BTi体育\" || body=\"多彩奇利\" || body=\"永利国际\" || body=\"北京pk\" || body=\"皇冠娱乐\" || body=\"亚洲集团\" || body=\"真人游戏\" || body=\"在线发牌\" || body=\"澳门银河\" || body=\"新澳门\" || body=\"宝盈娱乐\" || body=\"皇冠足球\" || body=\"皇冠篮球\" || body=\"澳门新濠天地\" || body=\"赌博网站\" || body=\"赌博网址\" || body=\"赌场网站\" || body=\"赌场网址\" || body=\"开心飞鹰\" || body=\"游戏官网\" || body=\"新葡京\" || body=\"贵宾会\" || body=\"马会\" || body=\"乐天堂\" || body=\"bet365\" || body=\"三级片\" || body=\"岛国\" || body=\"人体艺术\" || body=\"黄色视频\" || body=\"黄色电影\" || body=\"黄色小说\" || body=\"黄色片\" || body=\"乱人\" || body=\"乱伦\" || body=\"人人看\" || body=\"人人日\" || body=\"人人曰\" || body=\"一本道\" || body=\"东京热\" || body=\"加勒比\" || body=\"91国产\" || body=\"国产自拍\" || body=\"快播\" || body=\"找小姐\" || body=\"太阳城娱乐\" || body=\"澳门博彩\" || body=\"91pron\" || body=\"p站\" || body=\"pronhub.com\" || body=\"赌博\" || body=\"威尼斯\" || body=\"现金网\" || body=\"大赢家\" || body=\"地下钱庄\" || body=\"阿波罗网\" || body=\"澳门新葡京\" || body=\"博菜\" || body=\"同花顺\" || body=\"太阳城集团\" || body=\"亚洲国际\" || body=\"皇朝国际\" || body=\"香港六合\" || body=\"香港最快开奖\" || body=\"最淫官员\" || body=\"寻找林昭的灵魂\" || body=\"讨伐中宣部\" || body=\"大赦国际\" || body=\"灭共\" || body=\"64惨案\" || body=\"64时期\" || body=\"64运动\" || body=\"拔出来\" || body=\"爆草\" || body=\"暴干\" || body=\"暴奸\" || body=\"暴乳\" || body=\"爆乳\" || body=\"暴淫\" || body=\"被操\" || body=\"被插\" || body=\"被干\" || body=\"逼奸\" || body=\"仓井空\" || body=\"插暴\" || body=\"操逼\" || body=\"操黑\" || body=\"操烂\" || body=\"肏你\" || body=\"肏死\" || body=\"操死\" || body=\"操我\" || body=\"厕奴\" || body=\"插比\" || body=\"插b\" || body=\"插逼\" || body=\"插进\" || body=\"插你\" || body=\"插我\" || body=\"插阴\" || body=\"潮吹\" || body=\"潮喷\" || body=\"成人电影\" || body=\"成人论坛\" || body=\"成人色情\" || body=\"成人网站\" || body=\"成人文学\" || body=\"成人小说\" || body=\"艳情小说\" || body=\"成人游戏\" || body=\"吃精\" || body=\"赤裸\" || body=\"抽插\" || body=\"扌由插\" || body=\"抽一插\" || body=\"春药\" || body=\"大力抽送\" || body=\"荡妇\" || body=\"荡女\" || body=\"盗撮\" || body=\"多人轮\" || body=\"发浪\" || body=\"放尿\" || body=\"肥逼\" || body=\"粉穴\" || body=\"封面女郎\" || body=\"风月大陆\" || body=\"干死你\" || body=\"干穴\" || body=\"肛交\" || body=\"龟头\" || body=\"国产av\" || body=\"豪乳\" || body=\"黑逼\" || body=\"后庭\" || body=\"后穴\" || body=\"虎骑\" || body=\"换妻俱乐部\" || body=\"黄片\" || body=\"几吧\" || body=\"鸡吧\" || body=\"鸡巴\" || body=\"鸡奸\" || body=\"集体淫\" || body=\"奸情\" || body=\"叫床\" || body=\"脚交\" || body=\"精液\" || body=\"就去日\" || body=\"巨屌\" || body=\"菊花洞\" || body=\"菊门\" || body=\"巨奶\" || body=\"巨乳\" || body=\"菊穴\" || body=\"开苞\" || body=\"口爆\" || body=\"口活\" || body=\"口射\" || body=\"口淫\" || body=\"狂操\" || body=\"狂插\" || body=\"浪逼\" || body=\"狼友\" || body=\"流淫\" || body=\"铃木麻\" || body=\"漏乳\" || body=\"露b\" || body=\"乱交\" || body=\"轮暴\" || body=\"轮奸\" || body=\"裸陪\" || body=\"买春\" || body=\"美逼\" || body=\"美少妇\" || body=\"美腿\" || body=\"美穴\" || body=\"美幼\" || body=\"秘唇\" || body=\"迷奸\" || body=\"密穴\" || body=\"蜜穴\" || body=\"蜜液\" || body=\"摸奶\" || body=\"摸胸\" || body=\"母奸\" || body=\"奈美\" || body=\"奶子\" || body=\"男奴\" || body=\"内射\" || body=\"嫩逼\" || body=\"嫩女\" || body=\"嫩穴\" || body=\"捏弄\" || body=\"女优\" || body=\"炮友\" || body=\"砲友\" || body=\"喷精\" || body=\"屁眼\" || body=\"品香堂\" || body=\"前凸后翘\" || body=\"强jian\" || body=\"强暴\" || body=\"强奸处女\" || body=\"拳交\" || body=\"全裸\" || body=\"群交\" || body=\"惹火身材\" || body=\"人妻\" || body=\"人兽\" || body=\"日逼\" || body=\"日烂\" || body=\"肉棒\" || body=\"肉逼\" || body=\"肉唇\" || body=\"肉洞\" || body=\"肉缝\" || body=\"肉棍\" || body=\"肉茎\" || body=\"肉具\" || body=\"揉乳\" || body=\"肉穴\" || body=\"肉欲\" || body=\"乳爆\" || body=\"乳房\" || body=\"乳沟\" || body=\"乳交\" || body=\"乳头\" || body=\"骚逼\" || body=\"骚比\" || body=\"骚女\" || body=\"骚水\" || body=\"骚穴\" || body=\"色逼\" || body=\"色界\" || body=\"色猫\" || body=\"色盟\" || body=\"色情网站\" || body=\"色诱\" || body=\"色欲\" || body=\"色b\" || body=\"少年阿宾\" || body=\"少修正\" || body=\"射爽\" || body=\"射颜\" || body=\"释欲\" || body=\"兽奸\" || body=\"兽交\" || body=\"手淫\" || body=\"兽欲\" || body=\"熟妇\" || body=\"熟母\" || body=\"熟女\" || body=\"爽片\" || body=\"爽死我了\" || body=\"双臀\" || body=\"死逼\" || body=\"丝袜\" || body=\"丝诱\" || body=\"松岛枫\" || body=\"酥痒\" || body=\"汤加丽\" || body=\"套弄\" || body=\"体奸\" || body=\"舔脚\" || body=\"舔阴\" || body=\"脱内裤\" || body=\"文做\" || body=\"我就色\" || body=\"无码\" || body=\"舞女\" || body=\"无修正\" || body=\"吸精\" || body=\"夏川纯\" || body=\"相奸\" || body=\"小逼\" || body=\"校鸡\" || body=\"小穴\" || body=\"小xue\" || body=\"性感妖娆\" || body=\"性感诱惑\" || body=\"性虎\" || body=\"性饥渴\" || body=\"性技巧\" || body=\"性奴\" || body=\"性虐\" || body=\"性息\" || body=\"性欲\" || body=\"胸推\" || body=\"穴口\" || body=\"学生妹\" || body=\"穴图\" || body=\"亚情\" || body=\"颜射\" || body=\"阳具\" || body=\"要射了\" || body=\"夜勤病栋\" || body=\"一夜欢\" || body=\"一夜情\" || body=\"一ye情\" || body=\"阴部\" || body=\"淫虫\" || body=\"阴唇\" || body=\"淫荡\" || body=\"阴道\" || body=\"淫电影\" || body=\"阴阜\" || body=\"淫妇\" || body=\"淫河\" || body=\"阴核\" || body=\"阴户\" || body=\"淫贱\" || body=\"淫叫\" || body=\"淫教师\" || body=\"阴茎\" || body=\"阴精\" || body=\"淫浪\" || body=\"淫媚\" || body=\"淫糜\" || body=\"淫魔\" || body=\"淫母\" || body=\"淫女\" || body=\"淫虐\" || body=\"淫妻\" || body=\"淫情\" || body=\"淫色\" || body=\"淫水\" || body=\"淫亵\" || body=\"淫液\" || body=\"淫照\" || body=\"阴b\" || body=\"幼交\" || body=\"18禁\" || body=\"a片\" || body=\"足球投注\" || body=\"改卷内幕\" || body=\"大sb\" || body=\"傻逼\" || body=\"傻b\" || body=\"煞逼\" || body=\"煞笔\" || body=\"刹笔\" || body=\"傻比\" || body=\"沙比\" || body=\"欠干\" || body=\"婊子养的\" || body=\"我日你\" || body=\"爆你菊\" || body=\"艹你\" || body=\"cao你\" || body=\"你他妈\" || body=\"真他妈\" || body=\"别他吗\" || body=\"草你吗\" || body=\"草你丫\" || body=\"操你妈\" || body=\"擦你妈\" || body=\"操你娘\" || body=\"操他妈\" || body=\"日你妈\" || body=\"干你妈\" || body=\"干你娘\" || body=\"娘西皮\" || body=\"狗操\" || body=\"狗草\" || body=\"狗杂种\" || body=\"狗日的\" || body=\"操你祖宗\" || body=\"操你全家\" || body=\"操你大爷\" || body=\"妈逼\" || body=\"你麻痹\" || body=\"麻痹的\" || body=\"妈了个逼\" || body=\"马勒\" || body=\"狗娘养\" || body=\"杀b\" || body=\"你吗b\" || body=\"你妈的\"",
+        "keyword": "body=\"BTi体育\" || body=\"多彩奇利\" || body=\"永利国际\" || body=\"北京pk\" || body=\"皇冠娱乐\" || body=\"亚洲集团\" || body=\"真人游戏\" || body=\"在线发牌\" || body=\"澳门银河\" || body=\"新澳门\" || body=\"宝盈娱乐\" || body=\"皇冠足球\" || body=\"皇冠篮球\" || body=\"澳门新濠天地\" || body=\"赌博网站\" || body=\"赌博网址\" || body=\"赌场网站\" || body=\"赌场网址\" || body=\"开心飞鹰\" || body=\"游戏官网\" || body=\"新葡京\" || body=\"马会\" || body=\"乐天堂\" || body=\"bet365\" || body=\"三级片\" || body=\"岛国\" || body=\"人体艺术\" || body=\"黄色视频\" || body=\"黄色电影\" || body=\"黄色小说\" || body=\"黄色片\" || body=\"乱人\" || body=\"乱伦\" || body=\"人人看\" || body=\"人人日\" || body=\"人人曰\" || body=\"一本道\" || body=\"东京热\" || body=\"加勒比\" || body=\"91国产\" || body=\"国产自拍\" || body=\"快播\" || body=\"找小姐\" || body=\"太阳城娱乐\" || body=\"澳门博彩\" || body=\"91pron\" || body=\"p站\" || body=\"pronhub.com\" || body=\"赌博\" || body=\"威尼斯\" || body=\"现金网\" || body=\"大赢家\" || body=\"地下钱庄\" || body=\"阿波罗网\" || body=\"澳门新葡京\" || body=\"博菜\" || body=\"同花顺\" || body=\"太阳城集团\" || body=\"亚洲国际\" || body=\"皇朝国际\" || body=\"香港六合\" || body=\"香港最快开奖\" || body=\"最淫官员\" || body=\"寻找林昭的灵魂\" || body=\"讨伐中宣部\" || body=\"大赦国际\" || body=\"灭共\" || body=\"64惨案\" || body=\"64时期\" || body=\"64运动\" || body=\"拔出来\" || body=\"爆草\" || body=\"暴干\" || body=\"暴奸\" || body=\"暴乳\" || body=\"爆乳\" || body=\"暴淫\" || body=\"被操\" || body=\"被插\" || body=\"被干\" || body=\"逼奸\" || body=\"仓井空\" || body=\"插暴\" || body=\"操逼\" || body=\"操黑\" || body=\"操烂\" || body=\"肏你\" || body=\"肏死\" || body=\"操死\" || body=\"操我\" || body=\"厕奴\" || body=\"插比\" || body=\"插b\" || body=\"插逼\" || body=\"插进\" || body=\"插你\" || body=\"插我\" || body=\"插阴\" || body=\"潮吹\" || body=\"潮喷\" || body=\"成人电影\" || body=\"成人论坛\" || body=\"成人色情\" || body=\"成人网站\" || body=\"成人文学\" || body=\"成人小说\" || body=\"艳情小说\" || body=\"成人游戏\" || body=\"吃精\" || body=\"赤裸\" || body=\"抽插\" || body=\"扌由插\" || body=\"抽一插\" || body=\"春药\" || body=\"大力抽送\" || body=\"荡妇\" || body=\"荡女\" || body=\"盗撮\" || body=\"多人轮\" || body=\"发浪\" || body=\"放尿\" || body=\"肥逼\" || body=\"粉穴\" || body=\"封面女郎\" || body=\"风月大陆\" || body=\"干死你\" || body=\"干穴\" || body=\"肛交\" || body=\"龟头\" || body=\"国产av\" || body=\"豪乳\" || body=\"黑逼\" || body=\"后庭\" || body=\"后穴\" || body=\"虎骑\" || body=\"换妻俱乐部\" || body=\"黄片\" || body=\"几吧\" || body=\"鸡吧\" || body=\"鸡巴\" || body=\"鸡奸\" || body=\"集体淫\" || body=\"奸情\" || body=\"叫床\" || body=\"脚交\" || body=\"精液\" || body=\"就去日\" || body=\"巨屌\" || body=\"菊花洞\" || body=\"菊门\" || body=\"巨奶\" || body=\"巨乳\" || body=\"菊穴\" || body=\"开苞\" || body=\"口爆\" || body=\"口活\" || body=\"口射\" || body=\"口淫\" || body=\"狂操\" || body=\"狂插\" || body=\"浪逼\" || body=\"狼友\" || body=\"流淫\" || body=\"铃木麻\" || body=\"漏乳\" || body=\"露b\" || body=\"乱交\" || body=\"轮暴\" || body=\"轮奸\" || body=\"裸陪\" || body=\"买春\" || body=\"美逼\" || body=\"美少妇\" || body=\"美腿\" || body=\"美穴\" || body=\"美幼\" || body=\"秘唇\" || body=\"迷奸\" || body=\"密穴\" || body=\"蜜穴\" || body=\"蜜液\" || body=\"摸奶\" || body=\"摸胸\" || body=\"母奸\" || body=\"奈美\" || body=\"奶子\" || body=\"男奴\" || body=\"内射\" || body=\"嫩逼\" || body=\"嫩女\" || body=\"嫩穴\" || body=\"捏弄\" || body=\"女优\" || body=\"炮友\" || body=\"砲友\" || body=\"喷精\" || body=\"屁眼\" || body=\"品香堂\" || body=\"前凸后翘\" || body=\"强jian\" || body=\"强暴\" || body=\"强奸处女\" || body=\"拳交\" || body=\"全裸\" || body=\"群交\" || body=\"惹火身材\" || body=\"人妻\" || body=\"人兽\" || body=\"日逼\" || body=\"日烂\" || body=\"肉棒\" || body=\"肉逼\" || body=\"肉唇\" || body=\"肉洞\" || body=\"肉缝\" || body=\"肉棍\" || body=\"肉茎\" || body=\"肉具\" || body=\"揉乳\" || body=\"肉穴\" || body=\"肉欲\" || body=\"乳爆\" || body=\"乳房\" || body=\"乳沟\" || body=\"乳交\" || body=\"乳头\" || body=\"骚逼\" || body=\"骚比\" || body=\"骚女\" || body=\"骚水\" || body=\"骚穴\" || body=\"色逼\" || body=\"色界\" || body=\"色猫\" || body=\"色盟\" || body=\"色情网站\" || body=\"色诱\" || body=\"色欲\" || body=\"色b\" || body=\"少年阿宾\" || body=\"少修正\" || body=\"射爽\" || body=\"射颜\" || body=\"释欲\" || body=\"兽奸\" || body=\"兽交\" || body=\"手淫\" || body=\"兽欲\" || body=\"熟妇\" || body=\"熟母\" || body=\"熟女\" || body=\"爽片\" || body=\"爽死我了\" || body=\"双臀\" || body=\"死逼\" || body=\"丝袜\" || body=\"丝诱\" || body=\"松岛枫\" || body=\"酥痒\" || body=\"汤加丽\" || body=\"套弄\" || body=\"体奸\" || body=\"舔脚\" || body=\"舔阴\" || body=\"脱内裤\" || body=\"文做\" || body=\"我就色\" || body=\"无码\" || body=\"舞女\" || body=\"无修正\" || body=\"吸精\" || body=\"夏川纯\" || body=\"相奸\" || body=\"小逼\" || body=\"校鸡\" || body=\"小穴\" || body=\"小xue\" || body=\"性感妖娆\" || body=\"性感诱惑\" || body=\"性虎\" || body=\"性饥渴\" || body=\"性技巧\" || body=\"性奴\" || body=\"性虐\" || body=\"性息\" || body=\"性欲\" || body=\"胸推\" || body=\"穴口\" || body=\"学生妹\" || body=\"穴图\" || body=\"亚情\" || body=\"颜射\" || body=\"阳具\" || body=\"要射了\" || body=\"夜勤病栋\" || body=\"一夜欢\" || body=\"一夜情\" || body=\"一ye情\" || body=\"阴部\" || body=\"淫虫\" || body=\"阴唇\" || body=\"淫荡\" || body=\"阴道\" || body=\"淫电影\" || body=\"阴阜\" || body=\"淫妇\" || body=\"淫河\" || body=\"阴核\" || body=\"阴户\" || body=\"淫贱\" || body=\"淫叫\" || body=\"淫教师\" || body=\"阴茎\" || body=\"阴精\" || body=\"淫浪\" || body=\"淫媚\" || body=\"淫糜\" || body=\"淫魔\" || body=\"淫母\" || body=\"淫女\" || body=\"淫虐\" || body=\"淫妻\" || body=\"淫情\" || body=\"淫色\" || body=\"淫水\" || body=\"淫亵\" || body=\"淫液\" || body=\"淫照\" || body=\"阴b\" || body=\"幼交\" || body=\"18禁\" || body=\"a片\" || body=\"足球投注\" || body=\"改卷内幕\" || body=\"大sb\" || body=\"傻逼\" || body=\"傻b\" || body=\"煞逼\" || body=\"煞笔\" || body=\"刹笔\" || body=\"傻比\" || body=\"沙比\" || body=\"欠干\" || body=\"婊子养的\" || body=\"我日你\" || body=\"爆你菊\" || body=\"艹你\" || body=\"cao你\" || body=\"你他妈\" || body=\"真他妈\" || body=\"别他吗\" || body=\"草你吗\" || body=\"草你丫\" || body=\"操你妈\" || body=\"擦你妈\" || body=\"操你娘\" || body=\"操他妈\" || body=\"日你妈\" || body=\"干你妈\" || body=\"干你娘\" || body=\"娘西皮\" || body=\"狗操\" || body=\"狗草\" || body=\"狗杂种\" || body=\"狗日的\" || body=\"操你祖宗\" || body=\"操你全家\" || body=\"操你大爷\" || body=\"妈逼\" || body=\"你麻痹\" || body=\"麻痹的\" || body=\"妈了个逼\" || body=\"马勒\" || body=\"狗娘养\" || body=\"杀b\" || body=\"你吗b\" || body=\"你妈的\"",
         "type": "other"
     }
 ]

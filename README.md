@@ -6,10 +6,20 @@ httpgo是一个web指纹识别工具，支持多线程、HTTP代理、批量识�
 ## 使用
 ### 帮助
 ```
-[shym]% ./httpgo_mac -h
-Usage of ./httpgo_mac:
+[shym]% go run main.go -h
+
+ _       _     _
+| |__   | |_  | |_   _ __     __ _    ___
+| '_ \  | __| | __| | '_ \   / _' |  / _ \
+| | | | | |_  | |_  | |_) | | (_| | | (_) |
+|_| |_|  \__|  \__| | .__/   \__, |  \___/
+                    |_|      |___/
+
+Usage of :
+  -check
+    	检查新添加指纹规则的合规性
   -file string
-    	请求的文件 (default "target.txt")
+    	请求的文件
   -fingers string
     	指纹文件 (default "fingers.json")
   -hash string
@@ -23,11 +33,9 @@ Usage of ./httpgo_mac:
   -thead int
     	并发数 (default 20)
   -timeout duration
-    	超时时间 (default 15ns)
+    	超时时间 (default 8ns)
   -url string
     	请求的url
-  -check bool
-    	检查指纹文件是否正确
 ```
 ### 单个url识别
 ![image-20240815115840552](README.assets/image-20240815115840552.png)
@@ -93,13 +101,15 @@ body="xxxx" && header!="ccc" 匹配body中包含xxxx并且header中不包含ccc�
 比如
 body=\"aaaa\" && (title=\"123\" || title=\"456\")
 
-双引号"记得转义，如果是搜索的具体内容里有"需要加使用\\\",如
+双引号"记得转义，如果是搜索的具体内容里有"需要在"前加\\\",如
 body=\"<link href=\\\"/jcms/\" 匹配的为body中是否包含<link href="/jcms/
 
 {
   "name": "jcms or fcms",
   "keyword": "body=\"<link href=\\\"/jcms/\" || body=\"<link href=\\\"/fcms/\" || body=\"jcms/Login.do\" || body=\"fcms/Login.do\""
 }
+如果是搜索的具体内容里有&或|需要在他们前面使用\\",如
+body=\"1234\\&\\&1111\" 匹配的为body中是否包含1234&&1111
 ~~~
 
 
