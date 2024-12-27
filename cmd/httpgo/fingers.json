@@ -1,5 +1,75 @@
 [ 
     {
+        "name": "【安恒明御WAF】",
+        "keyword": "body=\"因权限问题或行为非法，您的访问被拒绝\"",
+        "type": "other"
+    },
+    {
+        "name": "【YunsuoWAF】",
+        "keyword": "header=\"yunsuo_session\" || body=\"yunsuologo\"",
+        "type": "other"
+    },
+    {
+        "name": "【腾讯WAF】",
+        "keyword": "body=\"waf.tencent-cloud.com\"",
+        "type": "other"
+    },
+    {
+        "name": "【百度WAF】",
+        "keyword": "body=\"DuEdge\"",
+        "type": "other"
+    },
+    {
+        "name": "【知道创宇WAF】",
+        "keyword": "body=\"ks-waf-error\"",
+        "type": "other"
+    },
+    {
+        "name": "【CloudFlareWAF】",
+        "keyword": "body=\"Attention Required!\" || body=\"CLOUDFLARE_ERROR_\"",
+        "type": "other"
+    },
+    {
+        "name": "【安全宝WAF】",
+        "keyword": "body=\"/aqb_cc/error/\"",
+        "type": "other"
+    },
+    {
+        "name": "【AliYunDun】",
+        "keyword": "body=\"errors.aliyun.com\"",
+        "type": "other"
+    },
+    {
+        "name": "【aeSecureWAF】",
+        "keyword": "body=\"aesecure_denied\"",
+        "type": "other"
+    },
+    {
+        "name": "【360WAF】",
+        "keyword": "body=\"wzws-waf-cgi\" || header=\"WZWS-RAY\"",
+        "type": "other"
+    },
+    {
+        "name": "【安恒WAF】",
+        "keyword": "body=\"玄武盾\"",
+        "type": "other"
+    },
+    {
+        "name": "【人众科技-ONE-HRP】",
+        "keyword": "body=\"ONE-HRP - Peopleone.cn\"",
+        "type": "cms"
+    },
+    {
+        "name": "【人众科技-MAS-HR人力资源】",
+        "keyword": "body=\"b64Encode(Ld2000Encode(pwd.value));\" || body=\"/Common/ajaxGet.aspx?f=fingerprint&c=U&p=\" || icon_hash=\"547311146\"",
+        "type": "cms"
+    },
+    {
+        "name": "【天耀V3.Cloud工业版】",
+        "keyword": "body=\"天耀V3.Cloud工业版\"",
+        "type": "cms"
+    },
+    {
         "name": "【Ymnets.net框架】",
         "keyword": "body=\"/Core/verify_code.ashx\"",
         "type": "cms"
@@ -2811,7 +2881,7 @@
     },
     {
         "name": "【嘉扬eHR管理系统-Kayang-上海嘉扬信息系统有限公司】",
-        "keyword": "body=\"Styles/Css/kyLogin.css\"",
+        "keyword": "body=\"Styles/Css/kyLogin.css\" || body=\"Skin/Images/Logo/kylogo.ico\"",
         "type": "cms"
     },
     {
@@ -7271,7 +7341,7 @@
         "type": "cms"
     },
     {
-        "name": "【Guiduo Xingye-Huiyan Database Audit System】",
+        "name": "【慧眼数据库审计系统】",
         "keyword": "title=\"慧眼数据库审计系统\"",
         "type": "cms"
     },
@@ -27591,7 +27661,7 @@
         "type": "cms"
     },
     {
-        "name": "【AsiaInfo - Deep Threat Discovery Equipment】",
+        "name": "【亚信安全-深度威胁发现设备】",
         "keyword": "title=\"亚信安全&trade; 深度威胁发现设备\"",
         "type": "cms"
     },
@@ -27607,7 +27677,7 @@
     },
     {
         "name": "【ASENTRIA-Siteboss monitoring system】",
-        "keyword": "header=\"SiteBoss \" || header=\"realm=SiteBoss\"",
+        "keyword": "header=\"SiteBoss \"",
         "type": "cms"
     },
     {
@@ -27617,7 +27687,7 @@
     },
     {
         "name": "【AirLink-SkyIPCam】",
-        "keyword": "header=\"realm=\\\"SkyIPCam\" || header=\"realm=\\\"SkyIPCam\"",
+        "keyword": "header=\"realm=\\\"SkyIPCam\"",
         "type": "cms"
     },
     {
@@ -27631,8 +27701,8 @@
         "type": "cms"
     },
     {
-        "name": "【安全狗】",
-        "keyword": "header=\"WAF/2.0\" || (header=\"Safedog\" && header!=\"couchdb\" && header!=\"drupal\") || header=\"Set-Cookie: safedog\" || header=\"safedog-flow-item=\" || (header=\"Safedog\" && header!=\"couchdb\" && header!=\"drupal\") || header=\"Set-Cookie: safedog\" || header=\"safedog-flow-item=\"",
+        "name": "【安全狗WAF】",
+        "keyword": "header=\"WAF/2.0\" || (header=\"Safedog\" && header!=\"couchdb\" && header!=\"drupal\") || header=\"Set-Cookie: safedog\" || header=\"safedog-flow-item=\"",
         "type": "other"
     },
     {
@@ -29896,13 +29966,13 @@
         "type": "cms"
     },
     {
-        "name": "【AsiaInfo - Safety Management and Analysis Platform】",
-        "keyword": "header=\"/sso/index.do?appid=ssa\" || header=\"/sso/index.do?appid=ssa\"",
+        "name": "【亚信安全-Safety Management and Analysis Platform】",
+        "keyword": "header=\"/sso/index.do?appid=ssa\"",
         "type": "cms"
     },
     {
         "name": "【Digi-One】",
-        "keyword": "header=\"realm=\\\"Digi One\" || header=\"Digi One IAP\"",
+        "keyword": "header=\"realm=\\\"Digi One\"",
         "type": "cms"
     },
     {
