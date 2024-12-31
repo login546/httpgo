@@ -1,5 +1,160 @@
 [ 
     {
+        "name": "【杜特网上订单管理系统】",
+        "keyword": "body=\"CSS/LayOutStyle_Currency.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【神州数码DCN系统】",
+        "keyword": "body=\"style/blue/css/dcn_ui.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【赛诸葛数字化智能中台系统】",
+        "keyword": "body=\"static/index/image/login_left.png\" || icon_hash=\"1056416905\"",
+        "type": "cms"
+    },
+    {
+        "name": "【北京勤云科技-勤云远程稿件处理系统】",
+        "keyword": "body=\"北京勤云科技\"",
+        "type": "cms"
+    },
+    {
+        "name": "【CPAS审计管理系统】",
+        "keyword": "icon_hash=\"-58141038\"",
+        "type": "cms"
+    },
+    {
+        "name": "【卓软计量业务管理平台】",
+        "keyword": "icon_hash=\"-334571363\"",
+        "type": "cms"
+    },
+    {
+        "name": "【朗速ERP】",
+        "keyword": "body=\"/Resource/Scripts/Yw/Yw_Bootstrap.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【江苏麦维智能科技有限公司-安全生产数字化管理平台】",
+        "keyword": "body=\"安全生产数字化管理平台\" && icon_hash=\"1772087922\"",
+        "type": "cms"
+    },
+    {
+        "name": "【海纳CMS-HituxCMS】",
+        "keyword": "body=\"Powered By HituxCMS\"",
+        "type": "cms"
+    },
+    {
+        "name": "【GROWATT系统】",
+        "keyword": "body=\"v3/js/odm/odm.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【XiaoCms】",
+        "keyword": "header=\"X-Powered-By: XiaoCms\"",
+        "type": "cms"
+    },
+    {
+        "name": "【TerraMaster-TOS】",
+        "keyword": "body=\"TerraMaster\" && header=\"Server: TOS\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Contec-SolarView-Compact】",
+        "keyword": "body=\"SolarView Compact\" && title=\"Top\"",
+        "type": "cms"
+    },
+    {
+        "name": "【HAProxy-WI】",
+        "keyword": "title=\"HAProxy-WI\" || body=\"/inc/nprogress.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Riskscanner】",
+        "keyword": "title=\"Riskscanner\"",
+        "type": "cms"
+    },
+    {
+        "name": "【MKdocs】",
+        "keyword": "title=\"My Docs\"",
+        "type": "cms"
+    },
+    {
+        "name": "【MessageSolution-企业邮件归档管理系统EEA】",
+        "keyword": "title=\"MessageSolution Enterprise Email Archiving (EEA)\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Lanproxy】",
+        "keyword": "header=\"Server: LPS-0.1\"",
+        "type": "cms"
+    },
+    {
+        "name": "【JD-FreeFuck-京东薅羊毛控制面板】",
+        "keyword": "title=\"京东薅羊毛控制面板\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Hue-后台编辑器】",
+        "keyword": "title=\"Hue - 欢迎使用 Hue\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Gerapy】",
+        "keyword": "title=\"Gerapy\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Fhem】",
+        "keyword": "title=\"Home, Sweet Home\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Evolucare-Ecsimaging】",
+        "keyword": "body=\"ECSimaging\"",
+        "type": "cms"
+    },
+    {
+        "name": "【E-message】",
+        "keyword": "title=\"emessage 设置: 数据库设置 - 标准连接\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Appspace】",
+        "keyword": "body=\"Sign-in-to-Appspace-Core\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Apache-Zeppelin】",
+        "keyword": "icon_hash=\"960250052\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Alibaba-otter-manager-分布式数据库同步系统】",
+        "keyword": "title=\"Otter Manager\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Alibaba-Canal】",
+        "keyword": "title=\"Canal Admin\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Alibaba-AnyProxy】",
+        "keyword": "body=\"anyproxy\" || icon_hash=\"-1888278089\"",
+        "type": "cms"
+    },
+    {
+        "name": "【众望网络-微议管理系统】",
+        "keyword": "body=\"微议管理系统\"",
+        "type": "cms"
+    },
+    {
+        "name": "【锐起云-私有云存储和管理系统】",
+        "keyword": "body=\"锐起云\"",
+        "type": "cms"
+    },
+    {
         "name": "【安恒明御WAF】",
         "keyword": "body=\"因权限问题或行为非法，您的访问被拒绝\"",
         "type": "other"
@@ -695,6 +850,11 @@
         "type": "cms"
     },
     {
+        "name": "【WordPress-rtw_pdf_file插件】",
+        "keyword": "body=\"wp-content/plugins/pdf-generator-addon-for-elementor-page-builder\"",
+        "type": "cms"
+    },
+        {
         "name": "【WordPress-Tainacan插件】",
         "keyword": "body=\"/wp-content/plugins/tainacan/\"",
         "type": "cms"
@@ -1261,7 +1421,7 @@
     },
     {
         "name": "【Pd-CMS】",
-        "keyword": "body=\"pb-cms\"",
+        "keyword": "body=\"pb-cms\" || body=\"Powered by <a href=\\\"https://www.puboot.com\\\"\"",
         "type": "cms"
     },
     {
@@ -1367,11 +1527,6 @@
     {
         "name": "【驰骋BPM】",
         "keyword": "icon_hash=\"-1564380241\" || body=\"正在登录流程&表单引擎设计器,请稍候\"",
-        "type": "cms"
-    },
-    {
-        "name": "【NPS】",
-        "keyword": "body=\"https://ehang.io/nps\"",
         "type": "cms"
     },
     {
@@ -2236,7 +2391,7 @@
     },
     {
         "name": "【WVP视频平台(国标28181)】",
-        "keyword": "body=\"国标28181\"",
+        "keyword": "body=\"国标28181\" || icon_hash=\"1702895609\"",
         "type": "cms"
     },
     {
@@ -2256,7 +2411,7 @@
     },
     {
         "name": "【SpiderFlow爬虫平台】",
-        "keyword": "icon_hash=\"-528044181\" || body=\"spiderflow.org\"",
+        "keyword": "icon_hash=\"-528044181\" || body=\"spiderflow.org\" || title=\"SpiderFlow\"",
         "type": "cms"
     },
     {
@@ -2271,7 +2426,7 @@
     },
     {
         "name": "【RuvarOA协同办公平台】",
-        "keyword": "body=\"txt_admin_key\"",
+        "keyword": "body=\"txt_admin_key\" || body=\"RuvarOA协同办公平台\"",
         "type": "cms"
     },
     {
@@ -2905,6 +3060,11 @@
         "type": "cms"
     },
     {
+        "name": "【昂捷CRM系统】",
+        "keyword": "body=\"/ClientBin/slEnjoy.App.xap\"",
+        "type": "cms"
+    },
+    {
         "name": "【奥威亚视频云平台】",
         "keyword": "body=\"/Upload/DomainInfo/MaxAVALogo.png\" || body=\"Copyright © 2005-2018 广州市奥威亚电子科技有限公司\" || body=\"/CSS/NewtonTheme/assets/app.css\"",
         "type": "cms"
@@ -3026,7 +3186,7 @@
     },
     {
         "name": "【鸿运主动安全监控云平台】",
-        "keyword": "title=\"EduSoho\" || body=\"./open/webApi.html\"",
+        "keyword": "body=\"./open/webApi.html\"",
         "type": "cms"
     },
     {
@@ -3261,7 +3421,7 @@
     },
     {
         "name": "【Bitbucket】",
-        "keyword": "title=\"Bitbucket\" || (body=\"/j_atl_security_check\" && body=\"bitbucket.page.login\")",
+        "keyword": "title=\"Bitbucket\" || title=\"Log in - Bitbucket\" || (body=\"/j_atl_security_check\" && body=\"bitbucket.page.login\")",
         "type": "cms"
     },
     {
@@ -4230,8 +4390,8 @@
         "type": "cms"
     },
     {
-        "name": "【Qianxin-Secfox】",
-        "keyword": "(body=\"id=mTokenPlugin width=0 height=0 style=\\\"position: absolute;LEFT: 0px; TOP: 0px\\\"\" && body=\"type=application/x-xtx-axhost\" && cert=\"Organization: 360企业安全集团\") || title=\"网神SecFox安全审计系统\" || title=\"SecFox-LAS-BH\" || title=\"SecFox\" || (body=\"document.getElementById('pic').src\" && body=\"class=\\\"secfox-login-browser-continue\\\"\") || body=\"<p>欢迎您使用网神Secfox日志收集与分析系统\"",
+        "name": "【网神SecFox运维安全管理与审计系统】",
+        "keyword": "body=\"./static/js/vendor.022b3d3adf3423f31f54.js\" || (body=\"id=mTokenPlugin width=0 height=0 style=\\\"position: absolute;LEFT: 0px; TOP: 0px\\\"\" && body=\"type=application/x-xtx-axhost\" && cert=\"Organization: 360企业安全集团\") || title=\"网神SecFox安全审计系统\" || title=\"SecFox-LAS-BH\" || title=\"SecFox\" || (body=\"document.getElementById('pic').src\" && body=\"class=\\\"secfox-login-browser-continue\\\"\") || body=\"<p>欢迎您使用网神Secfox日志收集与分析系统\"",
         "type": "cms"
     },
     {
@@ -5916,7 +6076,7 @@
         "type": "cms"
     },
     {
-        "name": "【APUSIC-Company Products】",
+        "name": "【金蝶-Apusic应用服务器】",
         "keyword": "title=\"欢迎使用Apusic应用服务器\" || body=\"<td>管理Apusic应用服务器</td>\" || header=\"Server: Apusic Application Server\" || header=\"Server: Apusic Application Server\"",
         "type": "cms"
     },
@@ -5932,7 +6092,7 @@
     },
     {
         "name": "【锐捷-EWEB网管系统】",
-        "keyword": "(body=\"<span class=\\\"resource\\\" mark=\\\"login.copyRight\\\">锐捷网络</span>\" && body=\"login.getDeviceInfo\") || title=\"锐捷网络-EWEB网管系统\"",
+        "keyword": "(body=\"<span class=\\\"resource\\\" mark=\\\"login.copyRight\\\">锐捷网络</span>\" && body=\"login.getDeviceInfo\") || title=\"锐捷网络-EWEB网管系统\" || body=\"置。如您需恢复reset前的配置，可使用出厂IP登录设备EWEB后选择“恢复备份文件”\"",
         "type": "cms"
     },
     {
@@ -10437,7 +10597,7 @@
     },
     {
         "name": "【大华-智慧园区综合管理平台】",
-        "keyword": "body=\"src=\\\"/WPMS/asset/common/js/jsencrypt.min.js\\\"\" || body=\"/WPMS/asset/lib/gridster/\"",
+        "keyword": "body=\"src=\\\"/WPMS/asset/common/js/jsencrypt.min.js\\\"\" || body=\"/WPMS/asset/lib/gridster/\" || header=\"Set-Cookie: Path=/WPMS\"",
         "type": "cms"
     },
     {
@@ -21986,7 +22146,7 @@
         "type": "cms"
     },
     {
-        "name": "【EDUSOHO - Open source network classroom】",
+        "name": "【EDUSOHO-教培系统】",
         "keyword": "title=\"Powered By EduSoho\" || body=\"Powered by <a href=\\\"http://www.edusoho.com/\\\" target=\\\"_blank\\\">EduSoho\" || (body=\"Powered By EduSoho\" && body=\"var app\")",
         "type": "cms"
     },
@@ -24241,8 +24401,8 @@
         "type": "cms"
     },
     {
-        "name": "【HONGAN-HEIMDALL-DLP Data Leakage Protection System】",
-        "keyword": "body=\"<iframe frameborder=\\\"0\\\" id=\\\"OperateArea\\\" name=\\\"OperateArea\\\"\" || title=\"Heimdall DLP数据泄漏防护系统\"",
+        "name": "【虹安DLP数据泄漏防护系统】",
+        "keyword": "body=\"<iframe frameborder=\\\"0\\\" id=\\\"OperateArea\\\" name=\\\"OperateArea\\\"\" || title=\"Heimdall DLP数据泄漏防护系统\" || body=\"userReg/initUserReg.do\"",
         "type": "cms"
     },
     {
@@ -24956,8 +25116,8 @@
         "type": "cms"
     },
     {
-        "name": "【nps】",
-        "keyword": "(body=\"url: \\\"/login/verify\\\"\" && body=\"serializeArray()\") || (body=\"nps\" && body=\"ehang\" && body=\"login\")",
+        "name": "【NPS】",
+        "keyword": "(body=\"url: \\\"/login/verify\\\"\" && body=\"serializeArray()\") || (body=\"nps\" && body=\"ehang\" && body=\"login\") || body=\"https://ehang.io/nps\"",
         "type": "cms"
     },
     {
@@ -31527,7 +31687,7 @@
     },
     {
         "name": "【汉塔科技-上网行为流量管理系统】",
-        "keyword": "title=\"汉塔科技 - 上网行为管理系统\"",
+        "keyword": "title=\"汉塔科技 - 上网行为管理系统\" || body=\"Antasys\"",
         "type": "cms"
     },
     {
@@ -33297,7 +33457,7 @@
     },
     {
         "name": "【XAMPP】",
-        "keyword": "header=\"Xampps_info\" || header=\"Xampps_info\" || body=\"/xampps.jpg\" || (header=\"location http\"&& header=\"xampp\") || body=\"content=\\\"Kai Oswald Seidler\" || title=\"XAMPP for\" || title=\"XAMPP Version\" || body=\"font-size: 1.2em; color: red;\\\">New XAMPP\" || header=\"xampp user\" || title=\"Welcome to XAMPP\" || body=\"content=\\\"XAMPP \"",
+        "keyword": "header=\"Xampps_info\" || header=\"Xampps_info\" || body=\"/xampps.jpg\" || (header=\"location http\"&& header=\"xampp\") || body=\"content=\\\"Kai Oswald Seidler\" || title=\"XAMPP for\" || title=\"XAMPP Version\" || body=\"font-size: 1.2em; color: red;\\\">New XAMPP\" || header=\"xampp user\" || title=\"Welcome to XAMPP\" || body=\"content=\\\"XAMPP \" || icon_hash=\"-33197636\"",
         "type": "cms"
     },
     {
@@ -40692,7 +40852,7 @@
     },
     {
         "name": "【Node-RED】",
-        "keyword": "icon_hash=\"321591353\"",
+        "keyword": "icon_hash=\"321591353\" || title=\"Node-RED\"",
         "type": "cms"
     },
     {
