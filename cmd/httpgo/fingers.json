@@ -1,5 +1,40 @@
 [ 
     {
+        "name": "【互慧-急诊综合管理平台】",
+        "keyword": "body=\"/emis_lib/js/ThreeExtras.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【DataEase-数据可视化分析平台】",
+        "keyword": "title=\"DataEase\"",
+        "type": "cms"
+    },
+    {
+        "name": "【MasterSAM】",
+        "keyword": "icon_hash=\"-2145752394\"",
+        "type": "cms"
+    },
+    {
+        "name": "【内训宝-企业培训平台】",
+        "keyword": "body=\"static/nxb/css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Cleo】",
+        "keyword": "header=\"Server: Cleo\"",
+        "type": "cms"
+    },
+    {
+        "name": "【郑州时空-TMS运输管理系统】",
+        "keyword": "body=\"/Images/ManLogin/name.png\"",
+        "type": "cms"
+    },
+    {
+        "name": "【成都和力九垠科技有限公司-零售商业管理软件】",
+        "keyword": "body=\"九垠赢\"",
+        "type": "cms"
+    },
+    {
         "name": "【杜特网上订单管理系统】",
         "keyword": "body=\"CSS/LayOutStyle_Currency.css\"",
         "type": "cms"
