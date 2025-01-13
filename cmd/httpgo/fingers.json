@@ -1,5 +1,35 @@
 [ 
     {
+        "name": "【深科特-LEAN MES-精益制造执行系统】",
+        "keyword": "icon_hash=\"1505132128\" || title=\"LEAN MES - 用户登录\" || body=\"Content/js/skt.utility.checkmobile.js\" || body=\"../MobileApp/VerifyError.aspx\" || body=\"Content/login/login2/multiplant_top.png\"",
+        "type": "cms"
+    },
+    {
+        "name": "【以柔资讯-D-Security终端文件保护系统】",
+        "keyword": "title=\"D-Security\" || title=\"WNJsoft\" || title=\"W&Jsoft\"",
+        "type": "cms"
+    },
+    {
+        "name": "【UJCMS-开源网站内容管理系统】",
+        "keyword": "body=\"/templates/1/default/_files/vendor/jquery/dist/jquery.min.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【JIZHICMS-极致CMS-开源建站系统】",
+        "keyword": "body=\"static/cms/static/picture/user-white.png\" || icon_hash=\"1657387632\"",
+        "type": "cms"
+    },
+    {
+        "name": "【DoraCMS-开源内容管理系统】",
+        "keyword": "body=\"content=\\\"DoraCMS\\\"\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Halo-开源建站工具-凌霞软件】",
+        "keyword": "body=\"/plugins/PluginCommentWidget/assets/static/comment-widget.iife.js\"",
+        "type": "cms"
+    },
+    {
         "name": "【互慧-急诊综合管理平台】",
         "keyword": "body=\"/emis_lib/js/ThreeExtras.js\"",
         "type": "cms"
@@ -2745,6 +2775,11 @@
         "type": "cms"
     },
     {
+        "name": "【帆软Finebi】",
+        "keyword": "body=\"/webroot/decision/login\"",
+        "type": "cms"
+    },
+    {
         "name": "【帆软报表】",
         "keyword": "body=\"WebReport/ReportServer\" || body=\"webroot/decision\" || body=\"/ReportServer\"",
         "type": "cms"
@@ -3061,7 +3096,7 @@
     },
     {
         "name": "【小绿叶-零度空间】",
-        "keyword": "icon_hash=\"-1170794986\" || body=\"/scripts/leftTime/leftTime.min.js\"",
+        "keyword": "icon_hash=\"-1170794986\" || body=\"/scripts/leftTime/leftTime.min.js\" || body=\"/websites/loginH5/images/logo.png\"",
         "type": "cms"
     },
     {
@@ -41147,7 +41182,7 @@
     },
     {
         "name": "【存在登录页面】",
-        "keyword": "body=\"login.htm\" || body=\"login.ashx\" || body=\"login.jsp\" || body=\"login.php\" || body=\"login.asp\" || body=\"login.aspx\" || body=\"login.do\" || body=\"后台管理\" || body=\"后台登录\" || body=\"后台登陆\" || body=\"点击登录\" || body=\"点击登陆\" || body=\"短信登陆\" || body=\"短信登录\" || body=\"邮箱登陆\" || body=\"邮箱登录\" || body=\"/admin/login/\"",
+        "keyword": "body=\"webroot/decision/login\" || body=\"login.htm\" || body=\"login.ashx\" || body=\"login.jsp\" || body=\"login.php\" || body=\"login.asp\" || body=\"login.aspx\" || body=\"login.do\" || body=\"后台管理\" || body=\"后台登录\" || body=\"后台登陆\" || body=\"点击登录\" || body=\"点击登陆\" || body=\"短信登陆\" || body=\"短信登录\" || body=\"邮箱登陆\" || body=\"邮箱登录\" || body=\"/admin/login/\"",
         "type": "cms"
     },
     {
