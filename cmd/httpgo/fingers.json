@@ -1,11 +1,31 @@
 [ 
     {
+        "name": "【腾讯移动分析】",
+        "keyword": "body=\"tajs.qq.com\"",
+        "type": "other"
+    },
+    {
+        "name": "【维保保-运维平台】",
+        "keyword": "body=\"版权所有  武汉儒松科技有限公司\"",
+        "type": "cms"
+    },
+    {
+        "name": "【维保保-运维监控系统】",
+        "keyword": "body=\"img/wbb_logo.png\"",
+        "type": "cms"
+    },
+    {
+        "name": "【极企智能办公路由】",
+        "keyword": "title=\"极企智能办公路由\"",
+        "type": "cms"
+    },
+    {
         "name": "【深科特-LEAN MES-精益制造执行系统】",
         "keyword": "icon_hash=\"1505132128\" || title=\"LEAN MES - 用户登录\" || body=\"Content/js/skt.utility.checkmobile.js\" || body=\"../MobileApp/VerifyError.aspx\" || body=\"Content/login/login2/multiplant_top.png\"",
         "type": "cms"
     },
     {
-        "name": "【以柔资讯-D-Security终端文件保护系统】",
+        "name": "【以柔资讯-D-Security-终端文件保护系统】",
         "keyword": "title=\"D-Security\" || title=\"WNJsoft\" || title=\"W&Jsoft\"",
         "type": "cms"
     },
@@ -1875,9 +1895,9 @@
         "type": "cms"
     },
     {
-        "name": "【奇安信- website guards commonly used front-end public library】",
+        "name": "【360-网站卫士常用前端公共库】",
         "keyword": "header=\"libs.useso.com\" || body=\"libs.useso.com\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【奇安信-代码卫士】",
@@ -3665,7 +3685,7 @@
         "type": "cms"
     },
     {
-        "name": "【Containe - online customer service】",
+        "name": "【美洽-在线客服】",
         "keyword": "body=\"/meiqia.js\"",
         "type": "cms"
     },
@@ -6996,7 +7016,7 @@
         "type": "cms"
     },
     {
-        "name": "【Blue Shield - WebGuard tamper】",
+        "name": "【蓝盾-BDWebGuard】",
         "keyword": "body=\"BACKGROUND: url(images/loginbg.jpg) #e5f1fc\"",
         "type": "cms"
     },
@@ -8431,7 +8451,7 @@
         "type": "cms"
     },
     {
-        "name": "【Su Ya Xing - Campus Management System】",
+        "name": "【苏亚星-校园管理系统】",
         "keyword": "body=\"/ws2004/Public/\"",
         "type": "cms"
     },
@@ -20736,7 +20756,7 @@
         "type": "cms"
     },
     {
-        "name": "【Qingguo Software-CMS】",
+        "name": "【青果软件-CMS】",
         "keyword": "title=\"KINGOSOFT\" || body=\"SetKingoEncypt.jsp\" || body=\"/jkingo.js\" || (body=\"KINGOSOFT\" && body=\"青果\")",
         "type": "cms"
     },
@@ -22726,7 +22746,7 @@
         "type": "other"
     },
     {
-        "name": "【Schneider-PowerLogic-PM800】",
+        "name": "【施耐德-Schneider-PowerLogic-PM800】",
         "keyword": "(header=\"PowerLogic\" && header=\"PM800\") || (header=\"PowerLogic\" && header=\"PM800\")",
         "type": "cms"
     },
@@ -27666,9 +27686,9 @@
         "type": "cms"
     },
     {
-        "name": "【Western Digital - Company Products】",
-        "keyword": "header=\"WT263CDN\" || header=\"WT263CDN\"",
-        "type": "cms"
+        "name": "【西部数码】",
+        "keyword": "header=\"WT263CDN\"",
+        "type": "other"
     },
     {
         "name": "【易软天创-禅道系统】",
@@ -31626,7 +31646,7 @@
         "type": "cms"
     },
     {
-        "name": "【Also shoot cloud-JS library】",
+        "name": "【又拍云JS库】",
         "keyword": "header=\"b0.upaiyun.com\" || body=\"b0.upaiyun.com\"",
         "type": "cms"
     },
@@ -33121,7 +33141,7 @@
         "type": "cms"
     },
     {
-        "name": "【Southern Data-CMS】",
+        "name": "【南方数据-CMS】",
         "keyword": "body=\"/SouthidcKeFu.js\" || body=\"content=\\\"Copyright 2003-2015 - Southidc.net\" || body=\"/Southidcj2f.Js\"",
         "type": "cms"
     },
@@ -33681,9 +33701,9 @@
         "type": "cms"
     },
     {
-        "name": "【360-website guard】",
+        "name": "【360-网站卫士】",
         "keyword": "header=\"360wzb\" || header=\"360wzws\" || header=\"WZWS-RAY: \" || header=\"360wzb\" || header=\"360wzws\" || header=\"WZWS-RAY: \"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【Sogou search - webmaster platform】",
@@ -33691,7 +33711,7 @@
         "type": "other"
     },
     {
-        "name": "【360-webmaster platform】",
+        "name": "【360-站长平台】",
         "keyword": "body=\"360-site-verification\"",
         "type": "other"
     },
@@ -38297,7 +38317,7 @@
     },
     {
         "name": "【JEECG】",
-        "keyword": "body=\"积木报表\" || body=\"jeecg\" || body=\"window._CONFIG['imgDomainURL'] = 'http://localhost:8080/jeecg-boot/\" || body=\"jeecg-boot\" || body=\"/cdn/babel-polyfill/polyfill_7_2_5.js\" || title=\"Jeecg-Boot 企业级快速开发平台\" || title=\"Jeecg 快速开发平台\" || body=\"'http://fileview.jeecg.com/onlinePreview'\"",
+        "keyword": "body=\"/sys/common/pdf/pdfPreviewIframe\" || body=\"积木报表\" || body=\"jeecg\" || body=\"window._CONFIG['imgDomainURL'] = 'http://localhost:8080/jeecg-boot/\" || body=\"jeecg-boot\" || body=\"/cdn/babel-polyfill/polyfill_7_2_5.js\" || title=\"Jeecg-Boot 企业级快速开发平台\" || title=\"Jeecg 快速开发平台\" || body=\"'http://fileview.jeecg.com/onlinePreview'\"",
         "type": "cms"
     },
     {
