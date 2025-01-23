@@ -107,7 +107,8 @@ body=\"<link href=\\\"/jcms/\" 匹配的为body中是否包含<link href="/jcms/
   "name": "jcms or fcms",
   "keyword": "body=\"<link href=\\\"/jcms/\" || body=\"<link href=\\\"/fcms/\" || body=\"jcms/Login.do\" || body=\"fcms/Login.do\""
 }
-如果是搜索的具体内容里有&或|需要在他们前面使用\\",如
+
+如果是搜索的具体内容里有&或|需要在他们前面使用\\,如
 body=\"1234\\&\\&1111\" 匹配的为body中是否包含1234&&1111
 ~~~
 

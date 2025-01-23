@@ -1,5 +1,30 @@
 [ 
     {
+        "name": "【赛特斯-CertusNet后台管理系统】",
+        "keyword": "title=\"CertusNet后台管理系统\" || icon_hash=\"1682991866\"",
+        "type": "cms"
+    },
+    {
+        "name": "【联想云盘】",
+        "keyword": "header=\"X-Hit: servicecenter7.weave.local\"",
+        "type": "cms"
+    },
+    {
+        "name": "【冰川下一代智能DNS系统】",
+        "keyword": "title=\"Glacier Network\" || icon_hash=\"539081461\"",
+        "type": "cms"
+    },
+    {
+        "name": "【阿里云-Web应用防火墙】",
+        "keyword": "title=\"阿里云 Web应用防火墙\" || body=\"yundun.console.aliyun.com/?p=waf\"",
+        "type": "other"
+    },
+    {
+        "name": "【长亭-雷池WAF】",
+        "keyword": "body=\"waf-ce.chaitin.cn\" || header=\"sentry.chaitin.cn\" || body=\"您的访问请求可能对网站造成安全威胁，请求已被阻断。\"",
+        "type": "other"
+    },
+    {
         "name": "【腾讯移动分析】",
         "keyword": "body=\"tajs.qq.com\"",
         "type": "other"
@@ -1152,6 +1177,11 @@
     {
         "name": "【WPS-部署可视化平台】",
         "keyword": "body=\"WPS 部署可视化平台\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WPS-文档服务】",
+        "keyword": "title=\"WPS 文档服务\"",
         "type": "cms"
     },
     {
@@ -3211,7 +3241,7 @@
     },
     {
         "name": "【通天星-CMSV6】",
-        "keyword": "body=\"./open/webApi.html\" || body=\"/808gps/\"",
+        "keyword": "body=\"./open/webApi.html\" || body=\"808gps/\"",
         "type": "cms"
     },
     {
@@ -8961,11 +8991,6 @@
         "type": "cms"
     },
     {
-        "name": "【Changjietcom - Tplus】",
-        "keyword": "body=\"><script>location='/tplus/';</script></body>\"",
-        "type": "cms"
-    },
-    {
         "name": "【DT-高清车牌识别摄像机】",
         "keyword": "title=\"高清车牌识别摄像机\" || (body=\"<h3 >系统升级</h3>\" && body=\"action=\\\"sysupgrade.php\")",
         "type": "cms"
@@ -12151,6 +12176,11 @@
         "type": "cms"
     },
     {
+        "name": "【用友-畅捷通T+】",
+        "keyword": "body=\"><script>location='/tplus/';</script></body>\"",
+        "type": "cms"
+    },
+    {
         "name": "【用友-U9】",
         "keyword": "body=\"logo-u9.png\"",
         "type": "cms"
@@ -12842,7 +12872,7 @@
     },
     {
         "name": "【网御星云-VPN】",
-        "keyword": "(body=\"/js/leadsec.js\" && body=\"src=\\\"/vpn/user/common/\") || (body=\"<p id=\\\"notice_content\\\">欢迎使用VPN安全网关</p>\" && body=\"北京网御星云\")",
+        "keyword": "(body=\"/js/leadsec.js\" && body=\"src=\\\"/vpn/user/common/\") || (body=\"<p id=\\\"notice_content\\\">欢迎使用VPN安全网关</p>\" && body=\"北京网御星云\") || icon_hash=\"-15980305\"",
         "type": "cms"
     },
     {
@@ -15888,7 +15918,7 @@
     {
         "name": "【indy】",
         "keyword": "(header=\"Server: Indy\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"Server: Indy\" && header!=\"couchdb\" && header!=\"drupal\")",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【ZyXEL-Keenetic】",
@@ -18552,7 +18582,7 @@
     },
     {
         "name": "【若依管理系统】",
-        "keyword": "body=\"/ry-ui.css\" || body=\"/ry-ui.js\" || title=\"若依管理系统\" || body=\"正在加载系统资源，请耐心等待\" || (body=\"正在加载资源\" && body=\"初次加载资源可能需要较多时间 请耐心等待\")",
+        "keyword": "icon_hash=\"706913071\" || body=\"/ry-ui.css\" || body=\"/ry-ui.js\" || title=\"若依管理系统\" || body=\"正在加载系统资源，请耐心等待\" || (body=\"正在加载资源\" && body=\"初次加载资源可能需要较多时间 请耐心等待\")",
         "type": "cms"
     },
     {
@@ -21558,7 +21588,7 @@
     {
         "name": "【思科-Prime-Infrastructure】",
         "keyword": "body=\"<div class=\\\"xwtProductName\\\" >Cisco Prime Infrastructure\" || body=\"/webacs/lib/xwt/themes/prime/prime-xwt.css\" || body=\"webacs/welcomeAction.do\" || cert=\"Prime Infra\" || header=\"Server: Prime\" || header=\"Server: Prime\" || title=\"Cisco  Prime Infrastructure\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【TP_LINK-Enterprise Wireless Router】",
@@ -27877,8 +27907,8 @@
     },
     {
         "name": "【Tengine】",
-        "keyword": "(header=\"server: Tengine\" && header!=\"couchdb\" && header!=\"drupal\") || (header=\"server: Tengine\" && header!=\"couchdb\" && header!=\"drupal\")",
-        "type": "cms"
+        "keyword": "(header=\"server: Tengine\" && header!=\"couchdb\" && header!=\"drupal\") || header=\"Server: Tengine\" || body=\"Powered by Tengine\"",
+        "type": "other"
     },
     {
         "name": "【H3C-Magic-R300】",
@@ -27987,7 +28017,7 @@
     },
     {
         "name": "【Nginx】",
-        "keyword": "(header=\"nginx\" && header!=\"couchdb\" && header!=\"drupal\" && header!=\"Apache,Tomcat,Jboss\") || (header=\"server: nginx\" && header!=\"couchdb\" && header!=\"drupal\")",
+        "keyword": "(header=\"nginx\" && header!=\"couchdb\" && header!=\"drupal\" && header!=\"Apache,Tomcat,Jboss\") || (header=\"server: nginx\" && header!=\"couchdb\" && header!=\"drupal\") || header=\"Server: nginx\"",
         "type": "other"
     },
     {
@@ -31767,7 +31797,7 @@
     },
     {
         "name": "【启明星辰-天清汉马VPN】",
-        "keyword": "title=\"天清汉马VPN\" || (body=\"select_auth_method\" && body=\"select_auth_input\") || icon_hash=\"-15980305\"",
+        "keyword": "title=\"天清汉马VPN\" || (body=\"select_auth_method\" && body=\"select_auth_input\")",
         "type": "cms"
     },
     {
@@ -34148,7 +34178,7 @@
     {
         "name": "【Servlet】",
         "keyword": "header=\"Servlet\" || header=\"Servlet\"",
-        "type": "cms"
+        "type": "other"
     },
     {
         "name": "【思科-GCT】",
@@ -38077,8 +38107,8 @@
     },
     {
         "name": "【PRIME_COMPUTER-Server】",
-        "keyword": "header=\"Server: Prime\" || header=\"Server: Prime\"",
-        "type": "cms"
+        "keyword": "header=\"Server: Prime\"",
+        "type": "other"
     },
     {
         "name": "【Golden-FTP】",
@@ -38546,7 +38576,7 @@
         "type": "cms"
     },
     {
-        "name": "【媒体服务器】",
+        "name": "【Uniview-宇视媒体服务器】",
         "keyword": "title=\"媒体服务器\" && body=\"Start added by h03350 for server switching\"",
         "type": "cms"
     },

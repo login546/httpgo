@@ -23,6 +23,9 @@ const (
 )
 
 func main() {
+	// 记录开始时间
+	start := time.Now()
+
 	// 定义命令行标志
 	urlFlag := flag.String("url", "", "请求的url")
 	fileFlag := flag.String("file", "", "请求的文件")
@@ -49,7 +52,8 @@ func main() {
 | '_ \  | __| | __| | '_ \   / _' |  / _ \ 
 | | | | | |_  | |_  | |_) | | (_| | | (_) |
 |_| |_|  \__|  \__| | .__/   \__, |  \___/ 
-                    |_|      |___/         
+                    |_|      |___/  
+							Version: 1.2.3
 	`)
 
 	// 解析命令行标志
@@ -230,13 +234,16 @@ func main() {
 	}
 
 	wg.Wait()
-	fmt.Println("处理完毕")
+
+	// 记录结束时间并计算耗时
+	elapsed := time.Since(start)
+	fmt.Printf("处理完毕，共计耗时: %s\n", elapsed)
 
 	//捕获系统信号，保持程序运行，防止web服务关闭
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt, os.Kill)
 
-	fmt.Println("程序运行中，按 Ctrl+C 停止...")
+	fmt.Println("指纹识别完成，按 Ctrl+C 停止，\n如开启了web服务，请不再浏览web结果时使用 Ctrl+C 关闭，否则无法正常访问结果展示页面。")
 	<-c // 等待信号
 	fmt.Println("程序已退出")
 }

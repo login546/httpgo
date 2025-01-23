@@ -52,92 +52,32 @@ func TrimTitle(title string) string {
 	return title
 }
 
-// 提取body中的非/favicon.ico的内容
-// 1、link标签的 rel="icon" 属性，
-// 2、link标签的 rel="shortcut icon" 属性，
-// 3、link标签的 rel="apple-touch-icon" 属性，
-// 4、link标签的 rel="apple-touch-icon-precomposed" 属性，
-// 5、link标签的 rel="apple-touch-startup-image" 属性，
-// 6、link标签的 rel="mask-icon" 属性，
-// 7、link标签的 rel="fluid-icon" 属性，
-// 拼接获取的所有favicon的url，传入Geticonhash函数，获取所有favicon的hash值并去重复。
+// // 提取body中的非/favicon.ico的内容
+// // 1、link标签的 rel="icon" 属性，
+// // 2、link标签的 rel="shortcut icon" 属性，
+// // 3、link标签的 rel="apple-touch-icon" 属性，
+// // 4、link标签的 rel="apple-touch-icon-precomposed" 属性，
+// // 5、link标签的 rel="apple-touch-startup-image" 属性，
+// // 6、link标签的 rel="mask-icon" 属性，
+// // 7、link标签的 rel="fluid-icon" 属性，
+// // 拼接获取的所有favicon的url，传入Geticonhash函数，获取所有favicon的hash值并去重复。
+// // ExtractSpareFavicon 提取 body 中 link 标签指定 favicon 的 href 属性，返回去重后的 URL 列表
 func ExtractSpareFavicon(htmlContent string) ([]string, error) {
 	var fav []string
+	unique := make(map[string]struct{})
 
-	//匹配link标签的rel属性为icon的内容
-	re := regexp.MustCompile(`<link.*?rel=["']icon["'].*?>`)
-	matches := re.FindAllString(htmlContent, -1)
-	for i := range matches {
-		re = regexp.MustCompile(`href=["'](.*?)["']`)
-		m := re.FindStringSubmatch(matches[i])
-		if len(m) > 1 {
-			fav = append(fav, m[1])
-		}
-	}
+	// 单次匹配 rel 属性中包含 favicon 相关内容的 <link> 标签
+	re := regexp.MustCompile(`<link[^>]*rel=["'](icon|shortcut icon|apple-touch-icon|apple-touch-icon-precomposed|apple-touch-startup-image|mask-icon|fluid-icon)["'][^>]*href=["'](.*?)["'][^>]*>`)
+	matches := re.FindAllStringSubmatch(htmlContent, -1)
 
-	//匹配link标签的rel属性为shortcut icon的内容
-	re = regexp.MustCompile(`<link.*?rel=["']shortcut icon["'].*?>`)
-	matches = re.FindAllString(htmlContent, -1)
-	for i := range matches {
-		re = regexp.MustCompile(`href=["'](.*?)["']`)
-		m := re.FindStringSubmatch(matches[i])
-		if len(m) > 1 {
-			fav = append(fav, m[1])
-		}
-	}
-
-	//匹配link标签的rel属性为apple-touch-icon的内容
-	re = regexp.MustCompile(`<link.*?rel=["']apple-touch-icon["'].*?>`)
-	matches = re.FindAllString(htmlContent, -1)
-	for i := range matches {
-		re = regexp.MustCompile(`href=["'](.*?)["']`)
-		m := re.FindStringSubmatch(matches[i])
-		if len(m) > 1 {
-			fav = append(fav, m[1])
-		}
-	}
-
-	//匹配link标签的rel属性为apple-touch-icon-precomposed的内容
-	re = regexp.MustCompile(`<link.*?rel=["']apple-touch-icon-precomposed["'].*?>`)
-	matches = re.FindAllString(htmlContent, -1)
-	for i := range matches {
-		re = regexp.MustCompile(`href=["'](.*?)["']`)
-		m := re.FindStringSubmatch(matches[i])
-		if len(m) > 1 {
-			fav = append(fav, m[1])
-		}
-	}
-
-	//匹配link标签的rel属性为apple-touch-startup-image的内容
-	re = regexp.MustCompile(`<link.*?rel=["']apple-touch-startup-image["'].*?>`)
-	matches = re.FindAllString(htmlContent, -1)
-	for i := range matches {
-		re = regexp.MustCompile(`href=["'](.*?)["']`)
-		m := re.FindStringSubmatch(matches[i])
-		if len(m) > 1 {
-			fav = append(fav, m[1])
-		}
-	}
-
-	//匹配link标签的rel属性为mask-icon的内容
-	re = regexp.MustCompile(`<link.*?rel=["']mask-icon["'].*?>`)
-	matches = re.FindAllString(htmlContent, -1)
-	for i := range matches {
-		re = regexp.MustCompile(`href=["'](.*?)["']`)
-		m := re.FindStringSubmatch(matches[i])
-		if len(m) > 1 {
-			fav = append(fav, m[1])
-		}
-	}
-
-	//匹配link标签的rel属性为fluid-icon的内容
-	re = regexp.MustCompile(`<link.*?rel=["']fluid-icon["'].*?>`)
-	matches = re.FindAllString(htmlContent, -1)
-	for i := range matches {
-		re = regexp.MustCompile(`href=["'](.*?)["']`)
-		m := re.FindStringSubmatch(matches[i])
-		if len(m) > 1 {
-			fav = append(fav, m[1])
+	// 提取 href 并去重
+	for _, match := range matches {
+		if len(match) > 2 {
+			url := match[2]
+			if _, exists := unique[url]; !exists {
+				unique[url] = struct{}{}
+				fav = append(fav, url)
+			}
 		}
 	}
 
