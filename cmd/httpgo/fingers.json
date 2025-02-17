@@ -1,5 +1,40 @@
 [ 
     {
+        "name": "【WordPress-Crypto插件】",
+        "keyword": "body=\"wp-content/plugins/crypto/\"",
+        "type": "cms"
+    },
+    {
+        "name": "【药业管理软件】",
+        "keyword": "body=\"XSDService.asmx\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WeGIA-福利机构管理器】",
+        "keyword": "body=\"./assets/vendor/select2/select2.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-Icegram-Express插件】",
+        "keyword": "body=\"/wp-content/plugins/email-subscribers/\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-radio插件】",
+        "keyword": "body=\"wp-content/plugins/radio-player\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-WP-Guru插件】",
+        "keyword": "body=\"wp-content/plugins/error-log-viewer-wp\"",
+        "type": "cms"
+    },
+    {
+        "name": "【浪潮-海岳企业数字化平台】",
+        "keyword": "body=\"platform/runtime/sys/web/assets/img/authtype.svg\" || body=\"platform/runtime/sys/web/assets/img/tenant.svg\"",
+        "type": "cms"
+    },
+    {
         "name": "【赛特斯-CertusNet后台管理系统】",
         "keyword": "title=\"CertusNet后台管理系统\" || icon_hash=\"1682991866\"",
         "type": "cms"
@@ -28,6 +63,11 @@
         "name": "【腾讯移动分析】",
         "keyword": "body=\"tajs.qq.com\"",
         "type": "other"
+    },
+    {
+        "name": "【信息综合运营管理平台-武汉儒松科技有限公司】",
+        "keyword": "body=\"/vendor/vxeTable.dll.js\"",
+        "type": "cms"
     },
     {
         "name": "【维保保-运维平台】",
@@ -2117,6 +2157,11 @@
     {
         "name": "【明源云-ERP】",
         "keyword": "body=\"hibot.js\" || title=\"明源云ERP\"",
+        "type": "cms"
+    },
+    {
+        "name": "【明源地产ERP】",
+        "keyword": "body=\"/_common/scripts/md5-min.js\"",
         "type": "cms"
     },
     {
@@ -37122,7 +37167,7 @@
     },
     {
         "name": "【W&Jsoft-D-Security】",
-        "keyword": "(title=\"WNJsoft D-Security\" && body=\"WNJsoft\") || (body=\"/DLP/admintool/Index.jsp\" && body!=\"W&Jsoft Inc.\")",
+        "keyword": "icon_hash=\"616947260\" || (title=\"WNJsoft D-Security\" && body=\"WNJsoft\") || (body=\"/DLP/admintool/Index.jsp\" && body!=\"W&Jsoft Inc.\")",
         "type": "cms"
     },
     {
