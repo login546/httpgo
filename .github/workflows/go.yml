@@ -48,7 +48,7 @@ jobs:
       run: GOOS=darwin GOARCH=amd64 go build -o cmd/httpgo/httpgo_mac ./cmd/httpgo
 
     - name: Upload binaries as artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: httpgo-binaries
         path: |
@@ -60,7 +60,7 @@ jobs:
           cmd/httpgo/httpgo_mac
 
     - name: Upload fingers.json as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: fingers-json
         path: cmd/httpgo/fingers.json
