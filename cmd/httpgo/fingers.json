@@ -1,4 +1,29 @@
-[ 
+[
+    {
+        "name": "【NextChat】",
+        "keyword": "icon_hash=\"-489732743\" || (body=\"/_next/static/chunks/polyfills\" && body=\"serviceWorkerRegister.js\")",
+        "type": "cms"
+    },
+    {
+        "name": "【Ollama】",
+        "keyword": "body=\"Ollama is running\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Open WebUI】",
+        "keyword": "body=\"/_app/immutable/entry/start.\" || icon_hash=\"-286484075\" || icon_hash=\"-1122297610\"",
+        "type": "cms"
+    },
+    {
+        "name": "【大为知识产权协同创新管理系统】",
+        "keyword": "title=\"大为Innojet知识产权协同创新管理系统\" || (body=\"I can't see it. Change it\" && body=\"CheckCodeHandler.ashx\")",
+        "type": "cms"
+    },
+    {
+        "name": "【DATAGerry】",
+        "keyword": "icon_hash=\"505564403\" || title=\"datagerry\"",
+        "type": "cms"
+    },
     {
         "name": "【WordPress-Crypto插件】",
         "keyword": "body=\"wp-content/plugins/crypto/\"",
@@ -1630,7 +1655,7 @@
         "type": "cms"
     },
     {
-        "name": "【平升水库系统】",
+        "name": "【平升电子水库监管平台】",
         "keyword": "body=\"js/PSExtend.js\"",
         "type": "cms"
     },
@@ -5898,11 +5923,6 @@
     {
         "name": "【WebPower-Smart-Card】",
         "keyword": "header=\"WebPower Smart II Card\"",
-        "type": "cms"
-    },
-    {
-        "name": "【Nuuo-摄像头】",
-        "keyword": "title=\"Network Video Recorder Login\" && body=\"NVRmini\"",
         "type": "cms"
     },
     {
@@ -15518,6 +15538,11 @@
     {
         "name": "【Epoint-新点-移动应用管理平台】",
         "keyword": "title=\"新点移动应用管理平台\" || (body=\"images/rhino.ico\" && body=\"images/emplogin.jpg\")",
+        "type": "cms"
+    },
+    {
+        "name": "【Epoint-新点-公共资源电子招投标交易平台】",
+        "keyword": "title=\"登录到新点电子招投标交易平台\" || body=\"fui/js/miniui/themes/default/miniui.css\"",
         "type": "cms"
     },
     {
@@ -27643,6 +27668,11 @@
     {
         "name": "【NUUO-NVR】",
         "keyword": "(body=\"nuuo\" && title=\"Network Video Recorder Login\" && body!=\"NVRmini\") || title=\"Network Video Recorder Login\" || body=\"background=\\\"imgs/login_all.jpg\\\"\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Nuuo-摄像头】",
+        "keyword": "title=\"Network Video Recorder Login\" && body=\"NVRmini\"",
         "type": "cms"
     },
     {
