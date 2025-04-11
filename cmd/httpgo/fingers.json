@@ -1,5 +1,80 @@
 [
     {
+        "name": "【Optilink-管理系统】",
+        "keyword": "body=\"/html/css/dxtdata.css\" || (body=\"document.location.href='/cgi/index.php';\" && header=\"Server: lighttpd/\")",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-RomethemeKit插件】",
+        "keyword": "body=\"/wp-content/plugins/RomethemeKit\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-Newsletters插件】",
+        "keyword": "body=\"/wp-content/plugins/web-directory-free\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-User_Registration&Membership插件】",
+        "keyword": "body=\"/wp-content/plugins/wp-automatic\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Cleo Harmony】",
+        "keyword": "body=\"packages/partnerlogos/userportal_logo\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Vite前端构建工具】",
+        "keyword": "body=\"/@vite/client\"",
+        "type": "cms"
+    },
+    {
+        "name": "【爱瑞思科研管理系统(IRISaaS)】",
+        "keyword": "body=\"爱瑞思科研管理系统\" || body=\"IRISaaS\" || header=\"爱瑞思科研管理系统\" || header=\"IRISaaS\" || title=\"爱瑞思科研管理系统\" || title=\"IRISaaS\"",
+        "type": "cms"
+    },
+    {
+        "name": "【DTS二次开发文档】",
+        "keyword": "icon_hash=\"-11684452\"",
+        "type": "cms"
+    },
+    {
+        "name": "【帝国CMS】",
+        "keyword": "body=\"e/search/index.php\"",
+        "type": "cms"
+    },
+    {
+        "name": "【医网云公司产品】",
+        "keyword": "icon_hash=\"-2144887924\"",
+        "type": "cms"
+    },
+    {
+        "name": "【医网云-医学影像服务-PACS】",
+        "keyword": "header=\"eworldvideo: eworldview: eworldcpassist:\"",
+        "type": "cms"
+    },
+    {
+        "name": "【华夏通讯录】",
+        "keyword": "icon_hash=\"1403225079\" && body=\"APPV1<br/>\"",
+        "type": "cms"
+    },
+    {
+        "name": "【HEYBBS2.1论坛】",
+        "keyword": "body=\"微社区, 微论坛, 微博客\"",
+        "type": "cms"
+    },
+    {
+        "name": "【虚拟币买卖USDT场外交易所】",
+        "keyword": "body=\"/static/weui/css/wkb.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【JeeWMS】",
+        "keyword": "body=\"plug-in/ace/css/font-awesome.css\" || header=\"/jeewms/\"",
+        "type": "cms"
+    },
+    {
         "name": "【NextChat】",
         "keyword": "icon_hash=\"-489732743\" || (body=\"/_next/static/chunks/polyfills\" && body=\"serviceWorkerRegister.js\")",
         "type": "cms"
@@ -3216,7 +3291,7 @@
     },
     {
         "name": "【小绿叶-零度空间】",
-        "keyword": "icon_hash=\"-1170794986\" || body=\"/scripts/leftTime/leftTime.min.js\" || body=\"/websites/loginH5/images/logo.png\"",
+        "keyword": "icon_hash=\"-1170794986\" || icon_hash=\"1227487142\" || body=\"/scripts/leftTime/leftTime.min.js\" || body=\"/websites/loginH5/images/logo.png\"",
         "type": "cms"
     },
     {
@@ -29706,8 +29781,8 @@
         "type": "cms"
     },
     {
-        "name": "【SiteServer】",
-        "keyword": "(body=\"Powered by\" && body=\"http://www.siteserver.cn\" && body=\"SiteServer CMS\") || title=\"Powered by SiteServer CMS\" || body=\"T_系统首页模板\" || (body=\"siteserver\" && body=\"sitefiles\")",
+        "name": "【SiteServer-SSCMS】",
+        "keyword": "body=\"/SiteFiles/Plugins\" || (body=\"Powered by\" && body=\"http://www.siteserver.cn\" && body=\"SiteServer CMS\") || title=\"Powered by SiteServer CMS\" || body=\"T_系统首页模板\" || (body=\"siteserver\" && body=\"sitefiles\")",
         "type": "cms"
     },
     {
@@ -29787,7 +29862,7 @@
     },
     {
         "name": "【PhpCMS】",
-        "keyword": "(body=\"Powered by\" && body=\"http://www.phpcms.cn\") || body=\"content=\\\"Phpcms\" || body=\"Powered by Phpcms\" || body=\"data/config.js\"",
+        "keyword": "(body=\"Powered by\" && body=\"http://www.phpcms.cn\") || body=\"content=\\\"Phpcms\" || body=\"Powered by Phpcms\" || body=\"data/config.js\" || body=\"index.php?m=admin&c=index&a=login&dosubmit=1\"",
         "type": "cms"
     },
     {
