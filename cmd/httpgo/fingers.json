@@ -1,5 +1,180 @@
 [
     {
+        "name": "【Apache-NiFi】",
+        "keyword": "body=\"nifi/images/\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Aquatronica控制系统】",
+        "keyword": "title=\"Aquatronica\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Check-Point安全网关】",
+        "keyword": "body=\"check point ssl network\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Elber-Wayber-模拟数字音频】",
+        "keyword": "title=\"Elber Satellite Equipment\" || body=\"www.elber.it\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Faveo-Helpdesk】",
+        "keyword": "body=\"lb-faveo/media/images/\"",
+        "type": "cms"
+    },
+    {
+        "name": "【x5music3.0】",
+        "keyword": "body=\"/plug/asynctips/asyncbox.v1.4.5.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【南京先极-毕业设计GetTeacherList（论文）智能管理系统】",
+        "keyword": "title=\"毕业设计\" && body=\"先极科技\"",
+        "type": "cms"
+    },
+    {
+        "name": "【停车场后台管理系统】",
+        "keyword": "title=\"智能停车管理系统\" || body=\"/Login/GetAccounts\"",
+        "type": "cms"
+    },
+    {
+        "name": "【短视频直播带货系统】",
+        "keyword": "body=\"/static/new/css/index-bf944a8f.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【EasyImage】",
+        "keyword": "body=\"EasyImage\"",
+        "type": "cms"
+    },
+    {
+        "name": "【礼品卡电子券收卡系统】",
+        "keyword": "body=\"/Application/Home/Static/css/style2.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【AOFAX傲发办公通信专家】",
+        "keyword": "body=\"getincommingcall\"",
+        "type": "cms"
+    },
+    {
+        "name": "【unibox】",
+        "keyword": "body=\"UniBox\"",
+        "type": "cms"
+    },
+    {
+        "name": "【elestio-memos】",
+        "keyword": "body=\"memos.metadata.head\"",
+        "type": "cms"
+    },
+    {
+        "name": "【M7s-UI】",
+        "keyword": "body=\"static/js/chunk-libs.9540f991.js\" || title=\"M7s UI\"",
+        "type": "cms"
+    },
+    {
+        "name": "【WordPress-Kubio-AI-Page-Builder】",
+        "keyword": "body=\"wp-content/plugins/kubio/\"",
+        "type": "cms"
+    },
+    {
+        "name": "【神舟讯盟erp】",
+        "keyword": "title=\"神州讯盟芯管家\"",
+        "type": "cms"
+    },
+    {
+        "name": "【DocsGPT】",
+        "keyword": "body=\"Welcome to DocsGPT\"",
+        "type": "cms"
+    },
+    {
+        "name": "【UNACMS】",
+        "keyword": "body=\"Powered by UNA\"",
+        "type": "cms"
+    },
+    {
+        "name": "【西部数据-NAS】",
+        "keyword": "icon_hash=\"-1074357885\"",
+        "type": "cms"
+    },
+    {
+        "name": "【ChatNet聊天室】",
+        "keyword": "body=\"/static/vendor/toastr/toastr.min.css\"",
+        "type": "cms"
+    },
+    {
+        "name": "【维达外贸客户关系管理系统】",
+        "keyword": "title=\"维达外贸客户关系管理系统\"",
+        "type": "cms"
+    },
+    {
+        "name": "【正阳天下水控系统】",
+        "keyword": "body=\"登陆页\" && body=\"水控消费后台管理系统\"",
+        "type": "cms"
+    },
+    {
+        "name": "【汉王-EFaceGo】",
+        "keyword": "icon_hash=\"1380907357\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Funadmin】",
+        "keyword": "body=\"FunAdmin\"",
+        "type": "cms"
+    },
+    {
+        "name": "【妖气山视频管理系统】",
+        "keyword": "icon_hash=\"-47932290\"",
+        "type": "cms"
+    },
+    {
+        "name": "【妖气山视频管理系统】",
+        "keyword": "body=\"yaoqishan-header\"",
+        "type": "cms"
+    },
+    {
+        "name": "【速达软件技术（广州）有限公司】",
+        "keyword": "body=\"速达软件技术（广州）有限公司\" && body=\"jslib/extjs2.3/view/PasswordField.js\"",
+        "type": "cms"
+    },
+    {
+        "name": "【Langflow框架】",
+        "keyword": "title=\"Langflow\"",
+        "type": "cms"
+    },
+    {
+        "name": "【FOXCMS-黔狐内容管理系统】",
+        "keyword": "body=\"foxcms-logo\" || body=\"foxcms-container\"",
+        "type": "cms"
+    },
+    {
+        "name": "【龙腾码支付】",
+        "keyword": "body=\"/epaydoc/epaydoc.php\"",
+        "type": "cms"
+    },
+    {
+        "name": "【天闻数媒名师工作室系统】",
+        "keyword": "body=\"/static/js/bootstrap/bootstrap.css\" && title=\"名师工作室\"",
+        "type": "cms"
+    },
+    {
+        "name": "【要塞T3系统】",
+        "keyword": "body=\"/mlogin.htm?url=\" || body=\"T3/MAIN/Login.aspx\"",
+        "type": "cms"
+    },
+    {
+        "name": "【im即时通讯系统】",
+        "keyword": "body=\"/superloginAction.html\" || body=\"im.smiaoshen.com\"",
+        "type": "cms"
+    },
+    {
+        "name": "【微云影像-医学影像管理系统】",
+        "keyword": "title=\"微云影像-医学影像管理系统\" || body=\"/pages/shell/term.jsp?suitID\" || body=\"/pages/detail/css/signin.css\"",
+        "type": "cms"
+    },
+    {
         "name": "【Optilink-管理系统】",
         "keyword": "body=\"/html/css/dxtdata.css\" || (body=\"document.location.href='/cgi/index.php';\" && header=\"Server: lighttpd/\")",
         "type": "cms"
@@ -231,7 +406,7 @@
     },
     {
         "name": "【内训宝-企业培训平台】",
-        "keyword": "body=\"static/nxb/css\"",
+        "keyword": "body=\"static/nxb/css\" || icon_hash=\"-790843908\"",
         "type": "cms"
     },
     {
@@ -1756,7 +1931,7 @@
     },
     {
         "name": "【杭州三汇网关】",
-        "keyword": "body=\"text ml10 mr20\" && title=\"网关管理软件\"",
+        "keyword": "body=\"text ml10 mr20\" && (title=\"网关管理软件\" || title=\"Gateway Management\")",
         "type": "cms"
     },
     {
@@ -2287,6 +2462,11 @@
     {
         "name": "【时空智友企业流程化管控系统】",
         "keyword": "body=\"企业流程化管控系统\" && body=\"密码(Password):\"",
+        "type": "cms"
+    },
+    {
+        "name": "【时空智友企业信息管理系统】",
+        "keyword": "body=\"时空智友企业信息管理\"",
         "type": "cms"
     },
     {
@@ -3326,7 +3506,7 @@
     },
     {
         "name": "【昂捷CRM系统】",
-        "keyword": "body=\"/ClientBin/slEnjoy.App.xap\"",
+        "keyword": "body=\"/ClientBin/slEnjoy.App.xap\" || body=\"/Scripts/EnjoyMsg.js\"",
         "type": "cms"
     },
     {
@@ -7572,7 +7752,7 @@
     },
     {
         "name": "【EnGenius-无线路由器】",
-        "keyword": "(body=\"FIRMWAREVER\" && body=\"engeniusrouter\") || (body=\"/logo_engenius.png\")",
+        "keyword": "(body=\"FIRMWAREVER\" && body=\"engeniusrouter\") || (body=\"/logo_engenius.png\") || (body=\"/web/images/guest.png\" && body=\"/web/images/admin.png\")",
         "type": "cms"
     },
     {
@@ -8987,7 +9167,7 @@
     },
     {
         "name": "【Hikvision-iVMS】",
-        "keyword": "cert=\"o=Hikvision, ou=louyu, cn=ivms8700\" || (((body=\"g_szCacheTime\" && body=\"iVMS\") || title=\"iVMS-\" || body=\"tab-border code-iivms\\\">\" || body=\" window.document.location = '/license!getExpireDateOfDays.action';\" || body=\"var uuid = \\\"2b73083e-9b29-4005-a123-1d4ec47a36d5\\\"; // 用于检测VMS是否超时, chenliangyf1\" || (body=\"class=\\\"enname\\\">iVMS-4200\" && body=\"laRemPassword\") || (body=\"//caoshiyan modify 2015-06-30 中转页面\" && body=\"/home/locationIndex.action?time=\") || body=\"<div class=\\\"enname\\\">iVMS-4200\" || header=\"Server: If you want know, you can ask me\" || body=\"if (refreshurl == null \\|\\| refreshurl == '') { window.location.reload();}\" || body=\"class=\\\"out\\\"><a href=\\\"download/iVMS-\") && body!=\"Server: couchdb\")",
+        "keyword": "icon_hash=\"-911494769\" || cert=\"o=Hikvision, ou=louyu, cn=ivms8700\" || (((body=\"g_szCacheTime\" && body=\"iVMS\") || title=\"iVMS-\" || body=\"tab-border code-iivms\\\">\" || body=\" window.document.location = '/license!getExpireDateOfDays.action';\" || body=\"var uuid = \\\"2b73083e-9b29-4005-a123-1d4ec47a36d5\\\"; // 用于检测VMS是否超时, chenliangyf1\" || (body=\"class=\\\"enname\\\">iVMS-4200\" && body=\"laRemPassword\") || (body=\"//caoshiyan modify 2015-06-30 中转页面\" && body=\"/home/locationIndex.action?time=\") || body=\"<div class=\\\"enname\\\">iVMS-4200\" || header=\"Server: If you want know, you can ask me\" || body=\"if (refreshurl == null \\|\\| refreshurl == '') { window.location.reload();}\" || body=\"class=\\\"out\\\"><a href=\\\"download/iVMS-\") && body!=\"Server: couchdb\")",
         "type": "cms"
     },
     {
@@ -12297,7 +12477,7 @@
     },
     {
         "name": "【用友-U8CRM】",
-        "keyword": "body=\"用友U8CRM\"",
+        "keyword": "body=\"用友U8CRM\" || body=\"/js/tfunction.js\" || title=\"用友U8CRM\"",
         "type": "cms"
     },
     {
@@ -25357,7 +25537,7 @@
     },
     {
         "name": "【金盘软件-金盘移动图书馆管理系统】",
-        "keyword": "body=\"/styles/opac/goldlib-opac.css\" || body=\"onclick=\\\"change('Book');\" || body=\"/opac/periodicals\" || body=\"class=\\\"jp-searchTabs\" || (body=\"金盘软件\" && body=\"图书\")",
+        "keyword": "icon_hash=\"89337953\" || body=\"/styles/opac/goldlib-opac.css\" || body=\"onclick=\\\"change('Book');\" || body=\"/opac/periodicals\" || body=\"class=\\\"jp-searchTabs\" || (body=\"金盘软件\" && body=\"图书\")",
         "type": "cms"
     },
     {
@@ -38507,7 +38687,7 @@
     },
     {
         "name": "【jeewms】",
-        "keyword": "header=\"/Jeewms/\" && header=\"Location\"",
+        "keyword": "header=\"/Jeewms/\" && header=\"Location\" || (body=\"url:userController.do?userOrgSelect&userId=\" && body=\"loginController.do?changeDefaultOrg\")",
         "type": "cms"
     },
     {
