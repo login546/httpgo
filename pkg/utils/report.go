@@ -3,8 +3,8 @@ package utils
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gofrs/flock"
 	"os"
+	"sync"
 )
 
 // URLFingerprint 结构体表示每个 URL 的指纹信息
@@ -51,61 +51,47 @@ func InitializeHTMLReport(filename string, json string) (*os.File, error) {
 //	return filepath.Join(filepath.Dir(filePath), nameWithoutExt+".json")
 //}
 
+// 定义全局互斥锁
+var jsonMutex sync.Mutex
+
 // AppendJSONReport 将 URLFingerprint 数据追加到指定的 JSON 文件中
 func AppendJSONReport(filename string, data URLFingerprint) error {
-	locker := flock.New(filename + ".lock")
-
-	// 获取文件锁
-	if err := locker.Lock(); err != nil {
-		return fmt.Errorf("无法获取文件锁: %v", err)
-	}
-	defer func() {
-		if err := locker.Unlock(); err != nil {
-			fmt.Printf("解锁失败: %v\n", err)
-		}
-	}()
+	// 使用互斥锁确保线程安全
+	jsonMutex.Lock()
+	defer jsonMutex.Unlock()
 
 	var existingData []URLFingerprint
 
 	// 读取现有文件内容
-	file, err := os.OpenFile(filename, os.O_RDWR|os.O_CREATE, 0644)
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-
 	fileContent, err := os.ReadFile(filename)
 	if err != nil && !os.IsNotExist(err) {
-		return err
+		return fmt.Errorf("无法读取 JSON 文件: %v", err)
 	}
 
-	// 解码现有内容
+	// 如果文件存在且有内容，解码现有数据
 	if len(fileContent) > 0 {
 		if err := json.Unmarshal(fileContent, &existingData); err != nil {
-			return fmt.Errorf("无法解码现有 JSON 内容: %v", err)
+			return fmt.Errorf("无法解码 JSON 内容: %v", err)
 		}
 	}
 
-	// 添加新的数据
+	// 添加新数据
 	existingData = append(existingData, data)
 
-	// 创建临时文件并写入数据
-	tempFile, err := os.Create(filename + ".tmp")
+	// 打开文件进行写入（覆盖模式）
+	file, err := os.OpenFile(filename, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0644)
 	if err != nil {
-		return err
+		return fmt.Errorf("无法打开 JSON 文件: %v", err)
 	}
-	defer tempFile.Close()
+	defer file.Close()
 
-	encoder := json.NewEncoder(tempFile)
+	// 创建 JSON 编码器并设置缩进
+	encoder := json.NewEncoder(file)
 	encoder.SetIndent("", "    ")
 
+	// 写入数据
 	if err := encoder.Encode(existingData); err != nil {
-		return err
-	}
-
-	// 用临时文件替换原文件
-	if err := os.Rename(filename+".tmp", filename); err != nil {
-		return err
+		return fmt.Errorf("无法写入 JSON 数据: %v", err)
 	}
 
 	return nil
