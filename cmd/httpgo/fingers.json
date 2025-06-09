@@ -1,5 +1,30 @@
 [
     {
+        "name": "【华舜后台管理框架】",
+        "keyword": "body=\"华舜后台管理框架\"",
+        "type": "cms"
+    },
+    {
+        "name": "【恒网建站系统2-南京勤其明恒网络科技有限公司】",
+        "keyword": "body=\"/css/animate.css\" && body=\"恒网\"",
+        "type": "cms"
+    },
+    {
+        "name": "【恒网建站系统1-南京勤其明恒网络科技有限公司】",
+        "keyword": "body=\"js/100rem.js\" || body=\"技术支持：恒网承建\"",
+        "type": "cms"
+    },
+    {
+        "name": "【可能存在默认密码】",
+        "keyword": "body=\"默认密码：\" || body=\"默认密码是\" || body=\"默认密码为\" || body=\"默认口令：\" || body=\"默认口令是\" || body=\"默认口令为\" || body=\"初始密码：\" || body=\"初始密码是\" || body=\"初始密码为\" || body=\"初始口令：\" || body=\"初始口令是\" || body=\"初始口令为\"",
+        "type": "cms"
+    },
+    {
+        "name": "【常州民福康软件技术有限公司-协同办公平台】",
+        "keyword": "body=\"SystemSpecificationParameter\"",
+        "type": "cms"
+    },
+    {
         "name": "【Apache-NiFi】",
         "keyword": "body=\"nifi/images/\"",
         "type": "cms"
@@ -2535,7 +2560,7 @@
         "type": "cms"
     },
     {
-        "name": "【广州图创图书馆集群系统】",
+        "name": "【广州图创图书馆集群管理系统】",
         "keyword": "body=\"interlib\" || body=\"广州图创计算机软件开发有限公司\" || body=\"interlib/common/\" || body=\"Interlib图书馆集群管理系统\" || body=\"/interlib3/system_index\" || body=\"打开Interlib主界面\"",
         "type": "cms"
     },
@@ -3537,11 +3562,6 @@
     {
         "name": "【多个防火墙产品RCE】",
         "keyword": "body=\"/webui/images/default/default/alert_close.jpg\"",
-        "type": "cms"
-    },
-    {
-        "name": "【广州图创图书馆集群管理系统】",
-        "keyword": "body=\"广州图创计算机软件开发有限公司\" || body=\"interlib\"",
         "type": "cms"
     },
     {
